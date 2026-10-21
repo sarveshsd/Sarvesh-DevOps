@@ -1,15 +1,27 @@
 name: Deploy to GitHub Pages
+
+# Deploys on every push, and every morning at 06:00 IST (00:30 UTC)
+# with a different dark theme from themes/ each day.
 on:
   push:
     branches: [main]
+  schedule:
+    - cron: "30 0 * * *"
   workflow_dispatch:
+    inputs:
+      theme:
+        description: "Force a theme (midnight, noir, phosphor, aurora, blueprint, kube). Leave empty for today's rotation."
+        required: false
+
 permissions:
   contents: read
   pages: write
   id-token: write
+
 concurrency:
   group: pages
   cancel-in-progress: true
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -18,9 +30,33 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
+
+      - name: Pick today's theme
+        id: theme
+        env:
+          FORCED: ${{ github.event.inputs.theme }}
+        run: |
+          THEMES=(midnight noir phosphor aurora blueprint kube)
+          if [ -n "$FORCED" ]; then
+            THEME="$FORCED"
+          else
+            # day number in IST, so the theme flips at local midnight/6am run
+            DAY=$(( $(TZ=Asia/Kolkata date +%s) / 86400 ))
+            THEME=${THEMES[$(( DAY % ${#THEMES[@]} ))]}
+          fi
+          test -f "themes/$THEME.html" || { echo "unknown theme: $THEME"; exit 1; }
+          echo "name=$THEME" >> "$GITHUB_OUTPUT"
+          echo "Today's theme: $THEME" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Build site
+        run: |
+          mkdir _site
+          cp sarvesh.jpg og.jpg Sarvesh_Dharmadhikari_Resume.pdf .nojekyll _site/
+          cp "themes/${{ steps.theme.outputs.name }}.html" _site/index.html
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4
