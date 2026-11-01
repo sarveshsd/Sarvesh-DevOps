@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sarvesh Dharmadhikari | DevOps Engineer (Azure, AWS, GCP, Kubernetes, Terraform)</title>
+<meta name="description" content="DevOps Engineer — CI/CD pipelines, Infrastructure as Code, Kubernetes, GitOps, Azure, AWS, GCP, Terraform, Docker, Jenkins, GitHub Actions, observability. Open to relocating to Europe; work permit needed (I manage the visa).">
+<meta name="keywords" content="DevOps Engineer, CI/CD, Infrastructure as Code, Terraform, Ansible, Kubernetes, Docker, Helm, ArgoCD, GitOps, Jenkins, GitHub Actions, Azure, AWS, GCP, release management, configuration management, monitoring, Prometheus, Grafana, Linux, Python, Bash, PowerShell, Europe, work permit">
+
+<meta name="author" content="Sarvesh Dharmadhikari">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Sarvesh Dharmadhikari","jobTitle":"DevOps Engineer","worksFor":{"@type":"Organization","name":"Xoriant"},"email":"mailto:sarveshsd999@gmail.com","address":{"@type":"PostalAddress","addressCountry":"IN"},"sameAs":["https://www.linkedin.com/in/sarvesh-d-devops/"],"knowsAbout":["DevOps","CI/CD","Infrastructure as Code","Configuration Management","Release Management","GitOps","Containerization","Kubernetes","Docker","Terraform","Ansible","Jenkins","GitHub Actions","ArgoCD","Azure","AWS","GCP","Monitoring","Observability","Linux","Python","Bash","PowerShell"]}</script>
+<meta property="og:title" content="Sarvesh Dharmadhikari | DevOps Engineer">
+<meta property="og:description" content="I keep production calm. Azure, AWS, GCP, Kubernetes, Terraform, CI/CD. Open to relocating to Europe.">
+<meta property="og:image" content="og.jpg">
+<meta property="og:type" content="profile">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2304060c'/%3E%3Cpath d='M18 40l10-8-10-8M32 42h14' stroke='%2379b0ff' stroke-width='5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0b0e14">
+<!-- design: play-datacenter (Data Center) · rotation 16/31 -->
+<style>body{margin:0;-webkit-text-size-adjust:100%}img{max-width:100%}[hidden]{display:none!important}
+.sd-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 16px;padding:8px max(16px,env(safe-area-inset-left,0px));font:500 13px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;position:relative;z-index:50}
+.sd-strip b{font-weight:700}
+.sd-strip a{text-decoration:none;font-weight:600}
+.sd-strip .sd-l,.sd-strip .sd-r{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
+.sd-strip .sd-tag{opacity:.75}
+.sd-dark{background:#0b0e14;color:#e6ebf2;border-bottom:1px solid #263041}.sd-dark a{color:#8fd3ff}
+.sd-light{background:#ffffff;color:#1b2129;border-bottom:1px solid #dfe3e6}.sd-light a{color:#2457c5}
+header.top,nav.tabs,body>.wrap>footer{display:none!important}</style>
+</head>
+<body>
+<div class="sd-strip sd-dark" role="banner"><div class="sd-l"><b>Sarvesh Dharmadhikari</b><span>DevOps Engineer · Azure · AWS · GCP</span><span class="sd-tag">✈ Open to Europe · I manage the visa, I need a work permit</span></div><div class="sd-r"><a href="Sarvesh_Dharmadhikari_Resume.pdf" target="_blank" rel="noopener">Resume</a><a href="https://www.linkedin.com/in/sarvesh-d-devops/" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:sarveshsd999@gmail.com">Email</a><a href="designs.html">Today: Data Center · 16/31 · all designs</a></div></div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;700;800&family=Rajdhani:wght@500;600;700&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+/* Layout: a modern console-game front end. Glass HUD panels with clipped corners over a dark vignette; one game screen per tab. Single committed dark look. */
+:root{
+  --bg:#070a10; --glass:#0f1622d9; --glass2:#16202fe6; --line:#26364c; --line2:#3a5574;
+  --fg:#eaf2ff; --dim:#8ea3bf; --hud:#9fe8ff; --accent:#ff8a3d; --good:#56f0a4; --bad:#ff4d5e;
+  --common:#a9b4c4; --rare:#4aa3ff; --epic:#b46bff; --legend:#ffb23f;
+  --display:"Oxanium",system-ui,sans-serif; --ui:"Rajdhani",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:radial-gradient(ellipse at 50% -10%,#16263d 0,var(--bg) 60%) fixed,var(--bg);color:var(--fg);font-family:var(--ui);font-size:16px;line-height:1.45;font-weight:500;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px}
+.wrap{max-width:1140px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.cut{clip-path:polygon(0 0,calc(100% - 14px) 0,100% 14px,100% 100%,14px 100%,0 calc(100% - 14px))}
+header.top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:12px}
+header.top h1{font-family:var(--display);font-weight:800;font-size:28px;margin:0;letter-spacing:.04em;text-transform:uppercase;text-wrap:balance}
+header.top h1 span{color:var(--accent)}
+header.top p{margin:4px 0 0;color:var(--dim);max-width:62ch}
+.net{font-family:var(--mono);font-size:12px;color:var(--good);display:flex;gap:14px;flex-wrap:wrap}
+.net span:before{content:"● "}
+nav.tabs{display:flex;gap:4px;overflow-x:auto;border-bottom:1px solid var(--line);padding-bottom:0}
+nav.tabs a{flex:0 0 auto;text-decoration:none;color:var(--dim);font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.08em;font-size:13px;padding:12px 16px;border-bottom:3px solid transparent}
+nav.tabs a small{display:block;font-family:var(--mono);font-weight:400;font-size:10px;letter-spacing:.06em;color:var(--line2)}
+nav.tabs a[aria-current="true"]{color:var(--fg);border-bottom-color:var(--accent);background:linear-gradient(0deg,#ff8a3d1f,transparent)}
+nav.tabs a[aria-current="true"] small{color:var(--accent)}
+:focus-visible{outline:2px solid var(--hud);outline-offset:2px}
+.scr{min-width:0}
+.head{display:flex;flex-wrap:wrap;justify-content:space-between;gap:8px;align-items:baseline;margin-bottom:14px}
+.head h2{margin:0;font-family:var(--display);font-weight:800;font-size:24px;text-transform:uppercase;letter-spacing:.05em}
+.head p{margin:0;color:var(--dim);max-width:64ch}
+.panel{background:var(--glass);border:1px solid var(--line);padding:16px;min-width:0;backdrop-filter:blur(6px)}
+.lbl{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+.h3{font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.04em;margin:0}
+button{font:inherit;cursor:pointer;color:inherit}
+.cta{font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:14px;background:var(--accent);color:#1d0d02;border:0;padding:11px 18px}
+.cta:disabled{background:#3a4458;color:#77849a;cursor:not-allowed}
+.cta.ghost{background:transparent;color:var(--fg);border:1px solid var(--line2)}
+.key{display:inline-grid;place-items:center;min-width:22px;height:22px;padding:0 5px;border:1px solid var(--line2);border-radius:4px;font-family:var(--mono);font-size:11px;color:var(--fg);background:#0b111b}
+.prompts{display:flex;gap:16px;flex-wrap:wrap;color:var(--dim);font-size:14px;margin-top:12px}
+.r-common{--r:var(--common)} .r-rare{--r:var(--rare)} .r-epic{--r:var(--epic)} .r-legend{--r:var(--legend)}
+footer{color:var(--dim);font-size:14px;text-align:center}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* 1 Loadout */
+.lo{display:grid;grid-template-columns:240px minmax(0,1fr) 300px;gap:12px}
+@media (max-width:980px){.lo{grid-template-columns:minmax(0,1fr)}}
+.lo .list{display:flex;flex-direction:column;gap:4px;max-height:520px;overflow:auto}
+.lo .cat{margin:8px 0 2px}
+.it{display:grid;grid-template-columns:4px minmax(0,1fr) auto;gap:10px;align-items:center;text-align:left;background:#0b111b;border:1px solid var(--line);padding:8px 10px 8px 0}
+.it i{align-self:stretch;background:var(--r)}
+.it b{font-family:var(--display);font-size:14px;letter-spacing:.03em}
+.it small{font-family:var(--mono);font-size:10px;color:var(--r);text-transform:uppercase}
+.it[aria-pressed="true"]{border-color:var(--r);background:linear-gradient(90deg,color-mix(in srgb,var(--r) 22%,transparent),#0b111b)}
+.it .eq{font-family:var(--mono);font-size:10px;color:var(--good)}
+.show{position:relative;display:flex;flex-direction:column;justify-content:space-between;min-height:440px;background:radial-gradient(ellipse at 50% 55%,color-mix(in srgb,var(--r) 26%,transparent),transparent 62%),linear-gradient(180deg,#0e1724,#080c13);border:1px solid var(--line);padding:18px;overflow:hidden}
+.show::before{content:"";position:absolute;left:10%;right:10%;bottom:70px;height:40px;background:radial-gradient(ellipse,color-mix(in srgb,var(--r) 45%,transparent),transparent 70%);filter:blur(8px)}
+.show .icon{align-self:center;width:min(240px,60%);aspect-ratio:1;filter:drop-shadow(0 0 22px color-mix(in srgb,var(--r) 60%,transparent));animation:float 4s ease-in-out infinite;position:relative}
+@keyframes float{50%{transform:translateY(-8px) rotate(3deg)}}
+.show .nm{font-family:var(--display);font-weight:800;font-size:clamp(26px,4vw,40px);letter-spacing:.04em;text-transform:uppercase;line-height:1}
+.show .rar{font-family:var(--mono);font-size:12px;color:var(--r);text-transform:uppercase;letter-spacing:.12em}
+.statrow{display:grid;grid-template-columns:96px minmax(0,1fr) 30px;gap:8px;align-items:center;font-size:14px;margin:6px 0}
+.statrow .b{height:6px;background:#1b2636;position:relative}
+.statrow .b i{position:absolute;inset:0 auto 0 0;background:var(--fg);transition:width .5s}
+.statrow span:last-child{font-family:var(--mono);font-size:12px;text-align:right;color:var(--dim)}
+.att{display:flex;flex-wrap:wrap;gap:6px;margin-top:6px}
+.att span{font-family:var(--mono);font-size:11px;border:1px solid var(--line2);padding:4px 7px;background:#0b111b}
+.slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(110px,1fr));gap:6px;margin-top:12px}
+.slot{border:1px dashed var(--line2);padding:8px;min-height:56px;font-size:13px}
+.slot.full{border-style:solid;border-color:var(--r);background:#0b111b}
+.slot b{display:block;font-family:var(--display);font-size:13px}
+
+/* 2 Boss fight */
+.boss{position:relative;background:linear-gradient(180deg,#1a0b12,#0a0d14 70%);border:1px solid #4a1f2b;padding:18px;overflow:hidden}
+.boss .bn{display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px;align-items:end}
+.boss .bn .h3{font-size:22px;color:#ffd7dc}
+.bar{height:16px;background:#2a1118;border:1px solid #5a2433;position:relative;overflow:hidden;margin-top:6px}
+.bar i{position:absolute;inset:0 auto 0 0;background:linear-gradient(90deg,#b3142b,#ff4d5e);transition:width .35s}
+.bar em{position:absolute;inset:0 auto 0 0;background:#fff6;transition:width 1.2s .3s}
+.bar.risk{height:10px;background:#141c28;border-color:var(--line)}
+.bar.risk i{background:linear-gradient(90deg,#ffb23f,#ff4d5e)}
+.arena{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:12px;margin-top:14px}
+@media (max-width:880px){.arena{grid-template-columns:minmax(0,1fr)}}
+.bosscv{width:100%;max-width:100%;display:block;aspect-ratio:16/8;background:#07090e;border:1px solid #3a1823}
+.abil{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:8px;margin-top:10px}
+.ab{position:relative;text-align:left;background:#0e1520;border:1px solid var(--line2);padding:10px;overflow:hidden;min-height:76px}
+.ab b{font-family:var(--display);font-size:14px;display:block}
+.ab small{color:var(--dim);font-size:12px;display:block;line-height:1.3}
+.ab .k{position:absolute;right:6px;top:6px}
+.ab .cd{position:absolute;inset:0;background:#000b;display:grid;place-items:center;font-family:var(--display);font-size:22px;color:var(--fg);pointer-events:none}
+.ab:disabled{cursor:not-allowed}
+.ab.lock{opacity:.45}
+.log{font-family:var(--mono);font-size:12px;height:330px;overflow:auto;background:#05070b;border:1px solid var(--line);padding:10px;white-space:pre-wrap;word-break:break-word}
+.log .e{color:var(--bad)} .log .w{color:var(--legend)} .log .ok{color:var(--good)} .log .i{color:var(--hud)} .log .t{color:#55657d}
+.win{position:absolute;inset:0;background:#05070bf0;display:grid;place-items:center;text-align:center;padding:20px}
+.win .h3{font-size:clamp(28px,5vw,48px);color:var(--good)}
+.win.lose .h3{color:var(--bad)}
+.win .rw{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:14px 0}
+.win .rw span{border:1px solid var(--line2);padding:8px 12px;font-family:var(--mono);font-size:12px}
+
+/* 3 Data center */
+.dc{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:12px}
+@media (max-width:880px){.dc{grid-template-columns:minmax(0,1fr)}}
+.dc .view{position:relative;height:480px;background:#05080d;border:1px solid var(--line);overflow:hidden;touch-action:none;cursor:grab}
+.dc canvas{display:block;width:100%;height:100%}
+.dc .hudtl{position:absolute;left:12px;top:10px;font-family:var(--mono);font-size:11px;color:var(--hud);pointer-events:none;line-height:1.7}
+.dc .hudbr{position:absolute;right:12px;bottom:10px;font-size:13px;color:var(--dim);pointer-events:none}
+.dc .cross{position:absolute;left:50%;top:50%;width:18px;height:18px;margin:-9px;border:1px solid #9fe8ff55;border-radius:50%;pointer-events:none}
+.svc{display:grid;gap:6px;margin-top:10px}
+.svc div{display:grid;grid-template-columns:10px minmax(0,1fr) auto;gap:8px;align-items:center;font-size:14px;background:#0b111b;border:1px solid var(--line);padding:6px 8px}
+.svc i{width:8px;height:8px;border-radius:50%;background:var(--good);box-shadow:0 0 6px var(--good)}
+.svc span:last-child{font-family:var(--mono);font-size:11px;color:var(--dim)}
+.rackbtns{display:flex;flex-wrap:wrap;gap:6px;margin-top:12px}
+.rackbtns button{font-family:var(--mono);font-size:11px;background:#0b111b;border:1px solid var(--line2);padding:5px 8px}
+.rackbtns button[aria-pressed="true"]{border-color:var(--hud);color:var(--hud)}
+
+/* 4 Mission briefing */
+.mb{display:grid;grid-template-columns:270px minmax(0,1fr);gap:12px}
+@media (max-width:880px){.mb{grid-template-columns:minmax(0,1fr)}}
+.ms{display:flex;flex-direction:column;gap:4px}
+.mi{text-align:left;background:#0b111b;border:1px solid var(--line);padding:10px 12px;display:flex;flex-direction:column;gap:2px}
+.mi b{font-family:var(--display);font-size:14px;text-transform:uppercase;letter-spacing:.04em}
+.mi small{font-family:var(--mono);font-size:10px;color:var(--dim);text-transform:uppercase}
+.mi .st{color:var(--good)} .mi .st.av{color:var(--accent)}
+.mi[aria-pressed="true"]{border-color:var(--accent);background:linear-gradient(90deg,#ff8a3d26,#0b111b)}
+.brief{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:12px}
+@media (max-width:700px){.brief{grid-template-columns:minmax(0,1fr)}}
+.topo{width:100%;max-width:100%;aspect-ratio:4/3;display:block;background:#0a1018;border:1px solid var(--line)}
+.obj{display:grid;gap:6px;margin:8px 0 12px}
+.obj div{display:grid;grid-template-columns:18px minmax(0,1fr);gap:8px;font-size:15px}
+.obj .c{color:var(--good);font-family:var(--mono)}
+.obj .o{color:var(--accent);font-family:var(--mono)}
+.rew{display:flex;flex-wrap:wrap;gap:6px}
+.rew span{background:#0b111b;border:1px solid var(--line2);padding:5px 9px;font-family:var(--mono);font-size:12px}
+.intel{font-size:15px;color:#c9d6ea}
+
+/* 5 Crafting */
+.cr{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:12px}
+@media (max-width:880px){.cr{grid-template-columns:minmax(0,1fr)}}
+.inv{display:grid;grid-template-columns:repeat(auto-fill,minmax(86px,1fr));gap:6px}
+.cell{aspect-ratio:1;position:relative;background:radial-gradient(circle at 50% 40%,color-mix(in srgb,var(--r) 22%,#0b111b),#0b111b 70%);border:1px solid color-mix(in srgb,var(--r) 50%,var(--line));padding:6px;display:flex;flex-direction:column;justify-content:space-between;align-items:center;text-align:center}
+.cell svg{width:42%;height:auto;margin-top:6px}
+.cell b{font-family:var(--display);font-size:11px;letter-spacing:.02em;line-height:1.1}
+.cell .q{position:absolute;right:5px;top:3px;font-family:var(--mono);font-size:10px;color:var(--dim)}
+.cell:hover{border-color:var(--r)}
+.cell.used{opacity:.35}
+.bench{display:flex;flex-direction:column;gap:12px}
+.cslots{display:grid;grid-template-columns:repeat(3,1fr);gap:6px;align-items:center}
+.cslot{aspect-ratio:1;border:1px dashed var(--line2);display:grid;place-items:center;font-size:12px;color:var(--dim);text-align:center;padding:4px;background:#080c13}
+.cslot.full{border-style:solid;border-color:var(--r);color:var(--fg);font-family:var(--display);font-size:12px;background:radial-gradient(circle,color-mix(in srgb,var(--r) 25%,#080c13),#080c13)}
+.result{min-height:150px;border:1px solid var(--line);padding:12px;background:#080c13}
+.result.ok{border-color:var(--r);box-shadow:0 0 24px color-mix(in srgb,var(--r) 30%,transparent) inset}
+.result .h3{font-size:18px;color:var(--r)}
+.book{display:grid;gap:4px;font-size:14px}
+.book div{display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid var(--line);padding:4px 0}
+.book .u{color:var(--dim)}
+.book .d{color:var(--good)}
+
+/* 6 Profile */
+.pf .banner{position:relative;display:flex;flex-wrap:wrap;gap:16px;align-items:center;padding:20px;background:linear-gradient(110deg,#1b2a44,#2a1838 60%,#111a2a);border:1px solid var(--line2);overflow:hidden}
+.pf .banner::after{content:"";position:absolute;right:-40px;top:-40px;width:260px;height:260px;border:30px solid #ffffff08;transform:rotate(45deg)}
+.pf .av{width:96px;height:96px;object-fit:cover;border:3px solid var(--legend);box-shadow:0 0 0 3px #0008}
+.pf .tag{font-family:var(--display);font-weight:800;font-size:clamp(22px,4vw,32px);letter-spacing:.03em;line-height:1}
+.pf .rank{display:flex;align-items:center;gap:8px;margin-top:6px;color:var(--legend);font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.06em}
+.pf .lfg{margin-left:auto;display:flex;flex-direction:column;gap:6px;align-items:flex-end;position:relative;z-index:1}
+.pf .lfg .pill{font-family:var(--mono);font-size:12px;color:var(--good);border:1px solid var(--good);padding:5px 10px;background:#0a1a12}
+@media (max-width:700px){.pf .lfg{margin-left:0;align-items:flex-start}}
+.pgrid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;margin-top:12px}
+@media (max-width:880px){.pgrid{grid-template-columns:minmax(0,1fr)}}
+.kpis{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+@media (max-width:480px){.kpis{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.kpis div{background:#0b111b;border:1px solid var(--line);padding:10px}
+.kpis b{display:block;font-family:var(--display);font-weight:800;font-size:26px;font-variant-numeric:tabular-nums}
+.kpis small{color:var(--dim);font-size:13px}
+.season{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin-top:10px}
+.season>div{border:1px solid var(--line);padding:8px;font-size:13px;background:#0b111b;position:relative}
+.season>div b{display:block;font-family:var(--display);font-size:13px}
+.season .now{border-color:var(--accent)}
+.season .lock{opacity:.6;border-style:dashed}
+.season .p{height:4px;background:#1b2636;margin-top:6px}.season .p i{display:block;height:100%;background:var(--accent)}
+.match{display:grid;gap:6px}
+.match div{display:grid;grid-template-columns:76px minmax(0,1fr) auto;gap:10px;align-items:center;background:#0b111b;border:1px solid var(--line);border-left:3px solid var(--good);padding:8px 10px;font-size:14px}
+.match .v{font-family:var(--display);font-weight:800;color:var(--good);font-size:13px}
+.match .m{font-family:var(--mono);font-size:12px;color:var(--fg);text-align:right}
+.badges{display:flex;flex-wrap:wrap;gap:8px}
+.badges div{display:flex;gap:8px;align-items:center;background:#0b111b;border:1px solid var(--line);padding:8px 10px;font-size:14px}
+.badges svg{width:28px;height:28px}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div>
+      <h1>Sarvesh <span>// Game Select II</span></h1>
+      <p>Six realistic game-screen demos. Each uses a real modern game interface pattern with real DevOps tools, real commands and real numbers from Sarvesh's resume.</p>
+    </div>
+    <div class="net"><span>Online</span><span>Region: IN → EU</span><span>Ping 18 ms</span></div>
+  </header>
+  <nav class="tabs" id="tabs" aria-label="Demos"></nav>
+  <main id="stage"></main>
+  <footer>Concept demos. Self-rated stats are labelled as such; every other number comes from the resume.</footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+const PHOTO="data:image/jpeg;base64,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";
+const EMAIL="sarveshsd999@gmail.com", LI="https://www.linkedin.com/in/sarvesh-d-devops/";
+const el=h=>{const t=document.createElement('template');t.innerHTML=h.trim();return t.content.firstChild};
+let cleanup=[];const onCleanup=f=>cleanup.push(f);
+
+/* simple icon set (SVG paths drawn on a 48 grid) */
+const ICON={
+ k8s:`<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M24 4l17 8 4 18-12 14H15L3 30l4-18z" fill="#326ce5" stroke="#9cc0ff"/><circle cx="24" cy="25" r="7" stroke="#fff"/><path stroke="#fff" d="M24 11v7M24 32v7M11 21l7 2M30 27l7 2M15 35l5-5M28 20l5-5M15 15l5 5M28 30l5 5"/></svg>`,
+ tf:`<svg viewBox="0 0 48 48"><path d="M17 8l12 7v14l-12-7z" fill="#a78bfa"/><path d="M31 15l12-7v14l-12 7z" fill="#7c5cff"/><path d="M3 2l12 7v14L3 16zM17 24l12 7v14l-12-7z" fill="#a78bfa"/></svg>`,
+ az:`<svg viewBox="0 0 48 48"><path d="M20 6h10L16 42H4z" fill="#3fa9f5"/><path d="M28 16l16 26H18l12-4-8-10z" fill="#1e7bd6"/></svg>`,
+ aws:`<svg viewBox="0 0 48 48" fill="none" stroke-width="3"><path d="M6 18c0-5 4-8 9-8s8 3 8 7v13M14 30c-5 0-8-2-8-6s4-6 9-6h8" stroke="#fff"/><path d="M27 12l4 18 5-14 5 14 4-18" stroke="#fff"/><path d="M6 37c12 6 26 6 37 0" stroke="#ff9900"/><path d="M38 34l6 2-3 5" stroke="#ff9900"/></svg>`,
+ gcp:`<svg viewBox="0 0 48 48" fill="none" stroke-width="6"><path d="M12 32a10 10 0 0 1 3-19" stroke="#ea4335"/><path d="M15 13a13 13 0 0 1 21 5" stroke="#fbbc05"/><path d="M36 18a8 8 0 0 1-2 16H22" stroke="#4285f4"/><path d="M22 34h-8" stroke="#34a853"/></svg>`,
+ jen:`<svg viewBox="0 0 48 48"><circle cx="24" cy="20" r="14" fill="#f0d6b7"/><path d="M10 20a14 14 0 0 1 28 0c-6-6-22-6-28 0z" fill="#335061"/><circle cx="19" cy="21" r="2" fill="#222"/><circle cx="29" cy="21" r="2" fill="#222"/><path d="M19 28c3 2 7 2 10 0" stroke="#a33" stroke-width="2" fill="none"/><path d="M12 34h24l-4 12H16z" fill="#d33833"/></svg>`,
+ gh:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#e6edf3"/><path d="M18 40v-5c-6 1-7-3-8-4m8 9c0-2 0-4 1-5-6-1-10-3-10-10 0-2 1-4 2-5-1-2 0-5 0-5s3 0 5 2c3-1 7-1 10 0 2-2 5-2 5-2s1 3 0 5c1 1 2 3 2 5 0 7-4 9-10 10 1 1 1 3 1 5v5" fill="#0d1117"/></svg>`,
+ argo:`<svg viewBox="0 0 48 48"><circle cx="24" cy="20" r="15" fill="#ef7b4d"/><circle cx="24" cy="20" r="10" fill="#fff"/><circle cx="21" cy="19" r="2" fill="#222"/><circle cx="28" cy="19" r="2" fill="#222"/><path d="M14 33l-4 12M34 33l4 12M20 35l-1 10M28 35l1 10" stroke="#ef7b4d" stroke-width="3"/></svg>`,
+ kql:`<svg viewBox="0 0 48 48" fill="none" stroke-width="3"><circle cx="20" cy="20" r="13" stroke="#4fd6e8"/><path d="M30 30l13 13" stroke="#4fd6e8"/><path d="M13 23l4-5 4 4 5-7" stroke="#ffb23f"/></svg>`,
+ prom:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="21" fill="#e6522c"/><path d="M14 33h20v3H14zM17 37h14v3H17zM24 8c2 6 8 8 8 15 0 4-2 7-4 8 1-3 0-6-2-8 0 4-3 5-3 8-2-1-5-3-5-8 0-6 6-8 6-15z" fill="#fff"/></svg>`,
+ ps:`<svg viewBox="0 0 48 48"><path d="M8 8h36l-6 32H2z" fill="#2671be"/><path d="M12 15l12 9-14 9M24 33h10" stroke="#fff" stroke-width="3" fill="none"/></svg>`,
+ py:`<svg viewBox="0 0 48 48"><path d="M24 4c-9 0-9 4-9 4v6h10v2H10s-7-1-7 9 6 9 6 9h4v-5s0-6 6-6h10s5 0 5-5V9s1-5-10-5z" fill="#3776ab"/><path d="M24 44c9 0 9-4 9-4v-6H23v-2h15s7 1 7-9-6-9-6-9h-4v5s0 6-6 6H19s-5 0-5 5v9s-1 5 10 5z" fill="#ffd43b"/></svg>`,
+ dock:`<svg viewBox="0 0 48 48"><path d="M4 24h38c2 0 4-3 4-3s-3-2-6-1c0-3-3-5-3-5s-2 3-1 6H4c0 10 7 17 18 17s18-6 20-14z" fill="#2496ed"/><g fill="#fff"><rect x="9" y="17" width="5" height="5"/><rect x="15" y="17" width="5" height="5"/><rect x="21" y="17" width="5" height="5"/><rect x="27" y="17" width="5" height="5"/><rect x="15" y="11" width="5" height="5"/><rect x="21" y="11" width="5" height="5"/><rect x="21" y="5" width="5" height="5"/></g></svg>`,
+ git:`<svg viewBox="0 0 48 48"><path d="M24 2l22 22-22 22L2 24z" fill="#f05033"/><g stroke="#fff" stroke-width="3" fill="#fff"><path d="M18 12l14 14M24 18v14" fill="none"/><circle cx="24" cy="34" r="3"/><circle cx="32" cy="26" r="3"/><circle cx="24" cy="18" r="3"/></g></svg>`,
+ helm:`<svg viewBox="0 0 48 48" fill="none" stroke="#9cc0ff" stroke-width="3"><circle cx="24" cy="24" r="12"/><circle cx="24" cy="24" r="4"/><path d="M24 4v8M24 36v8M4 24h8M36 24h8M10 10l6 6M32 32l6 6M10 38l6-6M32 16l6-6"/></svg>`,
+ shield:`<svg viewBox="0 0 48 48"><path d="M24 3l18 7v12c0 12-8 20-18 24C14 42 6 34 6 22V10z" fill="#1d2b40" stroke="#56f0a4" stroke-width="3"/><path d="M16 24l6 6 10-12" stroke="#56f0a4" stroke-width="3" fill="none"/></svg>`,
+ ai:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#d97757"/><path d="M24 10l3 11 11 3-11 3-3 11-3-11-11-3 11-3z" fill="#fff"/></svg>`,
+ ins:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#68217a"/><path d="M10 30l8-10 6 6 6-12 8 16" stroke="#fff" stroke-width="3" fill="none"/></svg>`,
+ mon:`<svg viewBox="0 0 48 48"><rect x="4" y="8" width="40" height="28" rx="3" fill="#0078d4"/><path d="M8 28l8-8 6 5 8-10 10 9" stroke="#fff" stroke-width="3" fill="none"/><rect x="16" y="38" width="16" height="4" fill="#0078d4"/></svg>`,
+ auto:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#0062ad"/><path d="M24 12a12 12 0 1 0 12 12" stroke="#fff" stroke-width="3" fill="none"/><path d="M32 16l4 8 6-6" fill="#fff"/></svg>`,
+ wf:`<svg viewBox="0 0 48 48" fill="none" stroke="#4285f4" stroke-width="3"><rect x="4" y="6" width="14" height="10"/><rect x="30" y="20" width="14" height="10"/><rect x="4" y="34" width="14" height="10"/><path d="M18 11h8v14h4M18 39h8V25"/></svg>`,
+ ans:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#ee0000"/><path d="M24 11L14 36h4l6-15 9 11-2-6z" fill="#fff"/></svg>`
+};
+
+/* ======================= 1 LOADOUT ======================= */
+const GEAR=[
+ {slot:"Primary",n:"Kubernetes",ic:"k8s",r:"legend",st:[86,80,90,78],att:["Helm","ArgoCD","CronJobs","MicroK8s"],rec:"ArgoCD GitOps rollouts at Amagi. Test suite run hourly as a Kubernetes CronJob at XchangeTechs."},
+ {slot:"Primary",n:"Terraform",ic:"tf",r:"epic",st:[88,84,92,70],att:["AWS provider","Modules","Remote state"],rec:"Provisioned AWS across environments. Eliminated configuration drift and manual setup."},
+ {slot:"Primary",n:"Azure Automation",ic:"auto",r:"legend",st:[92,74,90,72],att:["Managed identity","Runbooks","JSON config","Manual gates"],rec:"Replaced an Excel-driven upgrade process for 70+ bank customers with safe-to-rerun pipelines."},
+ {slot:"Secondary",n:"GitHub Actions",ic:"gh",r:"epic",st:[80,70,84,90],att:["Matrix builds","Rollback on QA fail"],rec:"Pipelines at Amagi made releases 42% faster."},
+ {slot:"Secondary",n:"Jenkins",ic:"jen",r:"rare",st:[78,72,80,74],att:["Groovy","Multi-env promotion"],rec:"Weekly releases across dev, QA and prod with under 2 minutes downtime."},
+ {slot:"Tactical",n:"KQL + App Insights",ic:"kql",r:"legend",st:[90,88,86,82],att:["Noise filter","Failure classifier"],rec:"Separated real recording-bot failures from noise. Ended recurring false critical alerts and found a real defect."},
+ {slot:"Tactical",n:"Prometheus",ic:"prom",r:"rare",st:[76,80,82,78],att:["Stackdriver","Staging alerts"],rec:"Staging monitoring at Sleep Country. 78% of potential failures caught before release."},
+ {slot:"Support",n:"PowerShell",ic:"ps",r:"epic",st:[82,66,88,86],att:["Log collector","RabbitMQ backup","Patch runbooks"],rec:"OS-patching runbooks per customer lane plus a parent runbook that runs them all."},
+ {slot:"Support",n:"Python",ic:"py",r:"rare",st:[74,70,80,88],att:["Deploy scripts","Log triage"],rec:"Automated repetitive deployment work at Amagi."},
+ {slot:"Armor",n:"Security Kit",ic:"shield",r:"epic",st:[70,76,92,68],att:["CEH","IAM least-privilege","VPC","Vault"],rec:"Certified Ethical Hacker. Tightened IAM, VPC and EC2 security across AWS accounts."},
+ {slot:"Perk",n:"AI Triage",ic:"ai",r:"legend",st:[78,82,74,94],att:["Claude","Log summaries","Alert triage"],rec:"Built AI-assisted tools with Claude that speed up log analysis and alert triage."}
+];
+function loadout(root){
+  const eq={Primary:"Azure Automation",Secondary:"GitHub Actions",Tactical:"KQL + App Insights",Support:"PowerShell",Armor:"Security Kit",Perk:"AI Triage"};
+  let cur=GEAR[2];
+  root.appendChild(el(`<div><div class="lo">
+    <div class="panel cut"><div class="lbl">Armory</div><div class="list" id="list"></div></div>
+    <div class="show cut" id="show"></div>
+    <div class="panel cut" id="side"></div></div>
+    <div class="panel cut" style="margin-top:12px"><div class="lbl">Equipped loadout · "Production Ready"</div><div class="slots" id="slots"></div>
+    <div class="prompts"><span><span class="key">Click</span> Inspect</span><span><span class="key">E</span> Equip</span><span><span class="key">↑</span><span class="key">↓</span> Browse</span></div></div></div>`));
+  const list=root.querySelector('#list');
+  function paint(){
+    let html="",last="";GEAR.forEach((g,i)=>{if(g.slot!==last){html+=`<div class="lbl cat">${g.slot}</div>`;last=g.slot}
+      html+=`<button class="it r-${g.r}" data-i="${i}" aria-pressed="${g===cur}"><i></i><span><b>${g.n}</b><br><small>${{common:"Common",rare:"Rare",epic:"Epic",legend:"Legendary"}[g.r]}</small></span><span class="eq">${eq[g.slot]===g.n?"EQUIPPED":""}</span></button>`});
+    list.innerHTML=html;list.querySelectorAll('.it').forEach(b=>b.onclick=()=>{cur=GEAR[+b.dataset.i];paint()});
+    const s=root.querySelector('#show');s.className=`show cut r-${cur.r}`;
+    s.innerHTML=`<div><div class="rar">${{common:"Common",rare:"Rare",epic:"Epic",legend:"Legendary"}[cur.r]} · ${cur.slot}</div><div class="nm">${cur.n}</div></div><div class="icon">${ICON[cur.ic]}</div>
+      <div style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;position:relative;align-items:end"><div style="max-width:46ch;color:#c9d6ea;font-size:15px">${cur.rec}</div>
+      <button class="cta" id="eqb" ${eq[cur.slot]===cur.n?"disabled":""}>${eq[cur.slot]===cur.n?"Equipped":"Equip"}</button></div>`;
+    s.querySelector('#eqb').onclick=equip;
+    const base=GEAR.find(g=>g.n===eq[cur.slot]);
+    root.querySelector('#side').innerHTML=`<div class="lbl">Stats · self-rated</div>${["Impact","Scale","Reliability","Speed"].map((k,i)=>{const d=cur.st[i]-base.st[i];return `<div class="statrow"><span>${k}</span><div class="b"><i style="width:${cur.st[i]}%"></i></div><span style="color:${d>0?'var(--good)':d<0?'var(--bad)':'var(--dim)'}">${cur.st[i]}</span></div>`}).join('')}
+      <div class="lbl" style="margin-top:14px">Attachments</div><div class="att">${cur.att.map(a=>`<span>${a}</span>`).join('')}</div>
+      <div class="lbl" style="margin-top:14px">Compared to equipped</div><div style="font-size:14px;color:var(--dim)">${base.n===cur.n?"This is your equipped item.":`vs ${base.n}`}</div>`;
+    root.querySelector('#slots').innerHTML=Object.entries(eq).map(([k,v])=>{const g=GEAR.find(x=>x.n===v);return `<div class="slot full r-${g.r}"><span class="lbl">${k}</span><b>${v}</b></div>`}).join('');
+  }
+  function equip(){eq[cur.slot]=cur.n;paint()}
+  const kd=e=>{if(e.target.tagName==="INPUT")return;const i=GEAR.indexOf(cur);if(e.key==="ArrowDown"){cur=GEAR[Math.min(GEAR.length-1,i+1)];paint();e.preventDefault()}if(e.key==="ArrowUp"){cur=GEAR[Math.max(0,i-1)];paint();e.preventDefault()}if(e.key==="e"||e.key==="E")equip()};
+  addEventListener('keydown',kd);onCleanup(()=>removeEventListener('keydown',kd));paint();
+}
+
+/* ======================= 2 BOSS FIGHT ======================= */
+function boss(root){
+  const AB=[
+   {k:"1",n:"Query App Insights",d:"KQL over the last 30 min of traces",cd:5,dmg:10,log:[["i","AppTraces | where SeverityLevel >= 3 | summarize count() by Message"],["w","Top error: BlobUploadFailed · AuthorizationPermissionMismatch (412 hits)"]],reveal:true},
+   {k:"2",n:"Check storage account",d:"az storage account show · network + RBAC",cd:6,dmg:12,log:[["i","az role assignment list --assignee <bot-identity> --scope /subscriptions/…/storageAccounts/rec01"],["w","Missing: Storage Blob Data Contributor on container 'recordings'"]]},
+   {k:"3",n:"Fix role assignment",d:"Restore least-privilege RBAC for the managed identity",cd:9,dmg:30,need:true,log:[["i","az role assignment create --role 'Storage Blob Data Contributor' --assignee <bot-identity> --scope …/recordings"],["ok","Role assigned. Upload retries succeeding: 63% → 97%"]]},
+   {k:"4",n:"Restart recorder service",d:"PowerShell: Restart-Service on affected VMs",cd:8,dmg:14,log:[["i","Invoke-Command -ComputerName rec-vm-0[1-4] { Restart-Service NiceRecorder }"],["ok","4/4 nodes healthy. Queue draining."]]},
+   {k:"5",n:"Replay failed uploads",d:"Re-run the safe-to-rerun upload stage",cd:10,dmg:20,log:[["i","Start-AzAutomationRunbook -Name Replay-FailedUploads -Parameters @{Lane='EU-02'}"],["ok","1,284 recordings re-uploaded. Compliance gap closed."]]},
+   {k:"6",n:"Write RCA",d:"Finisher. Unlocks below 20% HP",cd:0,dmg:100,fin:true,log:[["ok","RCA filed: identity role drift after upgrade. Guardrail added to upgrade pipeline. Ticket sent to R&D."]]}
+  ];
+  root.appendChild(el(`<div class="boss cut"><div class="bn"><div><div class="lbl" style="color:#ff9aa6">P1 Incident · Boss encounter</div><div class="h3">Storage Upload Failure</div><div style="color:#d9a3ad;font-size:14px">Teams call recordings for a bank tenant are not reaching Blob Storage. Compliance impact.</div></div>
+    <div style="text-align:right"><div class="lbl">Elapsed</div><div class="h3" id="clk" style="font-size:22px">00:00</div></div></div>
+    <div class="bar" id="hp"><em style="width:100%"></em><i style="width:100%"></i></div><div style="display:flex;justify-content:space-between;font-family:var(--mono);font-size:12px;color:#d9a3ad;margin-top:3px"><span>Incident health</span><span id="hpn">100 / 100</span></div>
+    <div style="margin-top:10px" class="lbl">Compliance risk · SLA breach at 100%</div><div class="bar risk" id="rk"><i style="width:0"></i></div>
+    <div class="arena"><div><canvas class="bosscv" width="800" height="400"></canvas><div class="abil" id="abil"></div></div><div><div class="lbl" style="margin-bottom:6px">Combat log</div><div class="log" id="log"></div></div></div>
+    <div class="win" id="end" hidden></div></div>`));
+  const cv=root.querySelector('canvas'),g=cv.getContext('2d'),log=root.querySelector('#log');
+  let hp=100,risk=0,t0=performance.now(),cds={},revealed=false,over=false,shake=0,parts=[],raf,tick;
+  const ts=()=>{const s=Math.floor((performance.now()-t0)/1000);return String(Math.floor(s/60)).padStart(2,"0")+":"+String(s%60).padStart(2,"0")};
+  const L=(c,m)=>{log.insertAdjacentHTML('beforeend',`<span class="t">[${ts()}]</span> <span class="${c}">${m.replace(/</g,"&lt;")}</span>\n`);log.scrollTop=log.scrollHeight};
+  const abil=root.querySelector('#abil');
+  function paintAb(){abil.innerHTML=AB.map((a,i)=>{const lock=(a.need&&!revealed)||(a.fin&&hp>20);const cd=cds[i]>0;return `<button class="ab ${lock?'lock':''}" data-i="${i}" ${lock||cd||over?'disabled':''}><span class="key k">${a.k}</span><b>${a.n}</b><small>${lock?(a.fin?'Locked until incident below 20%':'Find the root cause first'):a.d}</small>${cd?`<span class="cd">${Math.ceil(cds[i])}</span>`:''}</button>`}).join('');
+    abil.querySelectorAll('.ab').forEach(b=>b.onclick=()=>use(+b.dataset.i))}
+  function use(i){const a=AB[i];if(over||cds[i]>0||(a.need&&!revealed)||(a.fin&&hp>20))return;
+    a.log.forEach(([c,m],j)=>setTimeout(()=>L(c,(j?"":"$ ")+m),j*350));
+    if(a.reveal)revealed=true;hp=Math.max(0,hp-a.dmg);risk=Math.max(0,risk-(a.dmg/2));cds[i]=a.cd;shake=10;
+    for(let p=0;p<24;p++)parts.push({x:400,y:180,vx:(Math.random()-.5)*10,vy:(Math.random()-.8)*9,l:40});
+    upd();if(hp<=0)end(true);paintAb()}
+  function upd(){root.querySelector('#hp i').style.width=hp+"%";root.querySelector('#hp em').style.width=hp+"%";root.querySelector('#hpn').textContent=`${Math.round(hp)} / 100`;root.querySelector('#rk i').style.width=risk+"%"}
+  function end(win){over=true;clearInterval(tick);const e=root.querySelector('#end');e.hidden=false;e.className="win"+(win?"":" lose");
+    e.innerHTML=win?`<div><div class="lbl">Incident resolved · simulated encounter</div><div class="h3">Victory</div><div class="rw"><span>Time to resolve ${ts()}</span><span>Recordings recovered 1,284</span><span>RCA sent to R&D</span><span>+1 Guardrail</span></div><div style="color:var(--dim);max-width:52ch;margin:0 auto 14px">Based on real work: Sarvesh leads incident triage and root cause analysis on the NICE NTR-X Azure platform, including storage upload failures with compliance impact.</div><button class="cta" id="again">Replay</button></div>`
+      :`<div><div class="lbl">SLA breached</div><div class="h3">Defeat</div><div style="color:var(--dim);margin:10px 0 14px">Find the root cause faster. Tip: start with App Insights.</div><button class="cta" id="again">Retry</button></div>`;
+    e.querySelector('#again').onclick=()=>{root.innerHTML="";boss(root)}}
+  tick=setInterval(()=>{if(over)return;Object.keys(cds).forEach(k=>cds[k]=Math.max(0,cds[k]-.25));risk=Math.min(100,risk+.55);
+    if(Math.random()<.06)L("e",["ERROR UploadWorker: 403 AuthorizationPermissionMismatch (rec-vm-03)","WARN Queue depth recordings-pending = "+(800+Math.floor(Math.random()*600)),"ERROR Retry 3/3 failed for call "+Math.random().toString(16).slice(2,10)][Math.floor(Math.random()*3)]);
+    upd();paintAb();root.querySelector('#clk').textContent=ts();if(risk>=100)end(false)},250);
+  function draw(){const T=performance.now()/1000;g.setTransform(1,0,0,1,shake?(Math.random()-.5)*shake:0,0);shake=Math.max(0,shake-.6);
+    g.fillStyle="#07090e";g.fillRect(-20,0,840,400);
+    for(let i=0;i<20;i++){g.strokeStyle="#ff4d5e"+(i%2?"10":"18");g.beginPath();g.moveTo(0,300+i*6);g.lineTo(800,300+i*6);g.stroke()}
+    const cx=400,cy=170,R=70+Math.sin(T*2)*4;
+    const grd=g.createRadialGradient(cx,cy,10,cx,cy,R*2.2);grd.addColorStop(0,"#ff4d5e88");grd.addColorStop(1,"#ff4d5e00");g.fillStyle=grd;g.beginPath();g.arc(cx,cy,R*2.2,0,7);g.fill();
+    g.save();g.translate(cx,cy);g.rotate(T*.4);g.strokeStyle="#ff4d5e";g.lineWidth=3;for(let k=0;k<6;k++){g.rotate(Math.PI/3);g.beginPath();g.moveTo(R*.6,0);g.lineTo(R*1.1,R*.2);g.lineTo(R*1.25,-R*.1);g.stroke()}g.restore();
+    g.fillStyle="#2a0d14";g.strokeStyle="#ff4d5e";g.lineWidth=4;g.beginPath();g.arc(cx,cy,R*.7,0,7);g.fill();g.stroke();
+    g.fillStyle="#ff4d5e";g.font="bold 34px Oxanium,sans-serif";g.textAlign="center";g.fillText(hp>20?"403":"!",cx,cy+12);
+    g.font="13px 'JetBrains Mono',monospace";g.fillStyle="#d9a3ad";g.fillText(revealed?"weak point: missing RBAC role":"weak point: unknown · run a query",cx,cy+R+50);
+    parts.forEach(p=>{p.x+=p.vx;p.y+=p.vy;p.vy+=.3;p.l--;g.fillStyle=`rgba(159,232,255,${p.l/40})`;g.fillRect(p.x,p.y,3,3)});parts=parts.filter(p=>p.l>0);
+    g.textAlign="left";raf=requestAnimationFrame(draw)}
+  const kd=e=>{const n=+e.key;if(n>=1&&n<=6)use(n-1)};addEventListener('keydown',kd);
+  onCleanup(()=>{cancelAnimationFrame(raf);clearInterval(tick);removeEventListener('keydown',kd)});
+  L("e","ALERT Sev1 · Blob upload failure rate 37% · tenant bank-eu-02");L("w","Alert routed to on-call: Sarvesh");L("i","Choose an ability. Keys 1 to 6 also work.");
+  paintAb();draw();
+}
+
+/* ======================= 3 DATA CENTER (three.js) ======================= */
+const RACKS=[
+ {n:"AZ-EU-01 · Azure",c:0x3fa9f5,col:"#3fa9f5",d:"NICE NTR-X production. Azure Automation runbooks, VMs, Blob Storage, Application Insights.",svc:[["ntrx-recorder","4/4 VMs"],["upgrade-pipeline","idle"],["patch-runbooks","lane EU-02"],["app-insights","ingesting"]]},
+ {n:"AZ-MON-02 · Azure",c:0x8b5cf6,col:"#8b5cf6",d:"Monitoring rack. Azure Monitor dashboards and KQL alert rules that filter out false criticals.",svc:[["azure-monitor","dashboards"],["kql-alerts","no false pages"],["rabbitmq-backup","nightly"]]},
+ {n:"AWS-01 · AWS",c:0xff9900,col:"#ff9900",d:"Live TV channel launches at Amagi with MediaLive and MediaConnect. 99.99% uptime while users grew 3x.",svc:[["medialive","running"],["mediaconnect","running"],["ec2-fleet","healthy"]]},
+ {n:"AWS-IAC · AWS",c:0xa78bfa,col:"#a78bfa",d:"Terraform-provisioned environments at XchangeTechs. No configuration drift between dev, QA and prod.",svc:[["terraform-state","locked"],["vpc","hardened"],["iam","least-privilege"]]},
+ {n:"K8S-01 · Kubernetes",c:0x326ce5,col:"#326ce5",d:"Kubernetes with ArgoCD GitOps. Automated test suite runs every hour as a CronJob.",svc:[["argocd","synced"],["test-cronjob","every 1h"],["helm-releases","deployed"]]},
+ {n:"GCP-01 · GCP",c:0x34a853,col:"#34a853",d:"GCP Workflows and schedulers for Sleep Country deploys. 78% of failures caught before release.",svc:[["workflows","scheduled"],["stackdriver","alerting"],["prometheus","scraping"]]}
+];
+function datacenter(root){
+  root.appendChild(el(`<div class="dc"><div class="view cut" id="view"><div class="hudtl" id="hudtl">DC-PUNE-01 · ROW A<br>RACKS 6 · POWER 41.2 kW<br>TEMP 22.4°C · ALL SYSTEMS NOMINAL</div><div class="cross"></div><div class="hudbr">Drag to look around · tap a rack</div></div>
+    <div class="panel cut" id="rp"></div></div>`));
+  const view=root.querySelector('#view'),rp=root.querySelector('#rp');
+  let sel=0;
+  function panel(){const r=RACKS[sel];rp.innerHTML=`<div class="lbl">Rack inspector</div><div class="h3" style="font-size:20px;color:${r.col};margin-top:4px">${r.n}</div><p style="margin:8px 0;color:#c9d6ea">${r.d}</p>
+    <div class="lbl">Services</div><div class="svc">${r.svc.map(s=>`<div><i></i><span>${s[0]}</span><span>${s[1]}</span></div>`).join('')}</div>
+    <div class="rackbtns">${RACKS.map((x,i)=>`<button data-i="${i}" aria-pressed="${i===sel}">${x.n.split(' ·')[0]}</button>`).join('')}</div>`;
+    rp.querySelectorAll('.rackbtns button').forEach(b=>b.onclick=()=>{sel=+b.dataset.i;panel();focus()})}
+  panel();
+  if(!window.THREE){view.insertAdjacentHTML('beforeend','<div style="position:absolute;inset:0;display:grid;place-items:center;color:var(--dim)">3D view could not load. Use the rack list on the right.</div>');return}
+  const W=()=>view.clientWidth,H=()=>view.clientHeight;
+  const ren=new THREE.WebGLRenderer({antialias:true});ren.setPixelRatio(Math.min(2,devicePixelRatio));ren.setSize(W(),H());view.prepend(ren.domElement);
+  const sc=new THREE.Scene();sc.background=new THREE.Color(0x05080d);sc.fog=new THREE.Fog(0x05080d,14,34);
+  const cam=new THREE.PerspectiveCamera(50,W()/H(),.1,100);
+  sc.add(new THREE.AmbientLight(0x6080a0,.55));const dl=new THREE.DirectionalLight(0xffffff,.7);dl.position.set(5,10,6);sc.add(dl);
+  const floor=new THREE.Mesh(new THREE.PlaneGeometry(40,40),new THREE.MeshStandardMaterial({color:0x0c131d,roughness:.8,metalness:.2}));floor.rotation.x=-Math.PI/2;sc.add(floor);
+  const grid=new THREE.GridHelper(40,40,0x1d3046,0x14202f);grid.position.y=.01;sc.add(grid);
+  const racks=[],leds=[];
+  RACKS.forEach((r,i)=>{const grp=new THREE.Group();const x=(i-2.5)*1.6;grp.position.set(x,0,0);
+    const body=new THREE.Mesh(new THREE.BoxGeometry(1.1,3.2,1.2),new THREE.MeshStandardMaterial({color:0x111821,metalness:.6,roughness:.4}));body.position.y=1.6;grp.add(body);
+    const door=new THREE.Mesh(new THREE.PlaneGeometry(1,3),new THREE.MeshStandardMaterial({color:0x0a0f16,metalness:.3,roughness:.6,transparent:true,opacity:.92}));door.position.set(0,1.6,.61);grp.add(door);
+    for(let u=0;u<12;u++){const sv=new THREE.Mesh(new THREE.BoxGeometry(.96,.17,.02),new THREE.MeshStandardMaterial({color:0x1a2533,metalness:.5,roughness:.5}));sv.position.set(0,.35+u*.23,.62);grp.add(sv);
+      for(let l=0;l<3;l++){const m=new THREE.MeshBasicMaterial({color:l===0?r.c:0x56f0a4});const led=new THREE.Mesh(new THREE.BoxGeometry(.035,.035,.01),m);led.position.set(.3+l*.07,.35+u*.23,.635);grp.add(led);leds.push({m,base:l===0?r.c:0x56f0a4,ph:Math.random()*10,sp:1+Math.random()*4})}}
+    const strip=new THREE.Mesh(new THREE.BoxGeometry(1.12,.04,.04),new THREE.MeshBasicMaterial({color:r.c}));strip.position.set(0,3.22,.6);grp.add(strip);
+    const glow=new THREE.PointLight(r.c,.6,3);glow.position.set(0,1.6,1.3);grp.add(glow);
+    body.userData.i=i;door.userData.i=i;sc.add(grp);racks.push({grp,body,door,strip})});
+  let yaw=.5,pitch=.32,dist=10.5,tx=0,ttx=0,drag=null,auto=true;
+  function focus(){ttx=(sel-2.5)*1.6;auto=false;racks.forEach((r,i)=>r.strip.scale.y=i===sel?3:1)}
+  focus();auto=true;
+  const ray=new THREE.Raycaster(),mv=new THREE.Vector2();
+  view.addEventListener('pointerdown',e=>{drag={x:e.clientX,y:e.clientY,moved:0};view.setPointerCapture(e.pointerId)});
+  view.addEventListener('pointermove',e=>{if(!drag)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;drag.moved+=Math.abs(dx)+Math.abs(dy);yaw-=dx*.006;pitch=Math.max(.05,Math.min(1.1,pitch+dy*.004));drag.x=e.clientX;drag.y=e.clientY;auto=false});
+  view.addEventListener('pointerup',e=>{if(drag&&drag.moved<6){const b=view.getBoundingClientRect();mv.x=((e.clientX-b.left)/b.width)*2-1;mv.y=-((e.clientY-b.top)/b.height)*2+1;ray.setFromCamera(mv,cam);
+      const hit=ray.intersectObjects(racks.flatMap(r=>[r.body,r.door]))[0];if(hit){sel=hit.object.userData.i;panel();focus()}}drag=null});
+  view.addEventListener('wheel',e=>{e.preventDefault();dist=Math.max(5,Math.min(16,dist+e.deltaY*.01))},{passive:false});
+  const ro=new ResizeObserver(()=>{ren.setSize(W(),H());cam.aspect=W()/H();cam.updateProjectionMatrix()});ro.observe(view);
+  let raf;const loop=()=>{const T=performance.now()/1000;if(auto)yaw+=.0025;tx+=(ttx-tx)*.06;
+    cam.position.set(tx+Math.sin(yaw)*dist*Math.cos(pitch),1.6+Math.sin(pitch)*dist,Math.cos(yaw)*dist*Math.cos(pitch));cam.lookAt(tx,1.5,0);
+    leds.forEach(l=>{const on=Math.sin(T*l.sp+l.ph)>-.2;l.m.color.setHex(on?l.base:0x0c131d)});
+    ren.render(sc,cam);raf=requestAnimationFrame(loop)};loop();
+  onCleanup(()=>{cancelAnimationFrame(raf);ro.disconnect();ren.dispose()});
+}
+
+/* ======================= 4 MISSION BRIEFING ======================= */
+const MISSIONS=[
+ {n:"Op. Silent Pager",type:"Main op",st:"Complete",loc:"Azure · NICE NTR-X",yr:"2026",obj:[[1,"Write KQL queries on Application Insights"],[1,"Separate real recording-bot failures from noise"],[1,"Stop recurring false critical alerts"],[1,"Escalate the real defect to R&D"]],intel:"On-call kept getting paged for alarms that were not real. The team needed signal, not noise.",rew:["False criticals: ended","Defect found","+Trust of on-call"],seed:3},
+ {n:"Op. Spreadsheet Zero",type:"Main op",st:"Complete",loc:"Azure · 70+ bank tenants",yr:"2026",obj:[[1,"Replace the Excel-driven upgrade tracker"],[1,"Managed-identity sign-in, per-customer JSON config"],[1,"Make every stage safe to rerun"],[1,"Add manual fallback gates"]],intel:"Customer upgrades for a regulated call-recording platform were tracked in Excel and run by hand.",rew:["Repeatable upgrades","70+ customers","Multi-stage pipeline"],seed:7},
+ {n:"Op. Live Signal",type:"Main op",st:"Complete",loc:"AWS + GCP · Amagi",yr:"2025",obj:[[1,"Stand up infra for new TV channel launches"],[1,"Integrate AWS MediaLive and MediaConnect"],[1,"Hold uptime while users grow 3x"],[1,"Speed up releases with CI/CD"]],intel:"Live channels cannot go dark. Every launch had to be fast and stable.",rew:["99.99% uptime","42% faster releases","3x users"],seed:11},
+ {n:"Op. Zero Drift",type:"Main op",st:"Complete",loc:"AWS · XchangeTechs",yr:"2023–25",obj:[[1,"Provision all environments with Terraform"],[1,"Weekly releases across dev, QA, prod"],[1,"Keep downtime under 2 minutes per release"],[1,"Tighten IAM, VPC and EC2 security"]],intel:"Environments drifted apart and were set up by hand.",rew:["< 2 min downtime","No config drift","-40% manual work"],seed:5},
+ {n:"Op. Early Warning",type:"Side op",st:"Complete",loc:"GCP · Sleep Country",yr:"2024",obj:[[1,"Automate deployments with GCP Workflows and schedulers"],[1,"Add Stackdriver and Prometheus monitoring in staging"],[1,"Catch failures before release"]],intel:"Problems were found only after release.",rew:["78% failures caught early"],seed:9},
+ {n:"Op. Northstar",type:"Next op",st:"Available",loc:"Europe · EU / EEA, UK, CH",yr:"Now",obj:[[1,"3+ years of DevOps experience across Azure, AWS, GCP"],[1,"Available to interview in European hours"],[0,"Find a team that can offer a role with a work permit"],[0,"Relocate and ship on day one"]],intel:"Squad leader wanted. Sarvesh is ready to relocate for on-site, hybrid or remote roles.",rew:["Your team gets a battle-tested DevOps engineer"],seed:2,cta:true}
+];
+function briefing(root){
+  let cur=0;
+  root.appendChild(el(`<div class="mb"><div class="panel cut"><div class="lbl" style="margin-bottom:8px">Operations</div><div class="ms" id="ms"></div></div><div class="panel cut" id="br"></div></div>`));
+  function topo(cv,seed){const g=cv.getContext('2d'),w=cv.width,h=cv.height;let s=seed;const rnd=()=>(s=(s*9301+49297)%233280)/233280;
+    g.fillStyle="#0a1018";g.fillRect(0,0,w,h);
+    const peaks=Array.from({length:4},()=>({x:rnd()*w,y:rnd()*h,a:.6+rnd()}));
+    const f=(x,y)=>peaks.reduce((v,p)=>v+p.a*Math.exp(-((x-p.x)**2+(y-p.y)**2)/(2*(w*.18)**2)),0);
+    for(let lvl=.15;lvl<2;lvl+=.12){g.strokeStyle=`rgba(159,232,255,${.08+lvl*.08})`;g.lineWidth=1;
+      for(let y=0;y<h;y+=4)for(let x=0;x<w;x+=4){const a=f(x,y)>lvl,b=f(x+4,y)>lvl,c=f(x,y+4)>lvl;if(a!==b||a!==c){g.fillStyle=g.strokeStyle;g.fillRect(x,y,1.4,1.4)}}}
+    g.strokeStyle="#26364c";for(let x=0;x<w;x+=w/8){g.beginPath();g.moveTo(x,0);g.lineTo(x,h);g.stroke()}for(let y=0;y<h;y+=h/6){g.beginPath();g.moveTo(0,y);g.lineTo(w,y);g.stroke()}
+    const p=peaks[0];g.strokeStyle="#ff8a3d";g.lineWidth=2;g.beginPath();g.arc(p.x,p.y,16,0,7);g.stroke();g.beginPath();g.moveTo(p.x-26,p.y);g.lineTo(p.x+26,p.y);g.moveTo(p.x,p.y-26);g.lineTo(p.x,p.y+26);g.stroke();
+    g.fillStyle="#ff8a3d";g.font="bold 13px 'JetBrains Mono'";g.fillText("OBJ",p.x+20,p.y-18);
+    g.setLineDash([6,6]);g.strokeStyle="#56f0a4";g.beginPath();g.moveTo(20,h-20);g.quadraticCurveTo(w*.3,h*.4,p.x,p.y);g.stroke();g.setLineDash([]);
+    g.fillStyle="#56f0a4";g.fillRect(14,h-26,12,12);g.fillStyle="#8ea3bf";g.font="11px 'JetBrains Mono'";g.fillText("GRID "+(seed*137%900+100)+"-"+(seed*71%90+10),10,16)}
+  function paint(){root.querySelector('#ms').innerHTML=MISSIONS.map((m,i)=>`<button class="mi" data-i="${i}" aria-pressed="${i===cur}"><small>${m.type} · ${m.yr}</small><b>${m.n}</b><small class="st ${m.st==="Available"?'av':''}">${m.st==="Available"?"◆ Available":"✓ Complete"}</small></button>`).join('');
+    root.querySelectorAll('.mi').forEach(b=>b.onclick=()=>{cur=+b.dataset.i;paint()});
+    const m=MISSIONS[cur];root.querySelector('#br').innerHTML=`<div class="lbl">${m.type} · ${m.loc}</div><div class="h3" style="font-size:26px;margin:2px 0 12px">${m.n}</div>
+     <div class="brief"><div><canvas class="topo" width="560" height="420"></canvas></div><div><div class="lbl">Intel</div><div class="intel">${m.intel}</div>
+     <div class="lbl" style="margin-top:12px">Objectives</div><div class="obj">${m.obj.map(o=>`<div><span class="${o[0]?'c':'o'}">${o[0]?'✓':'◇'}</span><span>${o[1]}</span></div>`).join('')}</div>
+     <div class="lbl">Rewards</div><div class="rew">${m.rew.map(r=>`<span>${r}</span>`).join('')}</div>
+     ${m.cta?`<div style="margin-top:14px;display:flex;gap:8px;flex-wrap:wrap"><button class="cta" id="dep">Deploy squad</button></div><div id="depm" style="margin-top:8px;font-size:14px;color:var(--good)"></div>`:''}</div></div>`;
+    topo(root.querySelector('.topo'),m.seed);
+    const d=root.querySelector('#dep');if(d)d.onclick=()=>root.querySelector('#depm').innerHTML=`Squad request ready. Contact: <b>${EMAIL}</b> · <a href="${LI}" target="_blank" rel="noopener" style="color:var(--hud)">LinkedIn</a>`}
+  paint();
+}
+
+/* ======================= 5 CRAFTING ======================= */
+const ITEMS=[["Git","git","common"],["Jenkins","jen","rare"],["Docker","dock","rare"],["GitHub Actions","gh","epic"],["Terraform","tf","epic"],["AWS","aws","epic"],["Ansible","ans","rare"],["Kubernetes","k8s","legend"],["ArgoCD","argo","epic"],["Helm","helm","rare"],["KQL","kql","epic"],["App Insights","ins","rare"],["Azure Monitor","mon","rare"],["PowerShell","ps","rare"],["Azure Automation","auto","legend"],["Prometheus","prom","rare"],["GCP Workflows","wf","rare"],["Python","py","common"]];
+const RECIPES=[
+ {in:["Git","Jenkins","Docker"],out:"CI Pipeline",r:"epic",d:"Jenkins pipelines with containerised builds. Weekly releases with under 2 minutes downtime."},
+ {in:["Git","GitHub Actions"],out:"Fast-Release Pipeline",r:"epic",d:"GitHub Actions pipelines with rollback on failed QA. Releases 42% faster."},
+ {in:["Terraform","AWS"],out:"Zero-Drift Infrastructure",r:"legend",d:"Every AWS environment built from code. No configuration drift or manual setup."},
+ {in:["Kubernetes","ArgoCD","Helm"],out:"GitOps Rollout",r:"legend",d:"ArgoCD GitOps on Kubernetes for safer rollbacks and more successful deploys."},
+ {in:["KQL","App Insights","Azure Monitor"],out:"Noise Filter",r:"legend",d:"Ended recurring false critical alerts and exposed a real defect sent to R&D."},
+ {in:["PowerShell","Azure Automation"],out:"Patch Runbook",r:"epic",d:"OS-patching runbooks per customer lane, plus a parent runbook that runs them all."},
+ {in:["Prometheus","GCP Workflows"],out:"Early Warning System",r:"epic",d:"Automated deploys with staging monitoring. 78% of potential failures caught before release."},
+ {in:["Docker","Kubernetes"],out:"Hourly Test Runner",r:"rare",d:"Test suite packaged in Docker and run every hour as a Kubernetes CronJob."}
+];
+function crafting(root){
+  let slots=[],found=new Set();
+  root.appendChild(el(`<div class="cr"><div class="panel cut"><div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:6px"><div class="lbl">Inventory · ${ITEMS.length} items</div><div class="lbl">Tap items to add them to the bench</div></div><div class="inv" id="inv" style="margin-top:10px"></div></div>
+   <div class="panel cut bench"><div><div class="lbl">Workbench</div><div class="cslots" id="cs" style="margin-top:8px"></div></div>
+   <div style="display:flex;gap:8px"><button class="cta" id="craft" disabled>Craft</button><button class="cta ghost" id="clr">Clear</button></div>
+   <div class="result" id="res"><div class="lbl">Output</div><div style="color:var(--dim);margin-top:6px">Combine 2 or 3 tools. Try Git + Jenkins + Docker.</div></div>
+   <div><div class="lbl" style="margin-bottom:4px">Recipe book <span id="cnt"></span></div><div class="book" id="book"></div></div></div></div>`));
+  const match=()=>RECIPES.find(r=>r.in.length===slots.length&&r.in.every(x=>slots.includes(x)));
+  function paint(){root.querySelector('#inv').innerHTML=ITEMS.map(([n,ic,r])=>`<button class="cell r-${r} ${slots.includes(n)?'used':''}" data-n="${n}"><span class="q">x1</span>${ICON[ic]}<b>${n}</b></button>`).join('');
+    root.querySelectorAll('.cell').forEach(b=>b.onclick=()=>{const n=b.dataset.n;if(slots.includes(n))slots=slots.filter(x=>x!==n);else if(slots.length<3)slots.push(n);paint()});
+    root.querySelector('#cs').innerHTML=[0,1,2].map(i=>{const n=slots[i];const it=ITEMS.find(x=>x[0]===n);return `<div class="cslot ${n?'full r-'+it[2]:''}">${n||'Empty'}</div>`}).join('');
+    root.querySelector('#craft').disabled=!match();
+    root.querySelector('#cnt').textContent=`· ${found.size} / ${RECIPES.length}`;
+    root.querySelector('#book').innerHTML=RECIPES.map(r=>found.has(r.out)?`<div><span class="d">✓ ${r.out}</span><span class="lbl">${r.in.join(' + ')}</span></div>`:`<div><span class="u">??? · ${r.in.length} ingredients</span><span class="lbl">${r.in[0]} + …</span></div>`).join('')}
+  root.querySelector('#craft').onclick=()=>{const r=match();if(!r)return;found.add(r.out);const res=root.querySelector('#res');res.className=`result ok r-${r.r}`;
+    res.innerHTML=`<div class="lbl">Crafted · ${{rare:"Rare",epic:"Epic",legend:"Legendary"}[r.r]}</div><div class="h3" style="margin:4px 0 6px">${r.out}</div><div style="color:#c9d6ea">${r.d}</div>`;slots=[];paint()};
+  root.querySelector('#clr').onclick=()=>{slots=[];paint()};
+  slots=["Git","Jenkins"];paint();
+}
+
+/* ======================= 6 PLAYER PROFILE ======================= */
+function profile(root){
+  root.appendChild(el(`<div class="pf"><div class="banner cut"><img class="av" src="${PHOTO}" alt="Sarvesh"><div><div class="lbl">Player</div><div class="tag">sarvesh_devops</div>
+    <div class="rank"><svg width="22" height="22" viewBox="0 0 24 24"><path d="M12 2l9 5v10l-9 5-9-5V7z" fill="#ffb23f"/><path d="M12 6l5 3v6l-5 3-5-3V9z" fill="#7a4b00"/></svg>Platinum III · DevOps Engineer</div>
+    <div style="color:var(--dim);font-size:14px;margin-top:4px">Main: Azure · Alts: AWS, GCP · Role: Platform / Cloud Ops · 3+ years played</div></div>
+    <div class="lfg"><span class="pill">LFG · Looking for a team in Europe</span><span style="font-size:13px;color:var(--dim)">Work permit needed (I manage the visa) · EU / UK / CH</span><button class="cta" id="inv">Send party invite</button><span id="invm" style="font-size:13px;color:var(--good)"></span></div></div>
+   <div class="pgrid"><div class="panel cut"><div class="lbl">Career stats</div><div class="kpis" style="margin-top:8px">
+     <div><b style="color:var(--good)">99.99%</b><small>Uptime on channel launches</small></div><div><b>70+</b><small>Bank customers on platform</small></div><div><b style="color:var(--accent)">42%</b><small>Faster releases</small></div>
+     <div><b>&lt; 2 min</b><small>Downtime per release</small></div><div><b>78%</b><small>Failures caught pre-release</small></div><div><b>40%</b><small>Less manual work</small></div></div>
+     <div class="lbl" style="margin-top:14px">Seasons</div><div class="season">
+      <div><span class="lbl">S1</span><b>XchangeTechs</b>2023–25<div class="p"><i style="width:100%"></i></div></div>
+      <div><span class="lbl">S2</span><b>Amagi</b>2025<div class="p"><i style="width:100%"></i></div></div>
+      <div class="now"><span class="lbl" style="color:var(--accent)">S3 · Live</span><b>Xoriant / NICE</b>2026<div class="p"><i style="width:45%"></i></div></div>
+      <div class="lock"><span class="lbl">S4 · Locked</span><b>Europe</b>Needs work permit<div class="p"><i style="width:0"></i></div></div></div>
+     <div class="lbl" style="margin-top:14px">Badges</div><div class="badges" style="margin-top:6px">
+      <div>${ICON.shield}<span>Certified Ethical Hacker<br><small class="lbl">EC-Council · 2023</small></span></div>
+      <div><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#1d2b40" stroke="#ff8a3d" stroke-width="3"/><path d="M14 24l7 7 13-14" stroke="#ff8a3d" stroke-width="3" fill="none"/></svg><span>DevOps Certification<br><small class="lbl">Udemy · 2023</small></span></div>
+      <div><svg viewBox="0 0 48 48"><path d="M4 18L24 8l20 10-20 10z" fill="#4aa3ff"/><path d="M12 22v10c4 4 20 4 24 0V22" stroke="#4aa3ff" stroke-width="3" fill="none"/></svg><span>MCA, Cyber Security<br><small class="lbl">DYPIU · 2023</small></span></div></div></div>
+    <div class="panel cut"><div class="lbl">Match history · recent releases</div><div class="match" style="margin-top:8px">
+      ${[["Victory","NTR-X upgrade pipeline","Azure · 2026","70+ tenants"],["Victory","False alert purge (KQL)","Azure · 2026","0 false crits"],["Victory","OS patch runbooks","Azure · 2026","all lanes"],["Victory","Live channel launches","AWS · 2025","99.99%"],["Victory","GitOps rollouts (ArgoCD)","K8s · 2025","safe rollback"],["Victory","Sleep Country deploys","GCP · 2024","78% early"],["Victory","Ethereal Engine logging","K8s · 2023","-70% config"],["Victory","Weekly multi-env release","AWS · 2023–25","< 2 min down"]].map(m=>`<div><span class="v">${m[0]}</span><span>${m[1]}<br><small class="lbl">${m[2]}</small></span><span class="m">${m[3]}</span></div>`).join('')}
+    </div></div></div></div>`));
+  root.querySelector('#inv').onclick=()=>root.querySelector('#invm').innerHTML=`Invite: ${EMAIL} · <a href="${LI}" target="_blank" rel="noopener" style="color:var(--hud)">LinkedIn</a>`;
+}
+
+const DEMOS=[
+ {id:"loadout",n:"Loadout",g:"Shooter armory",p:"Pick your gear. Tools are weapons with rarity, stats and attachments; each one shows its real field record.",f:loadout},
+ {id:"boss",n:"Incident Boss",g:"Action RPG",p:"A real P1 incident as a boss fight. Use real Azure commands as abilities before compliance risk hits 100%.",f:boss},
+ {id:"datacenter",n:"Data Center",g:"3D explorer",p:"Walk a 3D server row. Each rack is a real environment Sarvesh has run. Drag to orbit, tap a rack.",f:datacenter},
+ {id:"briefing",n:"Mission Briefing",g:"Tactical ops",p:"Each project is an operation with intel, objectives and rewards. The final op is the move to Europe.",f:briefing},
+ {id:"crafting",n:"Crafting",g:"Survival craft",p:"Combine real tools into real outcomes. Find all eight recipes.",f:crafting},
+ {id:"profile",n:"Player Profile",g:"Online lobby",p:"A ranked-player profile: career stats, seasons as jobs, releases as match history, and an LFG tag for Europe.",f:profile}
+];
+function tabs(){document.getElementById('tabs').innerHTML=DEMOS.map((d,i)=>`<a href="#${d.id}" data-id="${d.id}"><small>${String(i+1).padStart(2,"0")} · ${d.g}</small>${d.n}</a>`).join('')}
+function show(){const id="datacenter";const d=DEMOS.find(x=>x.id===id)||DEMOS[0];
+  document.querySelectorAll('#tabs a').forEach(a=>a.setAttribute('aria-current',a.dataset.id===d.id));
+  cleanup.forEach(f=>{try{f()}catch(e){}});cleanup=[];
+  const s=document.getElementById('stage');s.innerHTML="";const box=el(`<section class="scr"><div class="head"><h2>${d.n}</h2><p>${d.p}</p></div><div></div></section>`);s.appendChild(box);d.f(box.lastChild)}
+tabs();show();addEventListener('hashchange',show);
+</script>
+
+</body>
+</html>

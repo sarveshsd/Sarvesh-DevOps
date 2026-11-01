@@ -1,0 +1,599 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sarvesh Dharmadhikari | DevOps Engineer (Azure, AWS, GCP, Kubernetes, Terraform)</title>
+<meta name="description" content="DevOps Engineer — CI/CD pipelines, Infrastructure as Code, Kubernetes, GitOps, Azure, AWS, GCP, Terraform, Docker, Jenkins, GitHub Actions, observability. Open to relocating to Europe; work permit needed (I manage the visa).">
+<meta name="keywords" content="DevOps Engineer, CI/CD, Infrastructure as Code, Terraform, Ansible, Kubernetes, Docker, Helm, ArgoCD, GitOps, Jenkins, GitHub Actions, Azure, AWS, GCP, release management, configuration management, monitoring, Prometheus, Grafana, Linux, Python, Bash, PowerShell, Europe, work permit">
+
+<meta name="author" content="Sarvesh Dharmadhikari">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Sarvesh Dharmadhikari","jobTitle":"DevOps Engineer","worksFor":{"@type":"Organization","name":"Xoriant"},"email":"mailto:sarveshsd999@gmail.com","address":{"@type":"PostalAddress","addressCountry":"IN"},"sameAs":["https://www.linkedin.com/in/sarvesh-d-devops/"],"knowsAbout":["DevOps","CI/CD","Infrastructure as Code","Configuration Management","Release Management","GitOps","Containerization","Kubernetes","Docker","Terraform","Ansible","Jenkins","GitHub Actions","ArgoCD","Azure","AWS","GCP","Monitoring","Observability","Linux","Python","Bash","PowerShell"]}</script>
+<meta property="og:title" content="Sarvesh Dharmadhikari | DevOps Engineer">
+<meta property="og:description" content="I keep production calm. Azure, AWS, GCP, Kubernetes, Terraform, CI/CD. Open to relocating to Europe.">
+<meta property="og:image" content="og.jpg">
+<meta property="og:type" content="profile">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2304060c'/%3E%3Cpath d='M18 40l10-8-10-8M32 42h14' stroke='%2379b0ff' stroke-width='5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#ffffff">
+<!-- design: light-status (Status Page) · rotation 23/31 -->
+<style>body{margin:0;-webkit-text-size-adjust:100%}img{max-width:100%}[hidden]{display:none!important}
+.sd-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 16px;padding:8px max(16px,env(safe-area-inset-left,0px));font:500 13px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;position:relative;z-index:50}
+.sd-strip b{font-weight:700}
+.sd-strip a{text-decoration:none;font-weight:600}
+.sd-strip .sd-l,.sd-strip .sd-r{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
+.sd-strip .sd-tag{opacity:.75}
+.sd-dark{background:#0b0e14;color:#e6ebf2;border-bottom:1px solid #263041}.sd-dark a{color:#8fd3ff}
+.sd-light{background:#ffffff;color:#1b2129;border-bottom:1px solid #dfe3e6}.sd-light a{color:#2457c5}
+header.top,nav.pick,#why,footer.note,.chrome{display:none!important}body{padding:0!important}body>.wrap{max-width:none!important;gap:0!important}.frame{border:0!important;border-radius:0!important;box-shadow:none!important}</style>
+</head>
+<body>
+<div class="sd-strip sd-light" role="banner"><div class="sd-l"><b>Sarvesh Dharmadhikari</b><span>DevOps Engineer · Azure · AWS · GCP</span><span class="sd-tag">✈ Open to Europe · I manage the visa, I need a work permit</span></div><div class="sd-r"><a href="Sarvesh_Dharmadhikari_Resume.pdf" target="_blank" rel="noopener">Resume</a><a href="https://www.linkedin.com/in/sarvesh-d-devops/" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:sarveshsd999@gmail.com">Email</a><a href="designs.html">Today: Status Page · 23/31 · all designs</a></div></div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Serif&display=swap">
+<style>
+/* Layout: a light "concept switcher" shell. Each concept renders inside a browser frame so it reads as the real site. Single committed light look. */
+:root{
+  --bg:#f3f4f1; --paper:#ffffff; --ink:#1b2129; --ink2:#4a5562; --mute:#7b8693; --line:#dfe3e6; --line2:#c9cfd5;
+  --ok:#1f8f4e; --okbg:#e6f4ea; --warn:#b26a00; --warnbg:#fff3dc; --info:#2457c5; --infobg:#e8effc; --bad:#c2372f;
+  --sans:"IBM Plex Sans",system-ui,sans-serif; --mono:"IBM Plex Mono",ui-monospace,Menlo,monospace; --serif:"Instrument Serif",Georgia,serif;
+  color-scheme:light;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:15px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:22px 40px}
+.wrap{max-width:1160px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+a{color:var(--info)}
+:focus-visible{outline:2px solid var(--info);outline-offset:2px}
+button{font:inherit;color:inherit;cursor:pointer}
+header.top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:end;gap:10px}
+header.top h1{margin:0;font-family:var(--serif);font-weight:400;font-size:38px;line-height:1.05;letter-spacing:-.01em}
+header.top p{margin:6px 0 0;color:var(--ink2);max-width:64ch}
+nav.pick{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px}
+nav.pick a{flex:0 0 auto;text-decoration:none;color:var(--ink2);background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:8px 12px;display:flex;flex-direction:column;min-width:120px}
+nav.pick a small{font-family:var(--mono);font-size:10.5px;color:var(--mute)}
+nav.pick a b{font-weight:600;color:var(--ink);font-size:14px}
+nav.pick a[aria-current="true"]{border-color:var(--ink);box-shadow:0 0 0 1px var(--ink)}
+.why{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:baseline;color:var(--ink2);font-size:14px}
+.why b{color:var(--ink)}
+.frame{background:var(--paper);border:1px solid var(--line2);border-radius:12px;overflow:hidden;box-shadow:0 1px 0 #0000000a,0 12px 40px -18px #1b212940;min-width:0}
+.chrome{display:flex;align-items:center;gap:10px;padding:9px 12px;background:#eceeec;border-bottom:1px solid var(--line2)}
+.chrome i{width:11px;height:11px;border-radius:50%;background:#d0d4d8;flex:0 0 11px}
+.chrome .url{flex:1;min-width:0;background:#fff;border:1px solid var(--line);border-radius:6px;padding:4px 10px;font-family:var(--mono);font-size:12px;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.site{min-width:0}
+footer.note{color:var(--mute);font-size:13px;text-align:center}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:12px;font-weight:500;border-radius:999px;padding:3px 10px;border:1px solid}
+.chip.ok{color:var(--ok);background:var(--okbg);border-color:#bfe3cb}
+.chip.warn{color:var(--warn);background:var(--warnbg);border-color:#f1d59a}
+.chip.info{color:var(--info);background:var(--infobg);border-color:#c5d5f5}
+.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--ink);background:var(--ink);color:#fff;border-radius:6px;padding:7px 12px;font-size:13.5px;font-weight:600;text-decoration:none}
+.btn.line{background:#fff;color:var(--ink);border-color:var(--line2)}
+.mono{font-family:var(--mono)}
+.photo{object-fit:cover;border-radius:50%}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ===== 1 Pipeline run ===== */
+.pl{--g:#1a7f37;background:#f6f8fa}
+.pl .bar{display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;padding:18px 22px;background:#fff;border-bottom:1px solid var(--line)}
+.pl .who{display:flex;gap:14px;align-items:center}
+.pl .who img{width:56px;height:56px}
+.pl .who h2{margin:0;font-size:22px;font-weight:600}
+.pl .who p{margin:0;color:var(--ink2);font-size:14px}
+.pl .runhead{display:flex;flex-wrap:wrap;gap:10px 22px;padding:14px 22px;background:#fff;border-bottom:1px solid var(--line);font-size:13px;color:var(--ink2)}
+.pl .runhead b{color:var(--ink);font-weight:600}
+.pl .body{display:grid;grid-template-columns:250px minmax(0,1fr);min-height:460px}
+@media (max-width:760px){.pl .body{grid-template-columns:minmax(0,1fr)}}
+.pl .jobs{border-right:1px solid var(--line);background:#fff;padding:10px}
+.pl .jobs .lbl{font-size:12px;color:var(--mute);padding:6px 8px}
+.pl .job{display:flex;gap:8px;align-items:center;width:100%;text-align:left;background:none;border:0;border-radius:6px;padding:8px;font-size:14px}
+.pl .job:hover{background:#f3f4f6}
+.pl .job[aria-pressed="true"]{background:#eef1f4;font-weight:600}
+.pl .job small{margin-left:auto;font-family:var(--mono);color:var(--mute);font-size:11.5px}
+.ico{width:16px;height:16px;flex:0 0 16px;border-radius:50%;display:grid;place-items:center;font-size:10px;color:#fff;font-weight:700}
+.ico.ok{background:var(--g)} .ico.run{background:#bf8700;animation:spin 2s linear infinite;border-radius:3px} .ico.wait{background:#fff;border:2px solid #bf8700}
+@keyframes spin{to{transform:rotate(360deg)}}
+.pl .graph{display:flex;gap:0;align-items:center;overflow-x:auto;padding:18px 22px;background:#fff;border-bottom:1px solid var(--line)}
+.pl .node{flex:0 0 auto;display:flex;gap:8px;align-items:center;border:1px solid var(--line2);border-radius:8px;padding:8px 12px;background:#fff;font-size:13px;font-weight:500}
+.pl .node small{font-family:var(--mono);color:var(--mute);font-size:11px}
+.pl .edge{flex:0 0 28px;height:2px;background:var(--line2)}
+.pl .log{margin:16px 22px 22px;background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.pl .log h3{margin:0;padding:12px 14px;font-size:15px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.pl .log h3 span{font-weight:400;color:var(--mute);font-size:13px}
+.pl details{border-bottom:1px solid #eef0f2}
+.pl summary{list-style:none;cursor:pointer;display:flex;gap:10px;align-items:center;padding:9px 14px;font-size:14px}
+.pl summary::-webkit-details-marker{display:none}
+.pl summary small{margin-left:auto;font-family:var(--mono);color:var(--mute);font-size:12px}
+.pl summary::before{content:"›";color:var(--mute);transition:transform .15s;display:inline-block;width:8px}
+.pl details[open] summary::before{transform:rotate(90deg)}
+.pl pre{margin:0;background:#1f2328;color:#e6edf3;font-family:var(--mono);font-size:12.5px;padding:10px 14px 12px 32px;white-space:pre-wrap;word-break:break-word;line-height:1.7}
+.pl pre .n{color:#6e7781;display:inline-block;width:26px;margin-left:-26px}
+.pl pre .g{color:#7ee2a8} .pl pre .y{color:#f2cc60} .pl pre .c{color:#79c0ff}
+.pl .appr{margin:0 22px 22px;border:1px solid #f1d59a;background:var(--warnbg);border-radius:8px;padding:14px;display:flex;gap:12px;flex-wrap:wrap;align-items:center;justify-content:space-between}
+
+/* ===== 2 Observability dashboard ===== */
+.ob{background:#f4f5f7;font-size:14px}
+.ob .tb{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;padding:12px 18px;background:#fff;border-bottom:1px solid var(--line)}
+.ob .tb .crumb{font-size:14px;color:var(--ink2)} .ob .tb .crumb b{color:var(--ink)}
+.ob .tb .ctrl{display:flex;gap:6px;flex-wrap:wrap}
+.ob .tb .ctrl span{border:1px solid var(--line2);border-radius:4px;padding:4px 9px;font-size:12.5px;background:#fff;font-family:var(--mono)}
+.ob .grid{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:10px;padding:14px 18px 18px}
+.ob .p{background:#fff;border:1px solid var(--line);border-radius:6px;padding:12px 14px;min-width:0}
+.ob .p h4{margin:0 0 6px;font-size:12.5px;font-weight:600;color:var(--ink2);display:flex;justify-content:space-between;gap:8px}
+.ob .p h4 span{font-weight:400;color:var(--mute);font-family:var(--mono);font-size:11px}
+.ob .s3{grid-column:span 2} .ob .s4{grid-column:span 4} .ob .s6{grid-column:span 6} .ob .s8{grid-column:span 8} .ob .s12{grid-column:span 12}
+@media (max-width:900px){.ob .s3{grid-column:span 4}.ob .s4,.ob .s6,.ob .s8{grid-column:span 12}}
+@media (max-width:520px){.ob .s3{grid-column:span 6}}
+.ob .big{font-size:30px;font-weight:600;letter-spacing:-.02em;font-variant-numeric:tabular-nums;line-height:1.1}
+.ob .sub{color:var(--mute);font-size:12px}
+.ob .spark{display:block;width:100%;height:28px;margin-top:6px}
+.ob .hero{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.ob .hero img{width:64px;height:64px}
+.ob .hero h2{margin:0;font-size:22px}
+.ob .hero p{margin:2px 0 0;color:var(--ink2)}
+.gantt{display:grid;grid-template-columns:120px minmax(0,1fr);gap:6px 10px;align-items:center;font-size:12.5px}
+.gantt .tr{position:relative;height:16px;background:#f1f3f5;border-radius:3px}
+.gantt .tr i{position:absolute;top:0;bottom:0;border-radius:3px}
+.gantt .ax{grid-column:2;display:flex;justify-content:space-between;font-family:var(--mono);font-size:10.5px;color:var(--mute)}
+.ob .logs{font-family:var(--mono);font-size:12px;line-height:1.75;max-height:250px;overflow:auto}
+.ob .logs div{display:grid;grid-template-columns:86px 48px minmax(0,1fr);gap:8px;border-bottom:1px solid #f0f2f4}
+.ob .logs .lv{font-weight:600} .lv.i{color:var(--info)} .lv.w{color:var(--warn)} .lv.o{color:var(--ok)}
+.ob .alert{display:flex;gap:10px;align-items:flex-start;border-left:3px solid var(--warn);background:var(--warnbg);padding:10px 12px;border-radius:0 4px 4px 0;margin-bottom:8px}
+.ob .alert.ok{border-color:var(--ok);background:var(--okbg)}
+.ob .alert b{display:block;font-family:var(--mono);font-size:12.5px}
+.ob .tbl{width:100%;border-collapse:collapse;font-size:13px}
+.ob .tbl th{text-align:left;font-weight:600;color:var(--mute);font-size:11.5px;border-bottom:1px solid var(--line);padding:6px 4px}
+.ob .tbl td{border-bottom:1px solid #f0f2f4;padding:6px 4px;vertical-align:top}
+
+/* ===== 3 Architecture diagram ===== */
+.ar{background:#f7f9fc;background-image:linear-gradient(#e4eaf3 1px,transparent 1px),linear-gradient(90deg,#e4eaf3 1px,transparent 1px);background-size:24px 24px;color:#17325c}
+.ar .hd{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;padding:22px 24px 6px;align-items:flex-start}
+.ar .hd h2{margin:0;font-family:var(--serif);font-weight:400;font-size:40px;line-height:1;color:#0f2a52}
+.ar .hd p{margin:6px 0 0;color:#3b5683;max-width:58ch}
+.ar .tblock{font-family:var(--mono);font-size:11.5px;border:1.5px solid #17325c;background:#fff;min-width:240px}
+.ar .tblock div{display:grid;grid-template-columns:90px minmax(0,1fr);border-bottom:1px solid #17325c}
+.ar .tblock div:last-child{border-bottom:0}
+.ar .tblock span{padding:4px 8px}.ar .tblock span:first-child{border-right:1px solid #17325c;color:#5a7096}
+.ar .body{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:14px;padding:12px 24px 24px}
+@media (max-width:860px){.ar .body{grid-template-columns:minmax(0,1fr)}}
+.ar .dia{overflow-x:auto;background:#ffffffb3;border:1.5px solid #17325c;border-radius:4px}
+.ar svg{display:block;width:100%;min-width:620px;height:auto}
+.ar .nd{cursor:pointer}
+.ar .nd rect{fill:#fff;stroke:#17325c;stroke-width:1.5}
+.ar .nd:hover rect,.ar .nd.sel rect{fill:#e8f0ff;stroke:#2457c5;stroke-width:2.5}
+.ar .nd text{fill:#0f2a52;font-family:var(--sans);font-size:13px;font-weight:600}
+.ar .nd .s{font-family:var(--mono);font-size:10.5px;font-weight:400;fill:#5a7096}
+.ar .grp{fill:none;stroke:#2457c5;stroke-dasharray:6 5;stroke-width:1.3}
+.ar .gl{fill:#2457c5;font-family:var(--mono);font-size:11px}
+.ar .ln{stroke:#17325c;stroke-width:1.5;fill:none;marker-end:url(#ah)}
+.ar .flow{stroke:#2457c5;stroke-width:2;fill:none;stroke-dasharray:4 8;animation:dash 1.2s linear infinite}
+@keyframes dash{to{stroke-dashoffset:-24}}
+.ar .side{background:#fff;border:1.5px solid #17325c;border-radius:4px;padding:16px;min-width:0}
+.ar .side h3{margin:2px 0 6px;font-size:18px;color:#0f2a52}
+.ar .side .k{font-family:var(--mono);font-size:11px;color:#5a7096;text-transform:uppercase;letter-spacing:.08em}
+.ar .side ul{margin:8px 0 0;padding-left:18px;color:#2b4570}
+.ar .side .tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px}
+.ar .side .tags span{font-family:var(--mono);font-size:11px;border:1px solid #9fb2d3;border-radius:3px;padding:2px 6px;color:#17325c}
+.ar .notes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:0 24px 24px}
+@media (max-width:760px){.ar .notes{grid-template-columns:minmax(0,1fr)}}
+.ar .notes div{background:#fff;border:1.5px solid #17325c;padding:12px;font-size:14px;color:#2b4570}
+.ar .notes b{display:block;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#2457c5;margin-bottom:4px}
+
+/* ===== 4 Git history ===== */
+.gt{background:#fbfaf7}
+.gt .hd{padding:22px 24px;border-bottom:1px solid var(--line);display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+.gt .hd .repo{font-size:20px} .gt .hd .repo b{font-weight:600}
+.gt .hd .meta{display:flex;flex-wrap:wrap;gap:8px}
+.gt .tabs{display:flex;gap:18px;padding:0 24px;border-bottom:1px solid var(--line);font-size:14px;overflow-x:auto}
+.gt .tabs span{padding:10px 0;color:var(--ink2);white-space:nowrap}.gt .tabs span.on{color:var(--ink);font-weight:600;box-shadow:inset 0 -2px #fd8c73}
+.gt .body{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:16px;padding:18px 24px 24px}
+@media (max-width:900px){.gt .body{grid-template-columns:minmax(0,1fr)}}
+.gt .pr{border:1px solid #d0e7d6;background:#fff;border-radius:8px;padding:14px;margin-bottom:14px}
+.gt .pr h3{margin:0;font-size:17px;font-weight:600}
+.gt .pr h3 span{color:var(--mute);font-weight:400}
+.gt .pr .st{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:8px 0;font-size:13px;color:var(--ink2)}
+.gt .open{background:#1a7f37;color:#fff;border-radius:999px;padding:3px 10px;font-size:12.5px;font-weight:600}
+.gt .checks{border:1px solid var(--line);border-radius:6px;margin-top:10px;font-size:13.5px}
+.gt .checks div{display:flex;gap:8px;align-items:center;padding:7px 10px;border-bottom:1px solid var(--line)}
+.gt .checks div:last-child{border-bottom:0}
+.gt .tree{background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.gt .crow{display:grid;grid-template-columns:110px minmax(0,1fr) auto;gap:10px;align-items:center;padding:0 12px;min-height:52px;border-bottom:1px solid #f0efe9;cursor:pointer;text-align:left;background:none;border-left:0;border-right:0;border-top:0;width:100%}
+.gt .crow:hover,.gt .crow[aria-pressed="true"]{background:#f6f4ee}
+.gt .crow svg{display:block;height:52px;width:110px}
+.gt .crow b{font-weight:600;font-size:14px;display:block}
+.gt .crow small{color:var(--mute);font-size:12px}
+.gt .tag{font-family:var(--mono);font-size:11px;border:1px solid #d6c8f5;color:#6f42c1;background:#f5f0ff;border-radius:999px;padding:1px 8px;margin-left:6px}
+.gt .sha{font-family:var(--mono);font-size:12px;color:var(--info)}
+.gt .diff{background:#fff;border:1px solid var(--line);border-radius:8px;overflow:hidden;font-size:13px;align-self:start}
+.gt .diff .fh{padding:10px 12px;border-bottom:1px solid var(--line);font-family:var(--mono);font-size:12px;background:#f6f8fa}
+.gt .diff .msg{padding:12px;border-bottom:1px solid var(--line)}
+.gt .diff .msg b{font-size:15px}
+.gt .dl{font-family:var(--mono);font-size:12px;line-height:1.7}
+.gt .dl div{padding:0 12px;white-space:pre-wrap;word-break:break-word}
+.gt .dl .a{background:#e6ffec}.gt .dl .a::before{content:"+ ";color:#1a7f37}
+.gt .dl .d{background:#ffebe9}.gt .dl .d::before{content:"- ";color:#cf222e}
+.gt .dl .h{background:#ddf4ff;color:#57606a}
+
+/* ===== 5 Status page ===== */
+.sp{background:#fff;color:#1d2733}
+.sp .in{max-width:820px;margin:0 auto;padding:26px 22px 30px}
+.sp .brand{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.sp .brand div{display:flex;gap:10px;align-items:center;font-weight:600;font-size:17px}
+.sp .brand img{width:36px;height:36px}
+.sp .banner{margin:22px 0;background:#2fb36b;color:#fff;border-radius:6px;padding:16px 18px;font-size:18px;font-weight:600;display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.sp .banner small{font-weight:400;font-size:13px;opacity:.9}
+.sp .intro{color:#4a5562;margin:-6px 0 18px}
+.sp .comp{border:1px solid var(--line);border-radius:6px}
+.sp .row{padding:14px 16px;border-bottom:1px solid var(--line)}
+.sp .row:last-child{border-bottom:0}
+.sp .rh{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.sp .rh b{font-weight:600}
+.sp .rh .op{color:#2fb36b;font-size:13.5px;font-weight:500}
+.sp .rh .mt{color:#2457c5;font-size:13.5px;font-weight:500}
+.sp .ub{display:flex;gap:2px;margin:10px 0 4px;height:30px}
+.sp .ub i{flex:1;border-radius:2px;background:#2fb36b;min-width:2px}
+.sp .ub i.off{background:#e3e7ea}
+.sp .ub i.blue{background:#5b8def}
+.sp .ul{display:flex;justify-content:space-between;font-size:11.5px;color:var(--mute)}
+.sp .ul span:nth-child(2){flex:1;border-top:1px solid var(--line);margin:8px 10px 0}
+.sp h3{font-size:19px;margin:30px 0 10px;font-weight:600}
+.sp .maint{border:1px solid #c5d5f5;background:var(--infobg);border-radius:6px;padding:14px 16px}
+.sp .maint b{color:#2457c5}
+.sp .inc{border-bottom:1px solid var(--line);padding:14px 0}
+.sp .inc .d{font-weight:600;font-size:14px;color:var(--ink2);margin-bottom:4px}
+.sp .inc h4{margin:0 0 4px;font-size:16px;color:#c2372f}
+.sp .inc h4.r{color:#1d2733}
+.sp .inc p{margin:4px 0;font-size:14.5px;color:#3b4552}
+.sp .inc p b{font-weight:600}
+.sp .sub{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+
+/* ===== 6 kubectl describe ===== */
+.kc{background:#fdfcf8;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr)}
+@media (max-width:900px){.kc{grid-template-columns:minmax(0,1fr)}}
+.kc .code{background:#f7f5ee;border-right:1px solid var(--line);font-family:var(--mono);font-size:13px;min-width:0}
+.kc .ctabs{display:flex;gap:0;border-bottom:1px solid var(--line);overflow-x:auto}
+.kc .ctabs button{background:none;border:0;border-right:1px solid var(--line);padding:9px 14px;font-family:var(--mono);font-size:12px;color:var(--ink2);white-space:nowrap}
+.kc .ctabs button[aria-pressed="true"]{background:#fdfcf8;color:var(--ink);box-shadow:inset 0 2px #0f766e}
+.kc pre{margin:0;padding:14px 16px;white-space:pre-wrap;word-break:break-word;line-height:1.7;max-height:600px;overflow:auto;color:#2c3440}
+.kc .k{color:#0f766e} .kc .s{color:#a3510a} .kc .c{color:#9aa1a9;font-style:italic} .kc .n{color:#7c3aed} .kc .p{color:#1d4ed8}
+.kc .prompt{color:#0f766e;font-weight:600}
+.kc .render{padding:24px;min-width:0}
+.kc .card{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.kc .card img{width:78px;height:78px;border-radius:12px}
+.kc .card h2{margin:0;font-size:26px;letter-spacing:-.01em}
+.kc .card p{margin:2px 0 0;color:var(--ink2)}
+.kc .conds{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:18px 0}
+.kc .conds div{border:1px solid var(--line);border-radius:8px;padding:10px 12px;background:#fff}
+.kc .conds b{display:block;font-size:12px;color:var(--mute);font-weight:500;font-family:var(--mono)}
+.kc .conds span{font-weight:600}
+.kc .conds .t{color:var(--ok)} .kc .conds .f{color:var(--warn)}
+.kc h3{font-size:14px;margin:18px 0 8px;font-family:var(--mono);color:#0f766e;font-weight:500}
+.kc .pods{width:100%;border-collapse:collapse;font-family:var(--mono);font-size:12.5px}
+.kc .pods th{text-align:left;color:var(--mute);font-weight:500;padding:4px 6px;border-bottom:1px solid var(--line)}
+.kc .pods td{padding:4px 6px;border-bottom:1px solid #f0eee6}
+.kc .run{color:var(--ok)} .kc .pend{color:var(--warn)}
+.kc .ev div{display:grid;grid-template-columns:70px 64px minmax(0,1fr);gap:8px;font-size:13px;padding:5px 0;border-bottom:1px solid #f0eee6}
+.kc .ev .ty{font-family:var(--mono);font-size:12px;color:var(--ok)} .kc .ev .ty.w{color:var(--warn)}
+
+/* ===== 7 Runbook docs ===== */
+.dc{display:grid;grid-template-columns:230px minmax(0,1fr) 190px;background:#fff;min-height:620px}
+@media (max-width:980px){.dc{grid-template-columns:200px minmax(0,1fr)}.dc .toc{display:none}}
+@media (max-width:640px){.dc{grid-template-columns:minmax(0,1fr)}.dc .side{border-right:0;border-bottom:1px solid var(--line)}}
+.dc .side{border-right:1px solid var(--line);padding:18px 14px;background:#fafbfc}
+.dc .logo{display:flex;align-items:center;gap:8px;font-weight:700;margin-bottom:14px}
+.dc .logo span{background:#4338ca;color:#fff;border-radius:6px;width:26px;height:26px;display:grid;place-items:center;font-family:var(--mono);font-size:12px}
+.dc .search{border:1px solid var(--line2);border-radius:6px;padding:6px 10px;color:var(--mute);font-size:13px;display:flex;justify-content:space-between;background:#fff;margin-bottom:14px}
+.dc .grp{font-size:11.5px;font-weight:600;color:var(--mute);text-transform:uppercase;letter-spacing:.06em;margin:14px 6px 4px}
+.dc .side button{display:block;width:100%;text-align:left;background:none;border:0;border-radius:5px;padding:6px 8px;font-size:14px;color:var(--ink2)}
+.dc .side button:hover{background:#f0f1f5}
+.dc .side button[aria-pressed="true"]{background:#eef0ff;color:#4338ca;font-weight:600}
+.dc .main{padding:28px 34px 40px;min-width:0;max-width:760px}
+@media (max-width:640px){.dc .main{padding:22px 4px 30px}}
+.dc .bc{font-size:13px;color:var(--mute)}
+.dc h2{font-size:32px;letter-spacing:-.02em;margin:6px 0 8px;line-height:1.15}
+.dc .lead{font-size:17px;color:var(--ink2);margin:0 0 18px}
+.dc h3{font-size:19px;margin:26px 0 8px}
+.dc p,.dc li{color:#2f3843}
+.dc .call{border-left:3px solid #4338ca;background:#f3f3ff;border-radius:0 6px 6px 0;padding:10px 14px;margin:14px 0}
+.dc .call.w{border-color:var(--warn);background:var(--warnbg)}
+.dc .call b{display:block;font-size:13px;text-transform:uppercase;letter-spacing:.05em;color:#4338ca}
+.dc .call.w b{color:var(--warn)}
+.dc pre{background:#f6f8fa;border:1px solid var(--line);border-radius:6px;padding:12px 14px;font-family:var(--mono);font-size:13px;overflow-x:auto;line-height:1.65}
+.dc table{width:100%;border-collapse:collapse;font-size:14px;margin:8px 0}
+.dc th{text-align:left;border-bottom:2px solid var(--line);padding:7px 6px;font-weight:600}
+.dc td{border-bottom:1px solid var(--line);padding:7px 6px;vertical-align:top}
+.dc .tbw{overflow-x:auto}
+.dc .toc{padding:28px 16px;border-left:1px solid var(--line);font-size:13px}
+.dc .toc b{display:block;font-size:12px;color:var(--mute);margin-bottom:6px}
+.dc .toc div{color:var(--ink2);padding:3px 0}
+.dc .nextprev{display:flex;justify-content:space-between;gap:10px;margin-top:30px;flex-wrap:wrap}
+.dc .nextprev button{border:1px solid var(--line2);border-radius:8px;background:#fff;padding:10px 14px;text-align:left;font-size:14px;min-width:180px}
+.dc .nextprev small{display:block;color:var(--mute);font-size:12px}
+.dc .cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+@media (max-width:640px){.dc .cards{grid-template-columns:minmax(0,1fr)}}
+.dc .cards div{border:1px solid var(--line);border-radius:8px;padding:12px 14px}
+.dc .cards b{display:block}
+.dc .cards span{color:var(--ink2);font-size:14px}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div><h1>Seven DevOps portfolio concepts</h1>
+      <p>Light-theme directions for Sarvesh's portfolio. Each one presents the resume through a screen DevOps engineers use every day. Everything inside each frame is clickable.</p></div>
+  </header>
+  <nav class="pick" id="pick" aria-label="Concepts"></nav>
+  <div class="why" id="why"></div>
+  <div class="frame"><div class="chrome"><i></i><i></i><i></i><div class="url" id="url"></div></div><div class="site" id="site"></div></div>
+  <footer class="note">Every number shown comes from the resume. Dates, tools and employers match the current live site.</footer>
+</div>
+
+<script>
+const PHOTO="data:image/jpeg;base64,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";
+const EMAIL="sarveshsd999@gmail.com",LI="https://www.linkedin.com/in/sarvesh-d-devops/",CV="Sarvesh_Dharmadhikari_Resume.pdf";
+const ROLES=[
+ {id:"xt",v:"v1.0",from:"Jun 2023",to:"Jan 2025",t:"DevOps Engineer",org:"XchangeTechs",env:"AWS + GCP",
+  pts:["Ran weekly releases across dev, QA and production with under 2 minutes of downtime per release","Provisioned AWS with Terraform across environments, eliminating configuration drift","Built CI/CD pipelines in Jenkins and GitHub Actions","Packaged the automated test suite in Docker and ran it every hour as a Kubernetes CronJob","Cut manual job time by 40% with GCP services and scripting","Tightened IAM, VPC and EC2 security across AWS accounts"],tools:["AWS","Terraform","Jenkins","GitHub Actions","Docker","Kubernetes","GCP"]},
+ {id:"am",v:"v2.0",from:"Jan 2025",to:"Aug 2025",t:"DevOps / Implementation Engineer",org:"Amagi",env:"AWS + GCP",
+  pts:["Set up AWS and GCP infrastructure for new TV channel launches at 99.99% uptime while active users grew 3x","Built CI/CD pipelines in GitHub Actions and Jenkins that made releases 42% faster","Quick rollback when QA tests fail","Ran ArgoCD GitOps deployments on Kubernetes for safer version rollbacks","Automated deployment work with Terraform, Python and shell","Integrated AWS MediaLive and MediaConnect for live and on-demand video"],tools:["AWS","GCP","GitHub Actions","Jenkins","ArgoCD","Kubernetes","Terraform","Python"]},
+ {id:"nc",v:"v3.0",from:"Jan 2026",to:"now",t:"Software Engineer, DevOps & Cloud Ops",org:"Xoriant · client NICE",env:"Microsoft Azure",live:true,
+  pts:["Run and automate NTR-X, a regulated Microsoft Teams call-recording platform used by 70+ enterprise customers, mostly global banks","Replaced a manual, Excel-driven upgrade process with a multi-stage Azure Automation pipeline","Managed-identity sign-in, per-customer JSON config, safe-to-rerun stages and manual fallback gates","Built OS-patching runbooks for each customer lane, plus a parent runbook that runs them all","KQL queries on Application Insights ended recurring false critical alerts and exposed a real defect","Lead incident triage and RCA, including storage upload failures with compliance impact","Built PowerShell tooling, Azure Monitor dashboards and AI-assisted triage tools with Claude"],tools:["Azure Automation","PowerShell","KQL","App Insights","Azure Monitor","RabbitMQ","Claude"]}
+];
+const PROJ=[
+ {n:"NICE NTR-X Automation",when:"Jan 2026 – now",env:"Azure",sit:"Customer upgrades were tracked in Excel and run by hand, and on-call kept getting paged for alarms that weren't real.",did:"Built Azure Automation runbook pipelines for upgrades and OS patching, and KQL queries that separate real failures from noise.",res:"Repeatable upgrades and no more recurring false critical alerts.",tools:["Azure Automation","PowerShell","KQL","App Insights"]},
+ {n:"Sleep Country Deployments",when:"Apr 2024 – Jan 2025",env:"GCP",sit:"Deployments needed manual steps, and problems were found only after release.",did:"Designed GCP workflows and schedulers to automate deployments, and added Stackdriver and Prometheus monitoring in staging.",res:"78% of potential failures caught before release.",tools:["GCP Workflows","Prometheus","Stackdriver"]},
+ {n:"Ethereal Engine Observability",when:"Jul 2023 – Mar 2024",env:"Kubernetes",sit:"Logs were scattered across microservices and local clusters were set up by hand.",did:"Connected OpenSearch for central logging and scripted Minikube and MicroK8s cluster operations in Bash.",res:"70% less manual configuration time and faster log searches.",tools:["OpenSearch","Bash","MicroK8s","Minikube"]}
+];
+const SKILLS=[["Cloud","Azure (Automation, Monitor, App Insights, VMs, Blob Storage) · AWS (EC2, IAM, VPC, MediaLive, MediaConnect) · GCP (Workflows, schedulers, Stackdriver)"],["Containers","Docker, Kubernetes, Helm, ArgoCD"],["CI/CD","Jenkins, GitHub Actions, ArgoCD, Azure Automation"],["IaC","Terraform, CloudFormation, Ansible, Helm"],["Observability","Azure Monitor, App Insights, KQL, Prometheus, Grafana, ELK, Datadog, Splunk"],["Scripting","PowerShell, Python, Bash, Groovy, SQL, YAML"],["Security","IAM least-privilege, VPC, SSL/TLS, HashiCorp Vault · CEH certified"]];
+const CERTS=[["Certified Ethical Hacker (CEH)","EC-Council · May 2023"],["DevOps Certification","Udemy · Mar 2023"],["MCA, Cyber Security","D. Y. Patil International University · 2021–2023"],["BCA","MIT World Peace University · 2018–2021"]];
+const esc=s=>s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+let stop=[];
+
+/* ---------- 1 Pipeline run ---------- */
+function pipeline(root){
+  const JOBS=[
+   {k:"checkout",n:"Checkout · education",d:"2m 0s",steps:[["Clone education","BCA, MIT World Peace University (2018–2021)","MCA in Cyber Security, D. Y. Patil International University (2021–2023)"],["Verify certifications","Certified Ethical Hacker (CEH), EC-Council, May 2023","DevOps Certification, Udemy, Mar 2023"]]},
+   {k:"build",n:"Build · XchangeTechs",d:"1y 7m",role:ROLES[0]},
+   {k:"test",n:"Test · Amagi",d:"8m",role:ROLES[1]},
+   {k:"deploy",n:"Deploy · NICE NTR-X",d:"running",role:ROLES[2],run:true},
+   {k:"release",n:"Release · Europe",d:"waiting",wait:true,steps:[["Await approval","Environment: europe (EU / EEA, UK, Switzerland)","Required: work permit for the country (visa self-managed)","Start date: flexible, planned around visa and notice period"]]}];
+  let cur=3;
+  root.innerHTML=`<div class="pl"><div class="bar"><div class="who"><img class="photo" src="${PHOTO}" alt=""><div><h2>Sarvesh Dharmadhikari</h2><p>DevOps Engineer · 3+ years · CI/CD, IaC, Kubernetes on Azure, AWS and GCP</p></div></div>
+    <div style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn line" href="${LI}" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="${CV}" target="_blank" rel="noopener">Download resume</a></div></div>
+   <div class="runhead"><span><span class="chip warn">● In progress</span></span><span>Workflow <b>career.yml</b></span><span>Run <b>#3</b></span><span>Branch <b>main</b></span><span>Triggered by <b>git push</b> · Jun 2023</span><span>Artifacts <b>1</b> (resume.pdf)</span></div>
+   <div class="graph" id="g"></div>
+   <div class="body"><div class="jobs"><div class="lbl">Jobs</div><div id="jl"></div></div><div><div class="log" id="lg"></div><div class="appr"><div><b>Review pending deployment: europe</b><br><span style="color:var(--ink2);font-size:14px">This job needs an approver from a team that can offer a role with a work permit. I manage the visa myself.</span></div><span class="mono" style="font-size:13px;user-select:all">${EMAIL}</span></div></div></div></div>`;
+  const ic=j=>j.wait?'<span class="ico wait"></span>':j.run?'<span class="ico run"></span>':'<span class="ico ok">✓</span>';
+  root.querySelector('#g').innerHTML=JOBS.map((j,i)=>`${i?'<span class="edge"></span>':''}<span class="node">${ic(j)}${j.k}<small>${j.d}</small></span>`).join('');
+  function paint(){
+    root.querySelector('#jl').innerHTML=JOBS.map((j,i)=>`<button class="job" data-i="${i}" aria-pressed="${i===cur}">${ic(j)}${j.n}<small>${j.d}</small></button>`).join('');
+    root.querySelectorAll('.job').forEach(b=>b.onclick=()=>{cur=+b.dataset.i;paint()});
+    const j=JOBS[cur];let steps=j.steps;
+    if(j.role){const r=j.role;steps=[["Set up job",`Runner: ${r.org} · ${r.env}`,`Role: ${r.t}`,`Window: ${r.from} → ${r.to}`],["Run achievements",...r.pts],["Tools used",r.tools.join(", ")]]}
+    root.querySelector('#lg').innerHTML=`<h3>${j.n}<span>${j.role?`${j.role.from} – ${j.role.to}`:j.d}</span></h3>`+steps.map((s,si)=>`<details ${si===1||steps.length===1?'open':''}><summary>${j.wait?'<span class="ico wait"></span>':'<span class="ico ok">✓</span>'}${s[0]}<small>${s.length-1} line${s.length>2?'s':''}</small></summary><pre>${s.slice(1).map((l,li)=>`<span class="n">${li+1}</span>${j.wait?'<span class="y">⏸</span>':'<span class="g">✓</span>'} ${esc(l).replace(/(\d+(\.\d+)?%|70\+|3x|under 2 minutes)/g,'<span class="c">$1</span>')}`).join("\n")}</pre></details>`).join('');
+  }
+  paint();
+}
+
+/* ---------- 2 Observability dashboard ---------- */
+function dashboard(root){
+  const sp=(pts,c)=>`<svg class="spark" viewBox="0 0 100 28" preserveAspectRatio="none"><polyline points="${pts.map((v,i)=>`${i*100/(pts.length-1)},${26-v*24}`).join(' ')}" fill="none" stroke="${c}" stroke-width="2" vector-effect="non-scaling-stroke"/></svg>`;
+  const stat=(t,v,s,c,pts)=>`<div class="p s3"><h4>${t}</h4><div class="big" style="color:${c}">${v}</div><div class="sub">${s}</div>${pts?sp(pts,c):''}</div>`;
+  const span=(a,b)=>{const s=2023.42,e=2026.9,L=e-s;return `left:${(a-s)/L*100}%;width:${(b-a)/L*100}%`};
+  root.innerHTML=`<div class="ob"><div class="tb"><div class="crumb">Dashboards / <b>Sarvesh Dharmadhikari · DevOps Engineer</b></div><div class="ctrl"><span>⏱ Jun 2023 → now</span><span>env: prod</span><span>⟳ Live</span></div></div>
+   <div class="grid">
+    <div class="p s8"><div class="hero"><img class="photo" src="${PHOTO}" alt=""><div><h2>Sarvesh Dharmadhikari</h2><p>I build CI/CD pipelines, infrastructure as code and automation that let teams ship safely and often. Currently running a regulated call-recording platform on Azure for 70+ banks.</p></div></div></div>
+    <div class="p s4"><h4>Alerts <span>2 rules</span></h4><div class="alert"><span>▲</span><div><b>open_to_relocate{region="europe"} == 1</b><span style="font-size:13px">Firing · work permit needed (I manage the visa)</span></div></div><div class="alert ok"><span>●</span><div><b>available_for_interviews == 1</b><span style="font-size:13px">OK · including European hours</span></div></div></div>
+    ${stat("Uptime · channel launches","99.99%","Amagi, AWS + GCP","#1f8f4e",[.9,.92,.95,.94,.97,.99,.99])}
+    ${stat("Release speed","+42%","faster with CI/CD","#2457c5",[.2,.3,.35,.5,.62,.75,.9])}
+    ${stat("Enterprise customers","70+","on the NTR-X platform","#7c3aed")}
+    ${stat("Downtime / release","< 2 min","weekly multi-env releases","#1f8f4e")}
+    ${stat("Failures caught early","78%","before release, GCP","#b26a00")}
+    ${stat("Manual work","−40%","GCP services + scripting","#c2372f",[.9,.85,.8,.7,.65,.6,.55])}
+    <div class="p s8"><h4>Platform timeline <span>by employer</span></h4><div class="gantt">
+      <span>XchangeTechs</span><div class="tr"><i style="${span(2023.42,2025.0)};background:#ff9900"></i></div>
+      <span>Amagi</span><div class="tr"><i style="${span(2025.0,2025.62)};background:#34a853"></i></div>
+      <span>Xoriant / NICE</span><div class="tr"><i style="${span(2026.0,2026.9)};background:#2457c5"></i></div>
+      <span>AWS</span><div class="tr"><i style="${span(2023.42,2025.62)};background:#ffb85c"></i></div>
+      <span>GCP</span><div class="tr"><i style="${span(2023.42,2025.62)};background:#7fcf95"></i></div>
+      <span>Azure</span><div class="tr"><i style="${span(2026.0,2026.9)};background:#7aa2f0"></i></div>
+      <span>Kubernetes</span><div class="tr"><i style="${span(2023.42,2025.62)};background:#9aa9f5"></i></div>
+      <div class="ax"><span>2023</span><span>2024</span><span>2025</span><span>2026</span></div></div></div>
+    <div class="p s4"><h4>Certifications <span>valid</span></h4><table class="tbl"><tr><th>Name</th><th>Issuer</th></tr>${CERTS.map(c=>`<tr><td>${c[0]}</td><td style="color:var(--mute)">${c[1].split(' · ')[0]}</td></tr>`).join('')}</table></div>
+    <div class="p s6"><h4>Logs · career events <span>newest first</span></h4><div class="logs">${[
+      ["2026-01","INFO","Joined Xoriant on the NICE NTR-X Azure platform"],["2026","OK","Upgrade process moved from Excel to Azure Automation pipeline"],["2026","OK","KQL rules ended recurring false critical alerts"],["2026","WARN","Real recording-bot defect found and escalated to R&D"],
+      ["2025-08","INFO","Completed Amagi: channel launches at 99.99% uptime"],["2025","OK","Releases 42% faster with GitHub Actions + Jenkins"],["2025-01","INFO","Joined Amagi, AWS + GCP"],["2025-01","INFO","Completed XchangeTechs"],["2024","OK","Sleep Country: 78% of failures caught pre-release"],["2023","OK","Ethereal Engine: 70% less manual config"],["2023-06","INFO","Joined XchangeTechs as DevOps Engineer"],["2023-05","OK","Certified Ethical Hacker (CEH)"]]
+      .map(l=>`<div><span style="color:var(--mute)">${l[0]}</span><span class="lv ${l[1]==="INFO"?'i':l[1]==="OK"?'o':'w'}">${l[1]}</span><span>${l[2]}</span></div>`).join('')}</div></div>
+    <div class="p s6"><h4>Stack inventory <span>${SKILLS.length} groups</span></h4><table class="tbl">${SKILLS.map(s=>`<tr><td style="font-weight:600;white-space:nowrap">${s[0]}</td><td>${s[1]}</td></tr>`).join('')}</table></div>
+    <div class="p s12" style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center"><span><b>On-call contact</b> · <span class="mono" style="user-select:all">${EMAIL}</span></span><span style="display:flex;gap:8px;flex-wrap:wrap"><a class="btn line" href="${LI}" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="${CV}" target="_blank" rel="noopener">Resume PDF</a></span></div>
+   </div></div>`;
+}
+
+/* ---------- 3 Architecture diagram ---------- */
+function architecture(root){
+  const N={
+   you:{x:20,y:170,w:120,t:"You",s:"recruiter / team",d:"Where every request starts. Send one to sarveshsd999@gmail.com.",ul:["Hiring for DevOps, Cloud or Platform roles","Based in EU / EEA, UK or Switzerland"],tags:["email","LinkedIn"]},
+   gw:{x:180,y:170,w:130,t:"Sarvesh",s:"DevOps Engineer",d:"3+ years of CI/CD, infrastructure as code, containers and GitOps across three clouds.",ul:["MCA in Cyber Security","CEH certified","Builds AI-assisted triage tools with Claude"],tags:["3+ yrs","Azure","AWS","GCP"]},
+   ci:{x:370,y:40,w:150,t:"CI/CD",s:"Jenkins · GH Actions",d:"Pipelines that ship safely and often.",ul:["Releases 42% faster at Amagi","Weekly releases with under 2 min downtime","Rollback when QA fails"],tags:["Jenkins","GitHub Actions","ArgoCD"]},
+   iac:{x:370,y:120,w:150,t:"IaC",s:"Terraform · Ansible",d:"Every environment built from code.",ul:["AWS provisioned across environments","No configuration drift"],tags:["Terraform","CloudFormation","Ansible","Helm"]},
+   k8s:{x:370,y:200,w:150,t:"Kubernetes",s:"ArgoCD · Helm",d:"Container platform and GitOps.",ul:["ArgoCD GitOps rollouts","Hourly test suite as a CronJob","MicroK8s and Minikube ops"],tags:["Docker","Kubernetes","Helm","ArgoCD"]},
+   obs:{x:370,y:280,w:150,t:"Observability",s:"KQL · Prometheus",d:"Know what's broken before customers do.",ul:["Ended recurring false critical alerts","78% failures caught pre-release","Central logging with OpenSearch"],tags:["Azure Monitor","App Insights","KQL","Prometheus","Grafana"]},
+   az:{x:590,y:60,w:150,t:"Azure",s:"NICE NTR-X · 2026",d:"Regulated Teams call-recording platform for 70+ banks.",ul:["Azure Automation upgrade pipeline","OS-patching runbooks per lane","Incident triage and RCA"],tags:["Automation","Monitor","App Insights","Blob Storage"]},
+   aws:{x:590,y:170,w:150,t:"AWS",s:"Amagi · XchangeTechs",d:"Live TV channels and multi-environment microservices.",ul:["99.99% uptime, users grew 3x","MediaLive + MediaConnect","IAM, VPC and EC2 hardening"],tags:["EC2","IAM","VPC","MediaLive"]},
+   gcp:{x:590,y:280,w:150,t:"GCP",s:"Sleep Country · Amagi",d:"Workflows and schedulers for automated deploys.",ul:["78% of potential failures caught early","40% less manual job time"],tags:["Workflows","Schedulers","Stackdriver"]}
+  };
+  const H=50,mid=n=>[n.x+n.w/2,n.y+H/2];
+  const E=[["you","gw"],["gw","ci"],["gw","iac"],["gw","k8s"],["gw","obs"],["ci","az"],["ci","aws"],["iac","aws"],["k8s","aws"],["k8s","gcp"],["obs","az"],["obs","gcp"]];
+  const path=(a,b)=>{const A=N[a],B=N[b];const x1=A.x+A.w,y1=A.y+H/2,x2=B.x,y2=B.y+H/2,mx=(x1+x2)/2;return `M${x1} ${y1} C${mx} ${y1} ${mx} ${y2} ${x2-4} ${y2}`};
+  let sel="gw";
+  root.innerHTML=`<div class="ar"><div class="hd"><div><div class="mono" style="font-size:12px;color:#2457c5;letter-spacing:.1em">SYSTEM DESIGN · DWG 001</div><h2>Sarvesh Dharmadhikari</h2><p>DevOps Engineer. This is how I'm wired: three clouds, four practices, one goal of shipping safely and often. Click any component.</p></div>
+    <div class="tblock"><div><span>OWNER</span><span>Sarvesh D.</span></div><div><span>REGION</span><span>ap-south (IST) → eu</span></div><div><span>STATUS</span><span>Migration planned · needs work permit</span></div><div><span>REV</span><span>v3.0 · 2026</span></div></div></div>
+   <div class="body"><div class="dia"><svg viewBox="0 0 760 350" role="img" aria-label="Architecture diagram of skills"><defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#17325c"/></marker></defs>
+    <rect class="grp" x="355" y="25" width="180" height="315" rx="6"/><text class="gl" x="362" y="20">practices</text>
+    <rect class="grp" x="575" y="45" width="180" height="295" rx="6"/><text class="gl" x="582" y="40">clouds · production</text>
+    ${E.map(([a,b])=>`<path class="ln" d="${path(a,b)}"/>`).join('')}<path class="flow" d="${path("you","gw")}"/>
+    ${Object.entries(N).map(([k,n])=>`<g class="nd" data-k="${k}" tabindex="0"><rect x="${n.x}" y="${n.y}" width="${n.w}" height="${H}" rx="4"/><text x="${n.x+12}" y="${n.y+21}">${n.t}</text><text class="s" x="${n.x+12}" y="${n.y+38}">${n.s}</text></g>`).join('')}
+   </svg></div><div class="side" id="sd"></div></div>
+   <div class="notes"><div><b>Note 1 · Experience</b>XchangeTechs 2023–25 · Amagi 2025 · Xoriant for NICE 2026 → now</div><div><b>Note 2 · Certifications</b>CEH (EC-Council) · DevOps (Udemy) · MCA Cyber Security</div><div><b>Note 3 · Contact</b><span class="mono" style="user-select:all">${EMAIL}</span><br><a href="${CV}" target="_blank" rel="noopener">Resume PDF</a> · <a href="${LI}" target="_blank" rel="noopener">LinkedIn</a></div></div></div>`;
+  function paint(){const n=N[sel];root.querySelectorAll('.nd').forEach(g=>g.classList.toggle('sel',g.dataset.k===sel));
+    root.querySelector('#sd').innerHTML=`<div class="k">Component</div><h3>${n.t}</h3><div style="color:#3b5683">${n.d}</div><ul>${n.ul.map(u=>`<li>${u}</li>`).join('')}</ul><div class="tags">${n.tags.map(t=>`<span>${t}</span>`).join('')}</div>`}
+  root.querySelectorAll('.nd').forEach(g=>{g.onclick=()=>{sel=g.dataset.k;paint()};g.onkeydown=e=>{if(e.key==="Enter"){sel=g.dataset.k;paint()}}});paint();
+}
+
+/* ---------- 4 Git history ---------- */
+function githistory(root){
+  const C=[
+   {sha:"e4f2a91",lane:0,msg:"feat: run NICE NTR-X platform on Azure",tag:"v3.0",date:"Jan 2026",role:ROLES[2],head:true},
+   {sha:"c7a10de",lane:1,msg:"feat(nice): replace Excel upgrades with Azure Automation pipeline",date:"2026",add:["Multi-stage pipeline: managed identity, per-customer JSON config","Safe-to-rerun stages with manual fallback gates","OS-patching runbooks per customer lane + parent runbook"],del:["Excel-driven upgrade tracker","Manual, hand-run upgrades"]},
+   {sha:"9b3d55e",lane:1,msg:"fix(alerts): KQL rules end false critical pages",date:"2026",add:["KQL on Application Insights separates real bot failures from noise","Real defect found and sent to R&D"],del:["Recurring false critical alerts"]},
+   {sha:"51ce0b7",lane:0,msg:"release: Amagi live channel launches",tag:"v2.0",date:"Jan 2025",role:ROLES[1]},
+   {sha:"2ad9f30",lane:1,msg:"perf(ci): releases 42% faster",date:"2025",add:["GitHub Actions + Jenkins pipelines","Quick rollback when QA tests fail","ArgoCD GitOps on Kubernetes"],del:["Slow, manual release steps"]},
+   {sha:"8f61c2a",lane:0,msg:"feat: DevOps Engineer at XchangeTechs",tag:"v1.0",date:"Jun 2023",role:ROLES[0]},
+   {sha:"3e0b9d4",lane:1,msg:"feat(gcp): Sleep Country automated deploys",date:"2024",add:["GCP Workflows and schedulers","Stackdriver + Prometheus in staging","78% of potential failures caught before release"],del:["Manual deployment steps"]},
+   {sha:"a12f7c8",lane:1,msg:"feat(k8s): Ethereal Engine central logging",date:"2023",add:["OpenSearch central logging","Bash-scripted MicroK8s + Minikube ops","70% less manual configuration time"],del:["Logs scattered across microservices"]},
+   {sha:"0d0c3e1",lane:0,msg:"chore: init · MCA Cyber Security + CEH",date:"May 2023",add:["MCA, Cyber Security · D. Y. Patil International University","Certified Ethical Hacker (CEH) · EC-Council","DevOps Certification · Udemy"],del:[]}];
+  let cur=0;
+  const svg=(c,i)=>{const x0=24,x1=60,lx=c.lane?x1:x0;const first=i===0,last=i===C.length-1;
+    const nb=C[i+1],pv=C[i-1];
+    let s=`<svg viewBox="0 0 110 52"><line x1="${x0}" y1="${first?26:0}" x2="${x0}" y2="${last?26:52}" stroke="#8250df" stroke-width="2.5"/>`;
+    if(c.lane){const top=pv&&pv.lane===1,bot=nb&&nb.lane===1;s+=`<path d="M${x1} ${top?0:12} L${x1} ${bot?52:40}" stroke="#1a7f37" stroke-width="2.5" fill="none"/>`;if(!top)s+=`<path d="M${x0} 0 Q${x0} 12 ${x1} 12" stroke="#1a7f37" stroke-width="2.5" fill="none"/>`;if(!bot)s+=`<path d="M${x1} 40 Q${x0} 40 ${x0} 52" stroke="#1a7f37" stroke-width="2.5" fill="none"/>`}
+    s+=`<circle cx="${lx}" cy="26" r="6" fill="#fff" stroke="${c.lane?'#1a7f37':'#8250df'}" stroke-width="3"/></svg>`;return s};
+  root.innerHTML=`<div class="gt"><div class="hd"><div style="display:flex;gap:12px;align-items:center"><img class="photo" src="${PHOTO}" alt="" style="width:46px;height:46px"><div class="repo">sarveshsd / <b>career</b> <span class="chip info" style="vertical-align:2px">Public</span><div style="font-size:14px;color:var(--ink2)">Sarvesh Dharmadhikari · DevOps Engineer · Azure, AWS, GCP, Kubernetes, Terraform</div></div></div>
+    <div class="meta"><a class="btn line" href="${LI}" target="_blank" rel="noopener">★ LinkedIn</a><a class="btn" href="${CV}" target="_blank" rel="noopener">⬇ resume.pdf</a></div></div>
+   <div class="tabs"><span>Code</span><span class="on">Commits</span><span>Pull requests 1</span><span>Releases 3</span><span>Actions</span></div>
+   <div class="body"><div>
+     <div class="pr"><h3>Relocate to Europe <span>#4</span></h3><div class="st"><span class="open">Open</span><span><b>sarveshsd</b> wants to merge into <span class="mono">eu/main</span> from <span class="mono">in/main</span></span></div>
+       <div style="font-size:14.5px;color:var(--ink2)">Open to DevOps, Cloud or Platform roles in the EU / EEA, UK or Switzerland. On-site, hybrid or remote. Start date flexible.</div>
+       <div class="checks"><div><span class="ico ok" style="background:#1a7f37">✓</span>3+ years experience across Azure, AWS, GCP</div><div><span class="ico ok" style="background:#1a7f37">✓</span>Available to interview in European hours</div><div><span class="ico wait"></span><b>Required:</b>&nbsp;review from a team that can offer a work permit</div></div>
+       <div style="margin-top:10px;font-size:13.5px">Reviewer contact: <span class="mono" style="user-select:all">${EMAIL}</span></div></div>
+     <div class="tree" id="tree"></div></div><div class="diff" id="df"></div></div></div>`;
+  function paint(){root.querySelector('#tree').innerHTML=C.map((c,i)=>`<button class="crow" data-i="${i}" aria-pressed="${i===cur}">${svg(c,i)}<span><b>${c.msg}${c.tag?`<span class="tag">${c.tag}</span>`:''}${c.head?'<span class="tag" style="color:#1a7f37;border-color:#bfe3cb;background:#e6f4ea">HEAD</span>':''}</b><small>${c.date}</small></span><span class="sha">${c.sha}</span></button>`).join('');
+    root.querySelectorAll('.crow').forEach(b=>b.onclick=()=>{cur=+b.dataset.i;paint()});
+    const c=C[cur];let add=c.add,del=c.del||[];if(c.role){add=c.role.pts;del=[]}
+    root.querySelector('#df').innerHTML=`<div class="fh">commit ${c.sha} · ${c.date}</div><div class="msg"><b>${c.msg}</b>${c.role?`<div style="color:var(--ink2);margin-top:4px">${c.role.t} · ${c.role.org} · ${c.role.env} · ${c.role.from} – ${c.role.to}</div>`:''}</div>
+      <div class="dl"><div class="h">@@ ${c.role?'experience.md':'changes'} @@</div>${del.map(d=>`<div class="d">${esc(d)}</div>`).join('')}${add.map(a=>`<div class="a">${esc(a)}</div>`).join('')}</div>${c.role?`<div style="padding:10px 12px;border-top:1px solid var(--line);display:flex;flex-wrap:wrap;gap:4px">${c.role.tools.map(t=>`<span class="chip info">${t}</span>`).join('')}</div>`:''}`}
+  paint();
+}
+
+/* ---------- 5 Status page ---------- */
+function statuspage(root){
+  const M=42; // months Jun 2023 .. Nov 2026
+  const bars=(rs,blue)=>{let h="";for(let i=0;i<M;i++){const on=rs.some(r=>i>=r[0]&&i<=r[1]);const b=blue&&i>=M-blue;h+=`<i class="${b?'blue':on?'':'off'}"></i>`}return h};
+  const W=[[0,26],[31,41]];
+  const comps=[["Azure","Automation, Monitor, App Insights, VMs, Blob Storage · NICE NTR-X",[[31,41]],0,"Operational"],["AWS","EC2, IAM, VPC, MediaLive, MediaConnect · Amagi, XchangeTechs",[[0,26]],0,"Used 2023–2025"],["GCP","Workflows, schedulers, Stackdriver",[[0,26]],0,"Used 2023–2025"],["CI/CD","Jenkins, GitHub Actions, ArgoCD, Azure Automation",W,0,"Operational"],["Kubernetes & containers","Docker, Kubernetes, Helm, ArgoCD",[[0,26]],0,"Used 2023–2025"],["Infrastructure as Code","Terraform, CloudFormation, Ansible",[[0,26]],0,"Used 2023–2025"],["Scripting & automation","PowerShell, Python, Bash",W,0,"Operational"],["Observability","KQL, Azure Monitor, Prometheus, Grafana, ELK",W,0,"Operational"],["Europe region","EU / EEA, UK, Switzerland · relocation",[],2,"Under maintenance"]];
+  root.innerHTML=`<div class="sp"><div class="in"><div class="brand"><div><img class="photo" src="${PHOTO}" alt="">Sarvesh Dharmadhikari · Status</div><span class="sub"><a class="btn line" href="${LI}" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="${CV}" target="_blank" rel="noopener">Resume</a></span></div>
+   <div class="banner">All systems operational<small>DevOps Engineer · 3+ years · open to roles in Europe</small></div>
+   <p class="intro">I build and run the CI/CD pipelines, infrastructure as code and monitoring that keep production calm. Each bar is one month, from June 2023 to now. Green means the skill was in daily production use that month.</p>
+   <div class="comp">${comps.map(c=>`<div class="row"><div class="rh"><span><b>${c[0]}</b> <span style="color:var(--mute);font-size:13px">· ${c[1]}</span></span><span class="${c[3]?'mt':c[4]==='Operational'?'op':''}" style="${c[4].startsWith('Used')?'color:var(--mute);font-size:13.5px':''}">${c[4]}</span></div><div class="ub">${bars(c[2],c[3])}</div><div class="ul"><span>Jun 2023</span><span></span><span>${c[3]?'relocating':'today'}</span></div></div>`).join('')}</div>
+   <h3>Scheduled maintenance</h3><div class="maint"><b>Relocation to Europe</b> · window: flexible<br><span style="font-size:14.5px">Moving to the EU / EEA, UK or Switzerland for on-site, hybrid or remote roles. Needs only a work permit for the country; I manage the visa. Interviews available now, including European hours.</span></div>
+   <h3>Past incidents</h3>
+   <div class="inc"><div class="d">2026 · NICE NTR-X, Azure</div><h4>Recurring false critical alerts paging on-call</h4><p><b>Resolved</b> · KQL queries on Application Insights now separate real recording-bot failures from noise. A real defect surfaced and went to R&D.</p></div>
+   <div class="inc"><div class="d">2026 · NICE NTR-X, Azure</div><h4>Manual, Excel-driven customer upgrades for 70+ banks</h4><p><b>Resolved</b> · Replaced with a multi-stage Azure Automation pipeline with safe-to-rerun stages and manual fallback gates.</p></div>
+   <div class="inc"><div class="d">2025 · Amagi, AWS + GCP</div><h4 class="r">Slow releases during rapid user growth</h4><p><b>Resolved</b> · GitHub Actions + Jenkins pipelines made releases 42% faster. Channels held 99.99% uptime while users grew 3x.</p></div>
+   <div class="inc"><div class="d">2024 · Sleep Country, GCP</div><h4 class="r">Problems found only after release</h4><p><b>Resolved</b> · Automated deploys with GCP Workflows plus staging monitoring caught 78% of potential failures before release.</p></div>
+   <div class="inc"><div class="d">2023 – 2025 · XchangeTechs, AWS</div><h4 class="r">Configuration drift between environments</h4><p><b>Resolved</b> · All environments provisioned with Terraform. Weekly releases now run with under 2 minutes of downtime.</p></div>
+   <h3>Subscribe to updates</h3><div class="sub"><span class="mono" style="border:1px solid var(--line2);border-radius:6px;padding:7px 12px;user-select:all">${EMAIL}</span><button class="btn" id="cp">Copy email</button><span id="cpm" style="font-size:13px;color:var(--ok)"></span></div>
+   <p style="color:var(--mute);font-size:13px;margin-top:20px">Certifications: CEH (EC-Council, 2023) · DevOps (Udemy, 2023) · MCA Cyber Security (2023)</p></div></div>`;
+  root.querySelector('#cp').onclick=()=>{try{navigator.clipboard.writeText(EMAIL).then(()=>root.querySelector('#cpm').textContent="Copied",()=>root.querySelector('#cpm').textContent="Select the address to copy")}catch(e){root.querySelector('#cpm').textContent="Select the address to copy"}};
+}
+
+/* ---------- 6 kubectl ---------- */
+function kubectl(root){
+  const Y=`<span class="c"># engineer.yaml</span>
+<span class="k">apiVersion</span>: careers/v3
+<span class="k">kind</span>: <span class="n">DevOpsEngineer</span>
+<span class="k">metadata</span>:
+  <span class="k">name</span>: <span class="s">sarvesh-dharmadhikari</span>
+  <span class="k">labels</span>:
+    <span class="k">experience</span>: <span class="s">"3y+"</span>
+    <span class="k">cloud</span>: <span class="s">azure,aws,gcp</span>
+    <span class="k">certified</span>: <span class="s">ceh</span>
+<span class="k">spec</span>:
+  <span class="k">replicas</span>: <span class="p">1</span>
+  <span class="k">currentRole</span>:
+    <span class="k">title</span>: <span class="s">Software Engineer, DevOps &amp; Cloud Ops</span>
+    <span class="k">employer</span>: <span class="s">Xoriant</span>   <span class="c"># client: NICE</span>
+    <span class="k">platform</span>: <span class="s">NTR-X on Azure</span>   <span class="c"># 70+ banks</span>
+  <span class="k">containers</span>:
+    - <span class="k">name</span>: ci-cd
+      <span class="k">image</span>: <span class="s">jenkins + github-actions</span>
+    - <span class="k">name</span>: iac
+      <span class="k">image</span>: <span class="s">terraform + ansible</span>
+    - <span class="k">name</span>: orchestration
+      <span class="k">image</span>: <span class="s">kubernetes + argocd + helm</span>
+    - <span class="k">name</span>: observability
+      <span class="k">image</span>: <span class="s">kql + azure-monitor + prometheus</span>
+  <span class="k">nodeAffinity</span>:
+    <span class="k">preferred</span>: [<span class="s">eu</span>, <span class="s">uk</span>, <span class="s">ch</span>]
+  <span class="k">tolerations</span>:
+    - <span class="k">key</span>: work-mode
+      <span class="k">values</span>: [on-site, hybrid, remote]
+  <span class="k">requirements</span>:
+    <span class="k">visa</span>: <span class="s">self-managed</span>
+    <span class="k">workPermit</span>: <span class="s">required</span>   <span class="c">   # I manage the visa</span>`;
+  const LOGS=ROLES.slice().reverse().map(r=>`<span class="c"># ${r.org} · ${r.from} – ${r.to}</span>\n`+r.pts.map(p=>`<span class="p">I</span> ${esc(p)}`).join("\n")).join("\n\n");
+  const T={yaml:[`<span class="prompt">$</span> cat engineer.yaml\n`,Y],pods:[`<span class="prompt">$</span> kubectl get skills -o wide\n`,
+   `<span class="c">NAME              READY  STATUS    SINCE</span>\n`+[["azure","Running","2026"],["aws","Running","2023"],["gcp","Running","2023"],["kubernetes","Running","2023"],["terraform","Running","2023"],["argocd","Running","2025"],["jenkins","Running","2023"],["github-actions","Running","2023"],["kql","Running","2026"],["powershell","Running","2026"],["python","Running","2023"],["eu-relocation","Pending","–"]].map(s=>`${s[0].padEnd(18)}${s[1]==="Pending"?'0/1':'1/1'}    <span class="${s[1]==="Pending"?'s':'k'}">${s[1].padEnd(10)}</span>${s[2]}`).join("\n")],
+   logs:[`<span class="prompt">$</span> kubectl logs sarvesh --all-containers\n`,LOGS]};
+  let cur="yaml";
+  root.innerHTML=`<div class="kc"><div class="code"><div class="ctabs">${[["yaml","engineer.yaml"],["pods","get skills"],["logs","logs"]].map(t=>`<button data-t="${t[0]}" aria-pressed="${t[0]===cur}">${t[1]}</button>`).join('')}</div><pre id="pre"></pre></div>
+   <div class="render"><div class="card"><img src="${PHOTO}" alt=""><div><div class="mono" style="font-size:12px;color:#0f766e">kubectl describe engineer sarvesh-dharmadhikari</div><h2>Sarvesh Dharmadhikari</h2><p>DevOps Engineer · CI/CD · IaC · Kubernetes · Azure · AWS · GCP</p></div></div>
+    <div class="conds"><div><b>Ready</b><span class="t">True</span> · 3+ years</div><div><b>Relocating</b><span class="t">True</span> · Europe</div><div><b>WorkPermit</b><span class="f">Required</span></div><div><b>Interviewing</b><span class="t">True</span> · EU hours ok</div></div>
+    <h3>Results:</h3><table class="pods"><tr><th>METRIC</th><th>VALUE</th><th>WHERE</th></tr>${[["uptime","99.99%","Amagi"],["release_speed","+42%","Amagi"],["customers","70+","NICE"],["downtime_per_release","<2m","XchangeTechs"],["failures_caught_early","78%","Sleep Country"],["manual_work","−40%","XchangeTechs"]].map(r=>`<tr><td>${r[0]}</td><td class="run">${r[1]}</td><td>${r[2]}</td></tr>`).join('')}</table>
+    <h3>Events:</h3><div class="ev">${[["Normal","2026","Started on NICE NTR-X (Azure) via Xoriant"],["Normal","2026","Upgrades automated · false alerts ended"],["Normal","2025","Amagi: 99.99% uptime, 42% faster releases"],["Normal","2023","XchangeTechs: Terraform, Jenkins, K8s CronJobs"],["Warning","now","Waiting for a team that can offer a work permit"]].map(e=>`<div><span class="ty ${e[0]==="Warning"?'w':''}">${e[0]}</span><span class="mono" style="font-size:12px;color:var(--mute)">${e[1]}</span><span>${e[2]}</span></div>`).join('')}</div>
+    <h3>Contact:</h3><div style="display:flex;gap:8px;flex-wrap:wrap;align-items:center"><span class="mono" style="font-size:13px;user-select:all">${EMAIL}</span><a class="btn line" href="${LI}" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="${CV}" target="_blank" rel="noopener">Resume</a></div></div></div>`;
+  function paint(){root.querySelector('#pre').innerHTML=T[cur][0]+T[cur][1];root.querySelectorAll('.ctabs button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===cur))}
+  root.querySelectorAll('.ctabs button').forEach(b=>b.onclick=()=>{cur=b.dataset.t;paint()});paint();
+}
+
+/* ---------- 7 Runbook docs ---------- */
+function docs(root){
+  const P=[
+   {g:"Getting started",id:"intro",t:"Introduction",toc:["Overview","At a glance","Quick links"],h:()=>`<p class="lead">Sarvesh Dharmadhikari is a DevOps Engineer with 3+ years of CI/CD, infrastructure as code, containers and GitOps across Microsoft Azure, AWS and Google Cloud.</p>
+     <div style="display:flex;gap:14px;align-items:center;margin:4px 0 16px"><img class="photo" src="${PHOTO}" alt="" style="width:64px;height:64px"><div><b>Currently</b>: Software Engineer, DevOps &amp; Cloud Ops at Xoriant, working for NICE<br><span style="color:var(--ink2)">Runs a regulated call-recording platform on Azure for 70+ banks</span></div></div>
+     <div class="call"><b>Note</b>Open to roles in the EU / EEA, UK or Switzerland. Sarvesh manages the visa and needs only a work permit for the country.</div>
+     <h3>At a glance</h3><div class="cards"><div><b>99.99% uptime</b><span>TV channel launches at Amagi</span></div><div><b>42% faster releases</b><span>GitHub Actions + Jenkins</span></div><div><b>70+ banks</b><span>on the platform Sarvesh runs today</span></div><div><b>78% caught early</b><span>failures found before release</span></div></div>
+     <h3>Quick links</h3><p><a href="${CV}" target="_blank" rel="noopener">Download resume (PDF)</a> · <a href="${LI}" target="_blank" rel="noopener">LinkedIn</a> · <span class="mono" style="user-select:all">${EMAIL}</span></p>`},
+   {g:"Getting started",id:"hire",t:"Hiring guide",toc:["Requirements","Process","Contact"],h:()=>`<p class="lead">Everything you need to bring Sarvesh onto your team, in the order you'll need it.</p>
+     <h3>Requirements</h3><div class="tbw"><table><tr><th>Key</th><th>Value</th></tr><tr><td>Location</td><td>India (IST), relocating to Europe</td></tr><tr><td>Regions</td><td>EU / EEA, UK, Switzerland</td></tr><tr><td>Work mode</td><td>On-site, hybrid or remote</td></tr><tr><td>Visa</td><td>Work permit for the country required; visa self-managed</td></tr><tr><td>Start date</td><td>Flexible, planned around visa and notice period</td></tr><tr><td>Language</td><td>English (professional)</td></tr></table></div>
+     <div class="call w"><b>Warning</b>Plan the start date around the visa timeline. Interviews can happen now, including in European working hours.</div>
+     <h3>Process</h3><pre>1. email ${EMAIL}
+2. intro call (CET hours fine)
+3. technical interview
+4. offer + work permit
+5. relocate and ship on day one</pre>`},
+   {g:"Reference",id:"stack",t:"Stack reference",toc:["Cloud","Tooling","Certifications"],h:()=>`<p class="lead">Tools Sarvesh uses in production, grouped by area.</p><div class="tbw"><table><tr><th>Area</th><th>Tools</th></tr>${SKILLS.map(s=>`<tr><td style="white-space:nowrap"><b>${s[0]}</b></td><td>${s[1]}</td></tr>`).join('')}</table></div>
+     <h3>Certifications</h3><ul>${CERTS.map(c=>`<li><b>${c[0]}</b> · ${c[1]}</li>`).join('')}</ul>`},
+   {g:"Reference",id:"changelog",t:"Changelog",toc:["v3.0","v2.0","v1.0"],h:()=>ROLES.slice().reverse().map(r=>`<h3>${r.v} · ${r.t}${r.live?' <span class="chip ok" style="vertical-align:3px">current</span>':''}</h3><p style="margin:0;color:var(--ink2)">${r.org} · ${r.env} · ${r.from} – ${r.to}</p><ul>${r.pts.map(p=>`<li>${p}</li>`).join('')}</ul>`).join('')},
+   {g:"Guides",id:"cases",t:"Case studies",toc:PROJ.map(p=>p.n),h:()=>`<p class="lead">Three projects, each written as a short runbook: the problem, the steps taken, and the outcome.</p>`+PROJ.map(p=>`<h3>${p.n}</h3><p style="margin:0;color:var(--mute);font-size:14px">${p.when} · ${p.env} · ${p.tools.join(', ')}</p><p><b>Problem.</b> ${p.sit}</p><p><b>Steps.</b> ${p.did}</p><div class="call"><b>Outcome</b>${p.res}</div>`).join('')},
+   {g:"Guides",id:"faq",t:"FAQ",toc:["Visa","Time zone","Strengths"],h:()=>`<h3>Does Sarvesh need visa sponsorship?</h3><p>No. Sarvesh manages the visa process. The only requirement is a work permit for the country, which usually comes with the job offer.</p><h3>Can we interview during European hours?</h3><p>Yes. Interviews are available now, including during European working hours.</p><h3>What is the strongest area?</h3><p>Release and upgrade automation on Azure, CI/CD pipelines, and monitoring that cuts alert noise.</p><h3>Has Sarvesh worked in regulated environments?</h3><p>Yes. The current platform records Microsoft Teams calls for banks, where recording must be captured and stored to meet compliance rules.</p>`}];
+  let cur=0;
+  root.innerHTML=`<div class="dc"><aside class="side"><div class="logo"><span>SD</span>Sarvesh Docs</div><div class="search">Search docs <span class="mono">⌘K</span></div><div id="nav"></div></aside><article class="main" id="mn"></article><aside class="toc" id="toc"></aside></div>`;
+  function paint(){let g="",h="";P.forEach((p,i)=>{if(p.g!==g){g=p.g;h+=`<div class="grp">${g}</div>`}h+=`<button data-i="${i}" aria-pressed="${i===cur}">${p.t}</button>`});
+    root.querySelector('#nav').innerHTML=h;root.querySelectorAll('#nav button').forEach(b=>b.onclick=()=>{cur=+b.dataset.i;paint()});
+    const p=P[cur],pv=P[cur-1],nx=P[cur+1];
+    root.querySelector('#mn').innerHTML=`<div class="bc">Docs / ${p.g}</div><h2>${p.t}</h2>${p.h()}<div class="nextprev">${pv?`<button data-j="${cur-1}"><small>Previous</small>${pv.t}</button>`:'<span></span>'}${nx?`<button data-j="${cur+1}" style="text-align:right"><small>Next</small>${nx.t}</button>`:''}</div>`;
+    root.querySelectorAll('.nextprev button').forEach(b=>b.onclick=()=>{cur=+b.dataset.j;paint()});
+    root.querySelector('#toc').innerHTML=`<b>On this page</b>${p.toc.map(t=>`<div>${t}</div>`).join('')}`}
+  paint();
+}
+
+const C=[
+ {id:"pipeline",n:"Pipeline Run",k:"CI/CD",url:"sarveshsd.github.io/actions/runs/3",f:pipeline,why:"Career as a workflow run: each job is a role, expandable logs hold achievements, and the Europe release waits for approval.",best:"Shows CI/CD thinking at a glance"},
+ {id:"dashboard",n:"Observability",k:"Monitoring",url:"sarveshsd.github.io/d/career?from=2023-06",f:dashboard,why:"A monitoring dashboard: stat panels for results, a timeline of clouds and employers, career logs and a firing relocation alert.",best:"Best for metrics-heavy resumes"},
+ {id:"architecture",n:"Architecture",k:"System design",url:"sarveshsd.github.io/architecture",f:architecture,why:"A blueprint system diagram with Sarvesh as the gateway, practices in the middle and clouds in production. Every box opens details.",best:"Feels senior and structured"},
+ {id:"git",n:"Git History",k:"Version control",url:"sarveshsd.github.io/career/commits",f:githistory,why:"Career as a commit graph with release tags, diff views of what changed, and an open pull request to relocate to Europe.",best:"Familiar to every engineer"},
+ {id:"status",n:"Status Page",k:"Reliability",url:"sarveshsd.github.io/status",f:statuspage,why:"A public status page: skills as operational components, past projects as resolved incidents, relocation as scheduled maintenance.",best:"Cleanest and most recruiter-friendly"},
+ {id:"kubectl",n:"Kubectl",k:"Kubernetes",url:"sarveshsd.github.io/engineer.yaml",f:kubectl,why:"A YAML manifest on the left and a rendered kubectl describe on the right, with tabs for skills and logs.",best:"Strong Kubernetes signal"},
+ {id:"docs",n:"Runbook Docs",k:"Documentation",url:"sarveshsd.github.io/docs/introduction",f:docs,why:"A technical docs site: introduction, hiring guide, stack reference, changelog, case studies and FAQ with callouts.",best:"Most readable, easiest to scan"}
+];
+function nav(){document.getElementById('pick').innerHTML=C.map((c,i)=>`<a href="#${c.id}" data-id="${c.id}"><small>${i+1} · ${c.k}</small><b>${c.n}</b></a>`).join('')}
+function show(){const id="status";const c=C.find(x=>x.id===id)||C[0];
+  document.querySelectorAll('#pick a').forEach(a=>a.setAttribute('aria-current',a.dataset.id===c.id));
+  document.getElementById('why').innerHTML=`<span><b>${c.n}.</b> ${c.why}</span><span class="chip ok">${c.best}</span>`;
+  document.getElementById('url').textContent="https://"+c.url;const s=document.getElementById('site');s.innerHTML="";c.f(s)}
+nav();show();addEventListener('hashchange',show);
+</script>
+
+</body>
+</html>

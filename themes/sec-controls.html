@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sarvesh Dharmadhikari | DevOps Engineer (Azure, AWS, GCP, Kubernetes, Terraform)</title>
+<meta name="description" content="DevOps Engineer — CI/CD pipelines, Infrastructure as Code, Kubernetes, GitOps, Azure, AWS, GCP, Terraform, Docker, Jenkins, GitHub Actions, observability. Open to relocating to Europe; work permit needed (I manage the visa).">
+<meta name="keywords" content="DevOps Engineer, CI/CD, Infrastructure as Code, Terraform, Ansible, Kubernetes, Docker, Helm, ArgoCD, GitOps, Jenkins, GitHub Actions, Azure, AWS, GCP, release management, configuration management, monitoring, Prometheus, Grafana, Linux, Python, Bash, PowerShell, Europe, work permit">
+
+<meta name="author" content="Sarvesh Dharmadhikari">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Sarvesh Dharmadhikari","jobTitle":"DevOps Engineer","worksFor":{"@type":"Organization","name":"Xoriant"},"email":"mailto:sarveshsd999@gmail.com","address":{"@type":"PostalAddress","addressCountry":"IN"},"sameAs":["https://www.linkedin.com/in/sarvesh-d-devops/"],"knowsAbout":["DevOps","CI/CD","Infrastructure as Code","Configuration Management","Release Management","GitOps","Containerization","Kubernetes","Docker","Terraform","Ansible","Jenkins","GitHub Actions","ArgoCD","Azure","AWS","GCP","Monitoring","Observability","Linux","Python","Bash","PowerShell"]}</script>
+<meta property="og:title" content="Sarvesh Dharmadhikari | DevOps Engineer">
+<meta property="og:description" content="I keep production calm. Azure, AWS, GCP, Kubernetes, Terraform, CI/CD. Open to relocating to Europe.">
+<meta property="og:image" content="og.jpg">
+<meta property="og:type" content="profile">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2304060c'/%3E%3Cpath d='M18 40l10-8-10-8M32 42h14' stroke='%2379b0ff' stroke-width='5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0b0e14">
+<!-- design: sec-controls (Compliance Controls) · rotation 25/31 -->
+<style>body{margin:0;-webkit-text-size-adjust:100%}img{max-width:100%}[hidden]{display:none!important}
+.sd-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 16px;padding:8px max(16px,env(safe-area-inset-left,0px));font:500 13px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;position:relative;z-index:50}
+.sd-strip b{font-weight:700}
+.sd-strip a{text-decoration:none;font-weight:600}
+.sd-strip .sd-l,.sd-strip .sd-r{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
+.sd-strip .sd-tag{opacity:.75}
+.sd-dark{background:#0b0e14;color:#e6ebf2;border-bottom:1px solid #263041}.sd-dark a{color:#8fd3ff}
+.sd-light{background:#ffffff;color:#1b2129;border-bottom:1px solid #dfe3e6}.sd-light a{color:#2457c5}
+header.top,nav.pick,#why,footer.note,.chrome{display:none!important}body{padding:0!important}body>.wrap{max-width:none!important;gap:0!important}.frame{border:0!important;border-radius:0!important;box-shadow:none!important}</style>
+</head>
+<body>
+<div class="sd-strip sd-dark" role="banner"><div class="sd-l"><b>Sarvesh Dharmadhikari</b><span>DevOps Engineer · Azure · AWS · GCP</span><span class="sd-tag">✈ Open to Europe · I manage the visa, I need a work permit</span></div><div class="sd-r"><a href="Sarvesh_Dharmadhikari_Resume.pdf" target="_blank" rel="noopener">Resume</a><a href="https://www.linkedin.com/in/sarvesh-d-devops/" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:sarveshsd999@gmail.com">Email</a><a href="designs.html">Today: Compliance Controls · 25/31 · all designs</a></div></div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap">
+<style>
+/* Layout: concept switcher over a dim slate ground; each concept sits in a browser frame. Deliberately one "dim dark" look (not black): slate surfaces, a shield-green accent, severity colours for state. */
+:root{
+  --bg:#141922; --s1:#1a212c; --s2:#202937; --s3:#283344; --line:#2e3a4d; --line2:#3d4b62;
+  --fg:#e6ebf2; --soft:#c3cddb; --dim:#8a97ab; --mute:#66738a;
+  --acc:#3ddc97; --accbg:#173a2c; --crit:#ff5d6c; --critbg:#3a1d24; --high:#ff9f43; --highbg:#3a2a18; --med:#f5d547; --medbg:#36321a; --low:#5aa9ff; --lowbg:#1a2a40; --pur:#a98bff;
+  --sans:"Manrope",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--fg);font-family:var(--sans);font-size:15px;line-height:1.55;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:22px 40px}
+.wrap{max-width:1160px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+a{color:var(--acc)}
+:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+button{font:inherit;color:inherit;cursor:pointer}
+header.top h1{margin:0;font-weight:800;font-size:32px;letter-spacing:-.02em;text-wrap:balance}
+header.top h1 span{color:var(--acc)}
+header.top p{margin:6px 0 0;color:var(--soft);max-width:66ch}
+nav.pick{display:flex;gap:6px;overflow-x:auto;padding-bottom:2px}
+nav.pick a{flex:0 0 auto;text-decoration:none;color:var(--dim);background:var(--s1);border:1px solid var(--line);border-radius:8px;padding:8px 12px;display:flex;flex-direction:column;min-width:130px}
+nav.pick a small{font-family:var(--mono);font-size:10.5px;color:var(--mute)}
+nav.pick a b{font-weight:700;color:var(--fg);font-size:14px}
+nav.pick a[aria-current="true"]{border-color:var(--acc);background:var(--accbg)}
+nav.pick a[aria-current="true"] small{color:var(--acc)}
+.why{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:baseline;color:var(--soft);font-size:14px}
+.why b{color:var(--fg)}
+.frame{background:var(--s1);border:1px solid var(--line2);border-radius:12px;overflow:hidden;box-shadow:0 20px 50px -24px #000c;min-width:0}
+.chrome{display:flex;align-items:center;gap:10px;padding:9px 12px;background:#10151d;border-bottom:1px solid var(--line)}
+.chrome i{width:11px;height:11px;border-radius:50%;background:#2c3646;flex:0 0 11px}
+.chrome .url{flex:1;min-width:0;background:var(--s1);border:1px solid var(--line);border-radius:6px;padding:4px 10px;font-family:var(--mono);font-size:12px;color:var(--dim);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chrome .url b{color:var(--acc);font-weight:400}
+footer.note{color:var(--mute);font-size:13px;text-align:center;max-width:80ch;margin:0 auto}
+.chip{display:inline-flex;align-items:center;gap:6px;font-size:11.5px;font-weight:700;border-radius:4px;padding:2px 8px;font-family:var(--mono);letter-spacing:.02em;white-space:nowrap}
+.c-pass{color:var(--acc);background:var(--accbg)} .c-crit{color:var(--crit);background:var(--critbg)} .c-high{color:var(--high);background:var(--highbg)} .c-med{color:var(--med);background:var(--medbg)} .c-low{color:var(--low);background:var(--lowbg)}
+.btn{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--acc);background:var(--acc);color:#06210f;border-radius:6px;padding:7px 12px;font-size:13.5px;font-weight:700;text-decoration:none}
+.btn.line{background:transparent;color:var(--fg);border-color:var(--line2)}
+.mono{font-family:var(--mono)}
+.photo{object-fit:cover;border-radius:50%}
+.lbl{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim)}
+.card{background:var(--s2);border:1px solid var(--line);border-radius:8px;padding:14px;min-width:0}
+.who{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.who img{width:58px;height:58px}
+.who h2{margin:0;font-size:22px;font-weight:800;letter-spacing:-.01em}
+.who p{margin:0;color:var(--soft);font-size:14px}
+.acts{display:flex;gap:8px;flex-wrap:wrap}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* 1 Scan report */
+.sr{padding:22px}
+.sr .head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:18px;align-items:center;padding-bottom:18px;border-bottom:1px solid var(--line)}
+@media (max-width:760px){.sr .head{grid-template-columns:minmax(0,1fr)}}
+.grade{display:flex;gap:14px;align-items:center}
+.grade svg{width:96px;height:96px}
+.sr .sum{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px;margin:18px 0}
+@media (max-width:700px){.sr .sum{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.sr .sum div{background:var(--s2);border:1px solid var(--line);border-radius:8px;padding:12px;border-top:3px solid var(--k)}
+.sr .sum b{display:block;font-size:28px;font-weight:800;color:var(--k);font-variant-numeric:tabular-nums;line-height:1.1}
+.sr .sum small{color:var(--dim);font-size:12.5px}
+.sr .cols{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:14px}
+@media (max-width:900px){.sr .cols{grid-template-columns:minmax(0,1fr)}}
+.find{border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.find details{border-bottom:1px solid var(--line);background:var(--s1)}
+.find details:last-child{border-bottom:0}
+.find summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;padding:11px 14px}
+.find summary::-webkit-details-marker{display:none}
+.find summary b{font-weight:700;font-size:14.5px}
+.find summary small{font-family:var(--mono);color:var(--mute);font-size:11px}
+.find .ev{padding:0 14px 14px 14px;color:var(--soft);font-size:14px}
+.find .ev ul{margin:6px 0 0;padding-left:18px}
+.find .ev .src{font-family:var(--mono);font-size:11.5px;color:var(--mute);margin-top:8px}
+.rem{display:grid;gap:10px}
+.rem .card h4{margin:0 0 4px;font-size:15px}
+.rem .ba{display:grid;grid-template-columns:minmax(0,1fr);gap:4px;font-size:13.5px;margin-top:6px}
+.rem .ba span{font-family:var(--mono);font-size:12.5px;padding:4px 8px;border-radius:4px}
+.rem .ba .b{background:var(--critbg);color:#ffb3ba}.rem .ba .a{background:var(--accbg);color:#a8f0cd}
+
+/* 2 Secure pipeline */
+.sp{padding:22px}
+.sp .top{display:flex;flex-wrap:wrap;justify-content:space-between;gap:14px;align-items:center;margin-bottom:18px}
+.gates{display:flex;align-items:stretch;overflow-x:auto;padding:4px 2px 12px;gap:0}
+.gate{flex:0 0 132px;background:var(--s2);border:1px solid var(--line);border-radius:10px;padding:12px;text-align:left;display:flex;flex-direction:column;gap:6px;position:relative}
+.gate[aria-pressed="true"]{border-color:var(--acc);background:#1d3330;box-shadow:0 0 0 1px var(--acc)}
+.gate .sh{width:30px;height:30px}
+.gate b{font-size:13.5px}
+.gate small{font-family:var(--mono);font-size:10.5px;color:var(--dim)}
+.gate.wait{border-style:dashed}
+.link{flex:0 0 22px;align-self:center;height:2px;background:linear-gradient(90deg,var(--acc),var(--line2))}
+.sp .detail{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:14px;margin-top:6px}
+@media (max-width:860px){.sp .detail{grid-template-columns:minmax(0,1fr)}}
+.sp pre{margin:0;background:#0f141b;border:1px solid var(--line);border-radius:8px;padding:12px 14px;font-family:var(--mono);font-size:12.5px;line-height:1.75;white-space:pre-wrap;word-break:break-word;color:var(--soft)}
+.sp pre .g{color:var(--acc)} .sp pre .y{color:var(--med)} .sp pre .d{color:var(--mute)} .sp pre .b{color:var(--low)}
+.ctl{display:grid;gap:6px;margin-top:8px}
+.ctl div{display:grid;grid-template-columns:18px minmax(0,1fr);gap:8px;font-size:14px;color:var(--soft)}
+.ctl div::before{content:"✓";color:var(--acc);font-weight:800}
+.runs{margin-top:16px;border:1px solid var(--line);border-radius:8px;overflow:hidden}
+.runs div{display:grid;grid-template-columns:110px minmax(0,1fr) auto;gap:12px;align-items:center;padding:10px 14px;border-bottom:1px solid var(--line);font-size:14px}
+.runs div:last-child{border-bottom:0}
+.runs small{color:var(--dim)}
+
+/* 3 SOC console */
+.soc{background:#121822;font-size:14px}
+.soc .tb{display:flex;flex-wrap:wrap;gap:10px;align-items:center;justify-content:space-between;padding:12px 18px;border-bottom:1px solid var(--line);background:#161d28}
+.soc .tb .live{font-family:var(--mono);font-size:12px;color:var(--acc)}
+.soc .tb .live::before{content:"";display:inline-block;width:8px;height:8px;border-radius:50%;background:var(--acc);margin-right:6px;animation:blink 1.6s infinite}
+@keyframes blink{50%{opacity:.25}}
+.soc .g{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:10px;padding:14px 18px 18px}
+.soc .p{background:var(--s1);border:1px solid var(--line);border-radius:8px;padding:12px 14px;min-width:0}
+.soc .p h4{margin:0 0 8px;font-size:12px;font-weight:700;color:var(--dim);text-transform:uppercase;letter-spacing:.08em;display:flex;justify-content:space-between;gap:8px}
+.soc .p h4 span{font-family:var(--mono);font-weight:400;letter-spacing:0;text-transform:none;color:var(--mute)}
+.soc .s3{grid-column:span 3}.soc .s4{grid-column:span 4}.soc .s5{grid-column:span 5}.soc .s7{grid-column:span 7}.soc .s8{grid-column:span 8}.soc .s12{grid-column:span 12}
+@media (max-width:900px){.soc .s3{grid-column:span 6}.soc .s4,.soc .s5,.soc .s7,.soc .s8{grid-column:span 12}}
+.soc .big{font-size:30px;font-weight:800;letter-spacing:-.02em;line-height:1.1;font-variant-numeric:tabular-nums}
+.soc .sub{color:var(--dim);font-size:12.5px}
+.soc pre{margin:0;background:#0d1219;border:1px solid var(--line);border-radius:6px;padding:12px;font-family:var(--mono);font-size:12.5px;line-height:1.7;white-space:pre-wrap;word-break:break-word;color:var(--soft)}
+.soc pre .k{color:var(--pur)} .soc pre .s{color:var(--high)} .soc pre .c{color:var(--mute)} .soc pre .f{color:var(--low)}
+.soc .noise{display:block;width:100%;height:120px}
+.queue{display:grid;gap:6px}
+.queue button{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:10px;align-items:center;text-align:left;background:var(--s2);border:1px solid var(--line);border-radius:6px;padding:8px 10px}
+.queue button[aria-pressed="true"]{border-color:var(--acc)}
+.queue small{font-family:var(--mono);color:var(--mute);font-size:11px}
+.case h5{margin:0 0 4px;font-size:16px}
+.case dl{display:grid;grid-template-columns:110px minmax(0,1fr);gap:6px 12px;margin:10px 0 0;font-size:14px}
+.case dt{color:var(--dim);font-family:var(--mono);font-size:12px;padding-top:2px}
+.case dd{margin:0;color:var(--soft)}
+.rules{display:grid;gap:6px}
+.rules div{display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid var(--line);padding:6px 0;font-size:13.5px}
+
+/* 4 Zero trust identity */
+.zt{display:grid;grid-template-columns:300px minmax(0,1fr) 300px;gap:14px;padding:22px}
+@media (max-width:1000px){.zt{grid-template-columns:minmax(0,1fr)}}
+.badge{background:linear-gradient(160deg,#1d2a3c,#18212d);border:1px solid var(--line2);border-radius:14px;padding:18px;position:relative;overflow:hidden}
+.badge::before{content:"";position:absolute;inset:0 0 auto;height:6px;background:repeating-linear-gradient(90deg,var(--acc) 0 18px,transparent 18px 24px)}
+.badge img{width:96px;height:96px;border-radius:12px;object-fit:cover;border:2px solid var(--line2)}
+.badge h2{margin:10px 0 2px;font-size:21px;font-weight:800}
+.badge .kv{display:grid;grid-template-columns:96px minmax(0,1fr);gap:4px 10px;font-size:13px;margin-top:12px}
+.badge .kv span:nth-child(odd){color:var(--dim);font-family:var(--mono);font-size:11.5px;padding-top:2px}
+.badge .chipz{display:flex;flex-wrap:wrap;gap:4px;margin-top:12px}
+.badge .bar{display:flex;gap:2px;height:28px;margin-top:14px}
+.badge .bar i{flex:1;background:var(--fg);opacity:.75}
+.badge .bar i:nth-child(3n){flex:.4} .badge .bar i:nth-child(4n){opacity:.3}
+.pol{background:#0f141b;border:1px solid var(--line);border-radius:10px;overflow:hidden;min-width:0}
+.pol .tabs{display:flex;border-bottom:1px solid var(--line);overflow-x:auto}
+.pol .tabs button{background:none;border:0;border-right:1px solid var(--line);padding:9px 14px;font-family:var(--mono);font-size:12px;color:var(--dim);white-space:nowrap}
+.pol .tabs button[aria-pressed="true"]{color:var(--fg);box-shadow:inset 0 2px var(--acc);background:#141a23}
+.pol pre{margin:0;padding:14px 16px;font-family:var(--mono);font-size:12.5px;line-height:1.7;white-space:pre-wrap;word-break:break-word;color:var(--soft);max-height:560px;overflow:auto}
+.pol .k{color:var(--low)} .pol .s{color:var(--acc)} .pol .e{color:var(--high)} .pol .c{color:var(--mute)}
+.req{display:flex;flex-direction:column;gap:10px}
+.req label{font-size:12.5px;color:var(--dim);font-family:var(--mono)}
+.req select,.req input{width:100%;background:var(--s2);border:1px solid var(--line2);border-radius:6px;color:var(--fg);padding:8px 10px;font:inherit;font-size:14px}
+.req .out{border:1px solid var(--line);border-radius:8px;padding:12px;font-size:14px;background:var(--s1)}
+.req .out.ok{border-color:var(--acc);background:#16302a}
+.prin{display:grid;gap:6px;font-size:13.5px;color:var(--soft)}
+.prin div{display:grid;grid-template-columns:22px minmax(0,1fr);gap:6px}
+.prin div span:first-child{color:var(--acc);font-family:var(--mono)}
+
+/* 5 Compliance controls */
+.cc{padding:22px}
+.cc .head{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;margin-bottom:16px}
+@media (max-width:760px){.cc .head{grid-template-columns:minmax(0,1fr)}}
+.ring{display:flex;gap:12px;align-items:center}
+.ring svg{width:84px;height:84px}
+.filt{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px}
+.filt button{background:var(--s2);border:1px solid var(--line);border-radius:999px;padding:4px 12px;font-size:13px;color:var(--soft)}
+.filt button[aria-pressed="true"]{border-color:var(--acc);color:var(--acc)}
+.tw{overflow-x:auto;border:1px solid var(--line);border-radius:8px}
+.mx{width:100%;border-collapse:collapse;font-size:14px;min-width:720px}
+.mx th{text-align:left;font-family:var(--mono);font-weight:500;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--dim);background:var(--s2);padding:9px 12px;border-bottom:1px solid var(--line)}
+.mx td{padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top;color:var(--soft)}
+.mx tr:last-child td{border-bottom:0}
+.mx td:first-child{font-family:var(--mono);font-size:12px;color:var(--dim);white-space:nowrap}
+.mx td b{color:var(--fg);font-weight:700}
+.mx .evd{font-size:13px}
+.cc .reg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:16px}
+@media (max-width:760px){.cc .reg{grid-template-columns:minmax(0,1fr)}}
+.cc .reg h4{margin:0 0 4px;font-size:15px}
+.cc .reg p{margin:0;color:var(--soft);font-size:14px}
+
+/* 6 Threat model */
+.tm{display:grid;grid-template-columns:minmax(0,1fr) 340px;gap:14px;padding:22px}
+@media (max-width:920px){.tm{grid-template-columns:minmax(0,1fr)}}
+.tm .dia{background:#10161f;border:1px solid var(--line);border-radius:10px;overflow-x:auto;background-image:radial-gradient(#243044 1px,transparent 1px);background-size:18px 18px}
+.tm svg{display:block;width:100%;min-width:600px;height:auto}
+.tm .box rect{fill:#1b2431;stroke:#4a5b76;stroke-width:1.4}
+.tm .box text{fill:var(--fg);font-family:var(--sans);font-size:13px;font-weight:700}
+.tm .box .s{fill:var(--dim);font-family:var(--mono);font-size:10.5px;font-weight:400}
+.tm .tb{fill:none;stroke:var(--crit);stroke-dasharray:7 6;stroke-width:1.4;opacity:.7}
+.tm .tbl{fill:var(--crit);font-family:var(--mono);font-size:10.5px;opacity:.85}
+.tm .fl{stroke:#6b7c97;stroke-width:1.5;fill:none;marker-end:url(#arr)}
+.tm .mk{cursor:pointer}
+.tm .mk circle{fill:var(--critbg);stroke:var(--crit);stroke-width:2}
+.tm .mk.fix circle{fill:var(--accbg);stroke:var(--acc)}
+.tm .mk text{fill:var(--fg);font-family:var(--mono);font-size:11px;font-weight:700;text-anchor:middle}
+.tm .mk.sel circle{stroke-width:4}
+.stride{display:grid;gap:6px}
+.stride button{display:grid;grid-template-columns:28px minmax(0,1fr) auto;gap:10px;align-items:center;text-align:left;background:var(--s2);border:1px solid var(--line);border-radius:8px;padding:9px 10px}
+.stride button[aria-pressed="true"]{border-color:var(--acc);background:#1b302b}
+.stride .n{width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-family:var(--mono);font-size:11px;font-weight:700;background:var(--accbg);color:var(--acc)}
+.stride b{font-size:14px}
+.stride small{display:block;color:var(--dim);font-size:12px}
+.mit{margin-top:12px}
+.mit h4{margin:0 0 4px;font-size:16px}
+.mit p{margin:4px 0;color:var(--soft);font-size:14px}
+.mit .row{display:grid;grid-template-columns:92px minmax(0,1fr);gap:8px;font-size:14px;margin-top:6px}
+.mit .row span:first-child{font-family:var(--mono);font-size:11.5px;color:var(--dim);padding-top:2px}
+</style>
+
+<div class="wrap">
+  <header class="top"><h1>DevSecOps portfolio <span>concepts</span></h1>
+    <p>Six dim-dark directions for Sarvesh's portfolio, each built on a screen security engineers use every day. All content comes from the resume and every frame is clickable.</p></header>
+  <nav class="pick" id="pick" aria-label="Concepts"></nav>
+  <div class="why" id="why"></div>
+  <div class="frame"><div class="chrome"><i></i><i></i><i></i><div class="url" id="url"></div></div><div id="site"></div></div>
+  <footer class="note">The security work shown is all from the resume: CEH certification, an MCA in Cyber Security, IAM, VPC and EC2 hardening, Vault and TLS, managed identities, a regulated banking platform and compliance-impact incident response. No scanner or framework is claimed unless the resume lists it.</footer>
+</div>
+
+<script>
+const PHOTO="data:image/jpeg;base64,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";
+const EMAIL="sarveshsd999@gmail.com",LI="https://www.linkedin.com/in/sarvesh-d-devops/",CV="Sarvesh_Dharmadhikari_Resume.pdf";
+const ROLES=[
+ {id:"xt",v:"v1.0",from:"Jun 2023",to:"Jan 2025",t:"DevOps Engineer",org:"XchangeTechs",env:"AWS + GCP",
+  pts:["Ran weekly releases across dev, QA and production with under 2 minutes of downtime per release","Provisioned AWS with Terraform across environments, eliminating configuration drift","Built CI/CD pipelines in Jenkins and GitHub Actions","Packaged the automated test suite in Docker and ran it every hour as a Kubernetes CronJob","Cut manual job time by 40% with GCP services and scripting","Tightened IAM, VPC and EC2 security across AWS accounts"],tools:["AWS","Terraform","Jenkins","GitHub Actions","Docker","Kubernetes","GCP"]},
+ {id:"am",v:"v2.0",from:"Jan 2025",to:"Aug 2025",t:"DevOps / Implementation Engineer",org:"Amagi",env:"AWS + GCP",
+  pts:["Set up AWS and GCP infrastructure for new TV channel launches at 99.99% uptime while active users grew 3x","Built CI/CD pipelines in GitHub Actions and Jenkins that made releases 42% faster","Quick rollback when QA tests fail","Ran ArgoCD GitOps deployments on Kubernetes for safer version rollbacks","Automated deployment work with Terraform, Python and shell","Integrated AWS MediaLive and MediaConnect for live and on-demand video"],tools:["AWS","GCP","GitHub Actions","Jenkins","ArgoCD","Kubernetes","Terraform","Python"]},
+ {id:"nc",v:"v3.0",from:"Jan 2026",to:"now",t:"Software Engineer, DevOps & Cloud Ops",org:"Xoriant · client NICE",env:"Microsoft Azure",live:true,
+  pts:["Run and automate NTR-X, a regulated Microsoft Teams call-recording platform used by 70+ enterprise customers, mostly global banks","Replaced a manual, Excel-driven upgrade process with a multi-stage Azure Automation pipeline","Managed-identity sign-in, per-customer JSON config, safe-to-rerun stages and manual fallback gates","Built OS-patching runbooks for each customer lane, plus a parent runbook that runs them all","KQL queries on Application Insights ended recurring false critical alerts and exposed a real defect","Lead incident triage and RCA, including storage upload failures with compliance impact","Built PowerShell tooling, Azure Monitor dashboards and AI-assisted triage tools with Claude"],tools:["Azure Automation","PowerShell","KQL","App Insights","Azure Monitor","RabbitMQ","Claude"]}
+];
+const PROJ=[
+ {n:"NICE NTR-X Automation",when:"Jan 2026 – now",env:"Azure",sit:"Customer upgrades were tracked in Excel and run by hand, and on-call kept getting paged for alarms that weren't real.",did:"Built Azure Automation runbook pipelines for upgrades and OS patching, and KQL queries that separate real failures from noise.",res:"Repeatable upgrades and no more recurring false critical alerts.",tools:["Azure Automation","PowerShell","KQL","App Insights"]},
+ {n:"Sleep Country Deployments",when:"Apr 2024 – Jan 2025",env:"GCP",sit:"Deployments needed manual steps, and problems were found only after release.",did:"Designed GCP workflows and schedulers to automate deployments, and added Stackdriver and Prometheus monitoring in staging.",res:"78% of potential failures caught before release.",tools:["GCP Workflows","Prometheus","Stackdriver"]},
+ {n:"Ethereal Engine Observability",when:"Jul 2023 – Mar 2024",env:"Kubernetes",sit:"Logs were scattered across microservices and local clusters were set up by hand.",did:"Connected OpenSearch for central logging and scripted Minikube and MicroK8s cluster operations in Bash.",res:"70% less manual configuration time and faster log searches.",tools:["OpenSearch","Bash","MicroK8s","Minikube"]}
+];
+const SKILLS=[["Cloud","Azure (Automation, Monitor, App Insights, VMs, Blob Storage) · AWS (EC2, IAM, VPC, MediaLive, MediaConnect) · GCP (Workflows, schedulers, Stackdriver)"],["Containers","Docker, Kubernetes, Helm, ArgoCD"],["CI/CD","Jenkins, GitHub Actions, ArgoCD, Azure Automation"],["IaC","Terraform, CloudFormation, Ansible, Helm"],["Observability","Azure Monitor, App Insights, KQL, Prometheus, Grafana, ELK, Datadog, Splunk"],["Scripting","PowerShell, Python, Bash, Groovy, SQL, YAML"],["Security","IAM least-privilege, VPC, SSL/TLS, HashiCorp Vault · CEH certified"]];
+const CERTS=[["Certified Ethical Hacker (CEH)","EC-Council · May 2023"],["DevOps Certification","Udemy · Mar 2023"],["MCA, Cyber Security","D. Y. Patil International University · 2021–2023"],["BCA","MIT World Peace University · 2018–2021"]];
+
+const esc=s=>s.replace(/&/g,"&amp;").replace(/</g,"&lt;");
+const WHO=(sub)=>`<div class="who"><img class="photo" src="${PHOTO}" alt=""><div><h2>Sarvesh Dharmadhikari</h2><p>${sub}</p></div></div>`;
+const ACTS=`<div class="acts"><a class="btn line" href="${LI}" target="_blank" rel="noopener">LinkedIn</a><a class="btn" href="${CV}" target="_blank" rel="noopener">Resume PDF</a></div>`;
+const SH=(c)=>`<svg class="sh" viewBox="0 0 24 24"><path d="M12 2l8 3v6c0 5-3.4 9.4-8 11-4.6-1.6-8-6-8-11V5z" fill="${c}22" stroke="${c}" stroke-width="1.6"/><path d="M8 12l3 3 5-6" stroke="${c}" stroke-width="2" fill="none"/></svg>`;
+
+/* ---------- 1 Scan report ---------- */
+function scan(root){
+  const F=[
+   ["Identity & access","Least-privilege IAM across cloud accounts",["Tightened IAM, VPC and EC2 security across AWS accounts (XchangeTechs)","Managed-identity sign-in for Azure Automation pipelines, no stored credentials (NICE)"],"experience · v1.0, v3.0"],
+   ["Secrets","Secrets kept out of code and pipelines",["HashiCorp Vault for secrets management","Managed identities instead of service passwords on Azure"],"skills · tools & security"],
+   ["Network","Segmented networks and encrypted transport",["VPC hardening on AWS","SSL/TLS, TCP/IP and API Gateway in the stack"],"skills · networking & security"],
+   ["Infrastructure","Infrastructure defined as code, no drift",["Terraform-provisioned AWS environments, eliminating configuration drift and manual setup","Per-customer JSON config for repeatable, reviewable changes"],"experience · v1.0, v3.0"],
+   ["Change control","Safe, reversible releases",["Safe-to-rerun pipeline stages with manual fallback gates","Quick rollback when QA fails; ArgoCD GitOps for safer rollbacks","Weekly releases with under 2 minutes downtime"],"experience · v1.0–v3.0"],
+   ["Patch management","OS patching automated per customer",["OS-patching runbooks for each customer lane, plus a parent runbook that runs them all"],"experience · v3.0"],
+   ["Detection","Signal over noise in alerting",["KQL on Application Insights separates real recording-bot failures from noise","Ended recurring false critical alerts and exposed a real defect"],"experience · v3.0"],
+   ["Incident response","Triage and RCA with compliance impact",["Leads incident triage and root cause analysis across Azure services, VMs and app components","Storage upload failures with compliance impact on a regulated platform"],"experience · v3.0"],
+   ["Certification","Offensive-security background",["Certified Ethical Hacker (CEH), EC-Council, May 2023","MCA in Cyber Security, 2021–2023"],"credentials"]];
+  root.innerHTML=`<div class="sr"><div class="head"><div>${WHO("DevOps engineer with a security-first background · CEH · MCA Cyber Security")}<div style="margin-top:12px;color:var(--soft);max-width:62ch">Security assessment of a candidate profile. Scope: 3+ years across Azure, AWS and GCP, including a regulated call-recording platform used by 70+ banks.</div><div style="margin-top:12px">${ACTS}</div></div>
+    <div class="grade"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="42" fill="none" stroke="#2e3a4d" stroke-width="8"/><circle cx="50" cy="50" r="42" fill="none" stroke="#3ddc97" stroke-width="8" stroke-dasharray="264" stroke-dashoffset="18" transform="rotate(-90 50 50)" stroke-linecap="round"/><text x="50" y="62" text-anchor="middle" font-size="34" font-weight="800" fill="#e6ebf2" font-family="Manrope">A</text></svg><div><div class="lbl">Security posture</div><div style="font-weight:800;font-size:18px">Ready to hire</div><div class="mono" style="font-size:12px;color:var(--dim)">report generated · Nov 2026</div></div></div></div>
+   <div class="sum"><div style="--k:var(--crit)"><b>0</b><small>Critical</small></div><div style="--k:var(--high)"><b>0</b><small>High</small></div><div style="--k:var(--med)"><b>0</b><small>Medium</small></div><div style="--k:var(--low)"><b>1</b><small>Low · needs work permit</small></div><div style="--k:var(--acc)"><b>${F.length}</b><small>Checks passed</small></div></div>
+   <div class="cols"><div><div class="lbl" style="margin-bottom:8px">Findings · click to see evidence</div><div class="find">
+     <details><summary><span class="chip c-low">LOW</span><b>Relocation needs a work permit for the country</b><small>EU · UK · CH</small></summary><div class="ev">Ready to relocate for on-site, hybrid or remote roles. I'll manage the visa process myself. I only need the work permit for the country, which usually comes with the job offer. Start date is flexible and interviews can happen now, including in European hours.<div class="src">remediation: email ${EMAIL}</div></div></details>
+     ${F.map((f,i)=>`<details ${i===0?'open':''}><summary><span class="chip c-pass">PASS</span><b>${f[1]}</b><small>${f[0]}</small></summary><div class="ev"><ul>${f[2].map(x=>`<li>${x}</li>`).join('')}</ul><div class="src">source: ${f[3]}</div></div></details>`).join('')}</div></div>
+    <div><div class="lbl" style="margin-bottom:8px">Remediated issues · projects</div><div class="rem">${PROJ.map(p=>`<div class="card"><div class="lbl" style="font-size:10px">${p.when} · ${p.env}</div><h4>${p.n}</h4><div class="ba"><span class="b">before: ${p.sit}</span><span class="a">after: ${p.res}</span></div></div>`).join('')}</div></div></div></div>`;
+}
+
+/* ---------- 2 Secure pipeline ---------- */
+function gates(root){
+  const G=[
+   {k:"Plan",s:"threat-aware",c:["Requirements reviewed for regulated data (call recordings for banks)","Rollback and fallback planned before release"],log:["plan: scope=ntr-x env=prod tenants=70+","risk: compliance-impact if recording fails → fallback gate required"],where:"NICE NTR-X"},
+   {k:"Code",s:"git · review",c:["Everything in Git, including infrastructure and runbooks","Per-customer JSON config, reviewed as code"],log:["git log --oneline infra/ runbooks/","config/*.json validated ✓"],where:"All roles"},
+   {k:"Secrets",s:"vault · identity",c:["HashiCorp Vault for secrets","Azure managed identities: no passwords in pipelines"],log:["Connect-AzAccount -Identity","auth: managed identity ✓ · stored credentials: 0"],where:"NICE · stack"},
+   {k:"Build",s:"jenkins · actions",c:["Jenkins and GitHub Actions pipelines","Test suite containerised in Docker"],log:["build: docker build -t tests:latest .","pipeline: 42% faster releases (Amagi)"],where:"Amagi · XchangeTechs"},
+   {k:"IaC policy",s:"terraform · iam",c:["Terraform for every environment: no drift","Least-privilege IAM, VPC and EC2 hardening"],log:["terraform plan -out=tf.plan","drift: none · iam: least-privilege ✓"],where:"XchangeTechs"},
+   {k:"Deploy",s:"gitops · gates",c:["ArgoCD GitOps rollouts with safe rollback","Safe-to-rerun stages with manual fallback gates","Under 2 minutes downtime per release"],log:["argocd app sync career --prune","stage 3/5 safe-to-rerun ✓ · manual gate: approved"],where:"Amagi · NICE"},
+   {k:"Patch",s:"runbooks",c:["OS-patching runbook per customer lane","Parent runbook runs all lanes with separate outputs"],log:["Start-AzAutomationRunbook Patch-Parent","lanes: all · outputs: separated ✓"],where:"NICE NTR-X"},
+   {k:"Detect",s:"kql · monitor",c:["KQL on App Insights filters noise from real failures","Azure Monitor dashboards; Prometheus in staging"],log:["AppTraces | where SeverityLevel >= 3","false criticals: ended · real defect → R&D"],where:"NICE · Sleep Country"},
+   {k:"Respond",s:"triage · rca",c:["Incident triage and root cause analysis","Storage upload failures with compliance impact","AI-assisted triage tools built with Claude"],log:["incident: blob upload failures (compliance)","rca: filed · guardrail added"],where:"NICE NTR-X"},
+   {k:"Relocate",s:"awaiting approval",wait:true,c:["Target: EU / EEA, UK, Switzerland","Visa: I manage it myself","Needs only the work permit for the country","Interviews available now, incl. European hours"],log:["gate: europe · status: pending","approver: a team that can offer a role with a work permit"],where:"Next"}];
+  let cur=2;
+  root.innerHTML=`<div class="sp"><div class="top">${WHO("DevOps engineer who builds security into every stage · CEH certified")}${ACTS}</div>
+   <div class="lbl" style="margin-bottom:8px">Shift-left pipeline · 9 gates passed, 1 awaiting approval</div><div class="gates" id="gt"></div>
+   <div class="detail"><div class="card" id="gd"></div><div><div class="lbl" style="margin-bottom:6px">Gate output</div><pre id="gl"></pre></div></div>
+   <div class="runs">${ROLES.slice().reverse().map(r=>`<div><span class="mono" style="color:var(--dim);font-size:12px">${r.from}</span><span><b>${r.t}</b> · ${r.org}<br><small>${r.env} · ${r.pts[0]}</small></span>${r.live?'<span class="chip c-med">RUNNING</span>':'<span class="chip c-pass">PASSED</span>'}</div>`).join('')}</div></div>`;
+  function paint(){root.querySelector('#gt').innerHTML=G.map((g,i)=>`${i?'<span class="link"></span>':''}<button class="gate ${g.wait?'wait':''}" data-i="${i}" aria-pressed="${i===cur}">${SH(g.wait?'#f5d547':'#3ddc97')}<b>${g.k}</b><small>${g.s}</small></button>`).join('');
+    root.querySelectorAll('.gate').forEach(b=>b.onclick=()=>{cur=+b.dataset.i;paint()});
+    const g=G[cur];root.querySelector('#gd').innerHTML=`<div class="lbl">Gate ${cur+1} · ${g.where}</div><div style="font-weight:800;font-size:19px;margin-top:2px">${g.k}</div><div class="ctl">${g.c.map(x=>`<div>${x}</div>`).join('')}</div>`;
+    root.querySelector('#gl').innerHTML=`<span class="d">$ run-gate ${g.k.toLowerCase().replace(/ /g,'-')}</span>\n`+g.log.map(l=>(g.wait?'<span class="y">⏸ </span>':'<span class="g">✓ </span>')+esc(l)).join("\n")+`\n<span class="${g.wait?'y':'g'}">${g.wait?'status: waiting for approval':'status: passed'}</span>`}
+  paint();
+}
+
+/* ---------- 3 SOC console ---------- */
+function soc(root){
+  const CASES=[
+   {id:"INC-2026-014",sev:"crit",t:"Storage upload failures · compliance impact",env:"Azure · NICE NTR-X",det:"App Insights + Azure Monitor alerts",act:"Led triage and root cause analysis across Azure services, VMs and app components",out:"Resolved · RCA completed"},
+   {id:"INC-2026-009",sev:"high",t:"Recurring false critical alerts paging on-call",env:"Azure · NICE NTR-X",det:"On-call fatigue, repeated Sev-critical pages",act:"Wrote KQL queries on Application Insights to separate real recording-bot failures from noise",out:"Resolved · real defect escalated to R&D"},
+   {id:"CHG-2026-003",sev:"med",t:"Manual, Excel-driven upgrades for 70+ tenants",env:"Azure · NICE NTR-X",det:"Process risk: unrepeatable manual changes",act:"Built a multi-stage Azure Automation pipeline with managed identity and fallback gates",out:"Closed · repeatable upgrades"},
+   {id:"CHG-2024-021",sev:"med",t:"Configuration drift across AWS environments",env:"AWS · XchangeTechs",det:"Manual setup, environment mismatch",act:"Provisioned AWS with Terraform; tightened IAM, VPC and EC2 security",out:"Closed · no drift"},
+   {id:"PRB-2024-007",sev:"low",t:"Failures found only after release",env:"GCP · Sleep Country",det:"Missing staging monitoring",act:"GCP Workflows automation with Stackdriver and Prometheus in staging",out:"Closed · 78% caught pre-release"}];
+  let cur=1;
+  root.innerHTML=`<div class="soc"><div class="tb"><div style="display:flex;gap:10px;align-items:center"><img class="photo" src="${PHOTO}" alt="" style="width:34px;height:34px"><b>Sarvesh Dharmadhikari</b><span style="color:var(--dim)">· Security operations console</span></div><span class="live">analyst online · IST · EU hours ok</span></div>
+   <div class="g">
+    <div class="p s3"><h4>False criticals</h4><div class="big" style="color:var(--acc)">Ended</div><div class="sub">recurring false alerts, NTR-X</div></div>
+    <div class="p s3"><h4>Protected tenants</h4><div class="big">70+</div><div class="sub">banks on a regulated platform</div></div>
+    <div class="p s3"><h4>Uptime held</h4><div class="big" style="color:var(--low)">99.99%</div><div class="sub">live channel launches</div></div>
+    <div class="p s3"><h4>Caught pre-release</h4><div class="big" style="color:var(--high)">78%</div><div class="sub">potential failures, GCP</div></div>
+    <div class="p s7"><h4>Case queue <span>click a case</span></h4><div class="queue" id="q"></div></div>
+    <div class="p s5 case" id="cs"></div>
+    <div class="p s7"><h4>Hunting query <span>App Insights · KQL</span></h4><pre><span class="c">// separate real recording-bot failures from noise</span>
+AppTraces
+| <span class="k">where</span> TimeGenerated > <span class="f">ago</span>(24h) <span class="k">and</span> SeverityLevel >= 3
+| <span class="k">where</span> AppRoleName == <span class="s">"recording-bot"</span>
+| <span class="k">extend</span> transient = Message <span class="k">has_any</span> (<span class="s">"retry succeeded"</span>, <span class="s">"reconnected"</span>)
+| <span class="k">summarize</span> failures = <span class="f">countif</span>(<span class="k">not</span>(transient)) <span class="k">by</span> tenant, bin(TimeGenerated, 15m)
+| <span class="k">where</span> failures > 0</pre><div class="sub" style="margin-top:6px">Illustrative query in the style Sarvesh writes. The real rules ended recurring false criticals.</div></div>
+    <div class="p s5"><h4>Detection & hardening <span>stack</span></h4><div class="rules">${[["Azure Monitor + App Insights","alerting"],["KQL rule tuning","noise filter"],["Prometheus · Grafana · ELK","observability"],["Datadog · Splunk","in toolset"],["HashiCorp Vault","secrets"],["IAM · VPC · TLS","hardening"],["CEH (EC-Council)","certified"]].map(r=>`<div><span>${r[0]}</span><span class="chip c-pass">${r[1]}</span></div>`).join('')}</div></div>
+    <div class="p s12" style="display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center"><span><b>Escalation contact</b> · <span class="mono" style="user-select:all">${EMAIL}</span> · relocating to Europe · manages own visa, needs a work permit</span>${ACTS}</div>
+   </div></div>`;
+  function paint(){root.querySelector('#q').innerHTML=CASES.map((c,i)=>`<button data-i="${i}" aria-pressed="${i===cur}"><span class="chip c-${c.sev}">${c.sev.toUpperCase()}</span><span>${c.t}<br><small>${c.id} · ${c.env}</small></span><span class="chip c-pass">CLOSED</span></button>`).join('');
+    root.querySelectorAll('.queue button').forEach(b=>b.onclick=()=>{cur=+b.dataset.i;paint()});
+    const c=CASES[cur];root.querySelector('#cs').innerHTML=`<h4>Case detail <span>${c.id}</span></h4><h5>${c.t}</h5><span class="chip c-${c.sev}">${c.sev.toUpperCase()}</span><dl><dt>Environment</dt><dd>${c.env}</dd><dt>Detected by</dt><dd>${c.det}</dd><dt>Action</dt><dd>${c.act}</dd><dt>Outcome</dt><dd style="color:var(--acc)">${c.out}</dd></dl>`}
+  paint();
+}
+
+/* ---------- 4 Zero trust ---------- */
+function zerotrust(root){
+  const POL=`{
+  <span class="k">"Version"</span>: <span class="s">"2026-11-01"</span>,
+  <span class="k">"Principal"</span>: <span class="s">"sarvesh-dharmadhikari"</span>,
+  <span class="k">"Statement"</span>: [
+    {
+      <span class="k">"Sid"</span>: <span class="s">"ShipSafely"</span>,
+      <span class="k">"Effect"</span>: <span class="s">"Allow"</span>,
+      <span class="k">"Action"</span>: [<span class="s">"cicd:jenkins:*"</span>, <span class="s">"cicd:github-actions:*"</span>, <span class="s">"gitops:argocd:sync"</span>],
+      <span class="k">"Condition"</span>: { <span class="k">"rollback"</span>: <span class="s">"enabled"</span>, <span class="k">"downtime"</span>: <span class="s">"&lt; 2m"</span> }
+    },
+    {
+      <span class="k">"Sid"</span>: <span class="s">"BuildFromCode"</span>,
+      <span class="k">"Effect"</span>: <span class="s">"Allow"</span>,
+      <span class="k">"Action"</span>: [<span class="s">"iac:terraform:apply"</span>, <span class="s">"iac:ansible:*"</span>],
+      <span class="k">"Condition"</span>: { <span class="k">"drift"</span>: <span class="s">"none"</span> }
+    },
+    {
+      <span class="k">"Sid"</span>: <span class="s">"OperateRegulatedPlatform"</span>,
+      <span class="k">"Effect"</span>: <span class="s">"Allow"</span>,
+      <span class="k">"Action"</span>: [<span class="s">"azure:automation:*"</span>, <span class="s">"azure:monitor:*"</span>, <span class="s">"azure:kql:query"</span>],
+      <span class="k">"Resource"</span>: <span class="s">"ntr-x/tenants/*"</span>,   <span class="c">// 70+ banks</span>
+      <span class="k">"Condition"</span>: { <span class="k">"auth"</span>: <span class="s">"managed-identity"</span> }
+    },
+    {
+      <span class="k">"Sid"</span>: <span class="s">"NoStandingSecrets"</span>,
+      <span class="k">"Effect"</span>: <span class="e">"Deny"</span>,
+      <span class="k">"Action"</span>: [<span class="s">"secrets:store-in-code"</span>, <span class="s">"iam:grant-wildcard-admin"</span>]
+    },
+    {
+      <span class="k">"Sid"</span>: <span class="s">"Relocate"</span>,
+      <span class="k">"Effect"</span>: <span class="s">"Allow"</span>,
+      <span class="k">"Action"</span>: <span class="s">"career:relocate"</span>,
+      <span class="k">"Resource"</span>: [<span class="s">"eu/*"</span>, <span class="s">"uk/*"</span>, <span class="s">"ch/*"</span>],
+      <span class="k">"Condition"</span>: { <span class="k">"visa"</span>: <span class="s">"self-managed"</span>, <span class="k">"workPermit"</span>: <span class="e">"required"</span> }
+    }
+  ]
+}`;
+  const REV=ROLES.slice().reverse().map(r=>`<span class="c"># ${r.org} · ${r.from} – ${r.to} · ${r.env}</span>\n<span class="k">role</span>: <span class="s">${esc(r.t)}</span>\n`+r.pts.slice(0,4).map(p=>`  - ${esc(p)}`).join("\n")).join("\n\n");
+  const T={policy:["access-policy.json",POL],review:["access-review.yaml",REV]};let cur="policy";
+  root.innerHTML=`<div class="zt"><div class="badge"><img src="${PHOTO}" alt=""><h2>Sarvesh Dharmadhikari</h2><div style="color:var(--soft);font-size:14px">DevOps Engineer · security-first</div>
+     <div class="kv"><span>IDENTITY</span><span>verified ✓</span><span>AUTH</span><span>managed identity</span><span>CLEARANCE</span><span>prod · regulated</span><span>CREDENTIALS</span><span>CEH · MCA Cyber Sec.</span><span>EXPERIENCE</span><span>3+ years</span><span>CLOUDS</span><span>Azure · AWS · GCP</span><span>REGION</span><span>IN → EU (pending)</span></div>
+     <div class="chipz"><span class="chip c-pass">LEAST PRIVILEGE</span><span class="chip c-pass">NO SHARED SECRETS</span><span class="chip c-med">WORK PERMIT NEEDED</span></div><div class="bar">${'<i></i>'.repeat(28)}</div></div>
+   <div class="pol"><div class="tabs">${Object.entries(T).map(([k,v])=>`<button data-t="${k}" aria-pressed="${k===cur}">${v[0]}</button>`).join('')}</div><pre id="pp"></pre></div>
+   <div class="req"><div class="card"><div class="lbl">Request access</div><div style="font-weight:800;font-size:17px;margin:2px 0 10px">Interview Sarvesh</div>
+     <label for="role">Role</label><select id="role"><option>DevSecOps Engineer</option><option>DevOps Engineer</option><option>Cloud / Platform Engineer</option><option>Site Reliability Engineer</option></select>
+     <label for="loc" style="margin-top:8px;display:block">Location</label><select id="loc"><option>EU / EEA</option><option>United Kingdom</option><option>Switzerland</option><option>Remote</option></select>
+     <label for="sp" style="margin-top:8px;display:block">Work permit</label><select id="sp"><option value="y">We can support a work permit</option><option value="n">We can't support a work permit</option></select>
+     <button class="btn" id="go" style="margin-top:12px">Evaluate request</button></div><div class="out" id="out">Fill in the request to see the policy decision.</div>
+     <div class="card"><div class="lbl" style="margin-bottom:6px">Principles</div><div class="prin"><div><span>01</span><span>Identities, not passwords</span></div><div><span>02</span><span>Everything as reviewed code</span></div><div><span>03</span><span>Every change can roll back</span></div><div><span>04</span><span>Alert on signal, not noise</span></div></div></div></div></div>`;
+  function paint(){root.querySelector('#pp').innerHTML=T[cur][1];root.querySelectorAll('.tabs button').forEach(b=>b.setAttribute('aria-pressed',b.dataset.t===cur))}
+  root.querySelectorAll('.tabs button').forEach(b=>b.onclick=()=>{cur=b.dataset.t;paint()});paint();
+  root.querySelector('#go').onclick=()=>{const o=root.querySelector('#out'),ok=root.querySelector('#sp').value==="y",remote=root.querySelector('#loc').value==="Remote";
+    if(ok||remote){o.className="out ok";o.innerHTML=`<b style="color:var(--acc)">ALLOW</b> · ${esc(root.querySelector('#role').value)}, ${esc(root.querySelector('#loc').value)}<br>Send the request to <span class="mono" style="user-select:all">${EMAIL}</span>${remote&&!ok?'<br><span style="color:var(--dim);font-size:13px">Remote from India works without a visa.</span>':''}`}
+    else{o.className="out";o.innerHTML=`<b style="color:var(--med)">CONDITIONAL</b> · Sarvesh manages the visa, but on-site work in Europe still needs a work permit for the country. Remote roles are still open: <span class="mono" style="user-select:all">${EMAIL}</span>`}};
+}
+
+/* ---------- 5 Compliance controls ---------- */
+function controls(root){
+  const C=[
+   ["CM-01","Change management","Change","Multi-stage Azure Automation pipeline replaced manual Excel-tracked upgrades; manual fallback gates","NICE NTR-X"],
+   ["CM-02","Release & rollback","Change","Weekly multi-env releases under 2 min downtime; rollback on failed QA; ArgoCD GitOps","XchangeTechs · Amagi"],
+   ["CM-03","Configuration baseline","Change","Terraform-provisioned AWS environments, eliminating drift; per-customer JSON config","XchangeTechs · NICE"],
+   ["AC-01","Least-privilege access","Access","Tightened IAM, VPC and EC2 security across AWS accounts","XchangeTechs"],
+   ["AC-02","Non-human identities","Access","Managed-identity sign-in for automation; no stored credentials","NICE NTR-X"],
+   ["AC-03","Secrets management","Access","HashiCorp Vault in the toolset; SSL/TLS for transport","Stack"],
+   ["OP-01","Patch management","Operations","OS-patching runbooks per customer lane plus a parent runbook","NICE NTR-X"],
+   ["OP-02","Backup","Operations","PowerShell tooling for RabbitMQ backups and log collection","NICE NTR-X"],
+   ["MO-01","Logging & monitoring","Monitoring","Azure Monitor dashboards; App Insights; OpenSearch central logging","NICE · Ethereal Engine"],
+   ["MO-02","Alert quality","Monitoring","KQL rules ended recurring false critical alerts and exposed a real defect","NICE NTR-X"],
+   ["MO-03","Pre-release detection","Monitoring","Stackdriver + Prometheus in staging; 78% of failures caught before release","Sleep Country"],
+   ["IR-01","Incident response & RCA","Response","Leads triage and root cause analysis, incl. storage upload failures with compliance impact","NICE NTR-X"],
+   ["AV-01","Availability","Response","Channel launches at 99.99% uptime while active users grew 3x","Amagi"]];
+  const CATS=["All","Change","Access","Operations","Monitoring","Response"];let f="All";
+  root.innerHTML=`<div class="cc"><div class="head"><div>${WHO("DevOps engineer for regulated environments · controls implemented, with evidence")}<div style="margin-top:12px">${ACTS}</div></div>
+    <div class="ring"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="#2e3a4d" stroke-width="10"/><circle cx="50" cy="50" r="40" fill="none" stroke="#3ddc97" stroke-width="10" stroke-dasharray="251" stroke-dashoffset="0" transform="rotate(-90 50 50)"/><text x="50" y="56" text-anchor="middle" font-size="20" font-weight="800" fill="#e6ebf2" font-family="Manrope">${C.length}/${C.length}</text></svg><div><div class="lbl">Controls with evidence</div><div style="font-weight:800">Audit ready</div><div class="mono" style="font-size:12px;color:var(--dim)">evidence pack: resume.pdf</div></div></div></div>
+   <div class="filt" id="ft"></div><div class="tw"><table class="mx"><thead><tr><th>ID</th><th>Control</th><th>Status</th><th>Evidence</th><th>Where</th></tr></thead><tbody id="tb"></tbody></table></div>
+   <div class="reg"><div class="card"><h4>Regulated domain</h4><p>Runs NTR-X, a Microsoft Teams call-recording platform where banks must capture and store every trader call.</p></div><div class="card"><h4>Security credentials</h4><p>Certified Ethical Hacker (EC-Council, 2023) and an MCA in Cyber Security (2021–2023).</p></div><div class="card"><h4>Open to Europe</h4><p>EU / EEA, UK or Switzerland. I manage the visa myself and only need a work permit for the country. <span class="mono" style="user-select:all">${EMAIL}</span></p></div></div></div>`;
+  function paint(){root.querySelector('#ft').innerHTML=CATS.map(c=>`<button data-c="${c}" aria-pressed="${c===f}">${c}</button>`).join('');
+    root.querySelectorAll('#ft button').forEach(b=>b.onclick=()=>{f=b.dataset.c;paint()});
+    root.querySelector('#tb').innerHTML=C.filter(c=>f==="All"||c[2]===f).map(c=>`<tr><td>${c[0]}</td><td><b>${c[1]}</b></td><td><span class="chip c-pass">IMPLEMENTED</span></td><td class="evd">${c[3]}</td><td style="white-space:nowrap;color:var(--dim)">${c[4]}</td></tr>`).join('')}
+  paint();
+}
+
+/* ---------- 6 Threat model ---------- */
+function threat(root){
+  const T=[
+   {k:"S",n:"Spoofing",x:255,y:120,thr:"An attacker impersonates the automation that runs upgrades.",mit:"Managed-identity sign-in for Azure Automation, so pipelines never hold passwords.",ev:"NICE NTR-X"},
+   {k:"T",n:"Tampering",x:420,y:58,thr:"Someone changes infrastructure by hand and environments drift.",mit:"Terraform for every environment and per-customer JSON config kept as code.",ev:"XchangeTechs · NICE"},
+   {k:"R",n:"Repudiation",x:600,y:250,thr:"Nobody can prove what happened during an incident.",mit:"Central logging with OpenSearch, App Insights telemetry and written RCAs.",ev:"Ethereal Engine · NICE"},
+   {k:"I",n:"Information disclosure",x:600,y:120,thr:"Recordings or secrets leak from storage or pipelines.",mit:"Least-privilege IAM, VPC hardening, SSL/TLS and HashiCorp Vault for secrets.",ev:"XchangeTechs · stack"},
+   {k:"D",n:"Denial of service",x:420,y:250,thr:"Recording silently stops and calls go uncaptured.",mit:"KQL detection that tells real bot failures from noise; 99.99% uptime on launches.",ev:"NICE · Amagi"},
+   {k:"E",n:"Elevation of privilege",x:255,y:250,thr:"A pipeline or user gets more access than it needs.",mit:"Tightened IAM and EC2 security across AWS accounts; scoped automation identities.",ev:"XchangeTechs · NICE"}];
+  let cur=0;
+  root.innerHTML=`<div class="tm"><div><div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:12px">${WHO("Threat model of the systems I protect · mitigations from real work")}${ACTS}</div>
+    <div class="dia"><svg viewBox="0 0 720 320" role="img" aria-label="Threat model diagram"><defs><marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#6b7c97"/></marker></defs>
+     <rect class="tb" x="170" y="20" width="535" height="285" rx="10"/><text class="tbl" x="182" y="38">trust boundary · cloud production</text>
+     <g class="box"><rect x="20" y="150" width="120" height="54" rx="6"/><text x="32" y="173">Bank trader</text><text class="s" x="32" y="191">Teams call</text></g>
+     <g class="box"><rect x="200" y="150" width="130" height="54" rx="6"/><text x="212" y="173">Pipelines</text><text class="s" x="212" y="191">CI/CD · runbooks</text></g>
+     <g class="box"><rect x="365" y="90" width="130" height="54" rx="6"/><text x="377" y="113">IaC</text><text class="s" x="377" y="131">Terraform · config</text></g>
+     <g class="box"><rect x="365" y="190" width="130" height="54" rx="6"/><text x="377" y="213">Recording bots</text><text class="s" x="377" y="231">VMs · services</text></g>
+     <g class="box"><rect x="545" y="140" width="140" height="54" rx="6"/><text x="557" y="163">Storage</text><text class="s" x="557" y="181">Blob · secrets</text></g>
+     <path class="fl" d="M140 177 L198 177"/><path class="fl" d="M330 168 C350 140 350 117 363 117"/><path class="fl" d="M330 186 C350 210 350 217 363 217"/><path class="fl" d="M495 217 C520 217 520 177 543 177"/><path class="fl" d="M495 117 C520 117 520 160 543 160"/>
+     <g id="mks">${T.map((t,i)=>`<g class="mk fix" data-i="${i}" tabindex="0"><circle cx="${t.x}" cy="${t.y}" r="13"/><text x="${t.x}" y="${t.y+4}">${t.k}</text></g>`).join('')}</g></svg></div>
+    <div class="mit card" id="mt"></div></div>
+   <div><div class="lbl" style="margin-bottom:8px">STRIDE · all mitigated</div><div class="stride" id="st"></div>
+    <div class="card" style="margin-top:12px"><div class="lbl">Background</div><p style="margin:6px 0 0;color:var(--soft);font-size:14px">CEH certified, MCA in Cyber Security, 3+ years running production on Azure, AWS and GCP. Relocating to Europe: manages the visa, needs only a work permit for the country.</p></div></div></div>`;
+  function paint(){root.querySelectorAll('.mk').forEach(m=>m.classList.toggle('sel',+m.dataset.i===cur));
+    root.querySelector('#st').innerHTML=T.map((t,i)=>`<button data-i="${i}" aria-pressed="${i===cur}"><span class="n">${t.k}</span><span><b>${t.n}</b><small>${t.mit.split(',')[0].split(';')[0]}</small></span><span class="chip c-pass">MITIGATED</span></button>`).join('');
+    root.querySelectorAll('.stride button').forEach(b=>b.onclick=()=>{cur=+b.dataset.i;paint()});
+    const t=T[cur];root.querySelector('#mt').innerHTML=`<div class="lbl">Threat ${t.k}</div><h4>${t.n}</h4><div class="row"><span>THREAT</span><span>${t.thr}</span></div><div class="row"><span>MITIGATION</span><span style="color:var(--acc)">${t.mit}</span></div><div class="row"><span>EVIDENCE</span><span>${t.ev}</span></div>`}
+  root.querySelectorAll('.mk').forEach(m=>{m.onclick=()=>{cur=+m.dataset.i;paint()};m.onkeydown=e=>{if(e.key==="Enter"){cur=+m.dataset.i;paint()}}});paint();
+}
+
+const C=[
+ {id:"scan",n:"Scan Report",k:"Assessment",url:"sarveshsd.github.io/security-report",f:scan,why:"A security assessment of the candidate: grade A, zero critical findings, passed checks with evidence, and projects as remediated issues.",best:"Most recruiter-friendly"},
+ {id:"gates",n:"Secure Pipeline",k:"Shift-left",url:"sarveshsd.github.io/pipeline/secure",f:gates,why:"Ten security gates from plan to respond. Each gate shows the controls Sarvesh has built there, with gate output logs.",best:"Strongest DevSecOps story"},
+ {id:"soc",n:"SOC Console",k:"Detection",url:"sarveshsd.github.io/soc",f:soc,why:"A security operations console: real incidents as a case queue, a KQL hunting query, and detection tooling.",best:"Shows incident response"},
+ {id:"zerotrust",n:"Zero Trust",k:"Identity",url:"sarveshsd.github.io/access",f:zerotrust,why:"An identity badge, an access policy written as JSON, and a request form that returns an allow or conditional decision.",best:"Most memorable interaction"},
+ {id:"controls",n:"Compliance Controls",k:"Audit",url:"sarveshsd.github.io/controls",f:controls,why:"A controls matrix with evidence for each control, built for hiring in regulated industries like banking.",best:"Best for fintech and banks"},
+ {id:"threat",n:"Threat Model",k:"STRIDE",url:"sarveshsd.github.io/threat-model",f:threat,why:"A threat model of the call-recording platform with STRIDE threats and the mitigations Sarvesh has built.",best:"Feels senior and architectural"}
+];
+function nav(){document.getElementById('pick').innerHTML=C.map((c,i)=>`<a href="#${c.id}" data-id="${c.id}"><small>${i+1} · ${c.k}</small><b>${c.n}</b></a>`).join('')}
+function show(){const id="controls";const c=C.find(x=>x.id===id)||C[0];
+  document.querySelectorAll('#pick a').forEach(a=>a.setAttribute('aria-current',a.dataset.id===c.id));
+  document.getElementById('why').innerHTML=`<span><b>${c.n}.</b> ${c.why}</span><span class="chip c-pass">${c.best}</span>`;
+  document.getElementById('url').innerHTML=`<b>🔒</b> https://${c.url}`;const s=document.getElementById('site');s.innerHTML="";c.f(s)}
+nav();show();addEventListener('hashchange',show);
+</script>
+
+</body>
+</html>
