@@ -1,7 +1,7 @@
 name: Deploy to GitHub Pages
 
 # Deploys on every push, and every morning at 06:00 IST (00:30 UTC)
-# with a different dark theme from themes/ each day.
+# with the next design from themes/rotation.txt each day.
 on:
   push:
     branches: [main]
@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
     inputs:
       theme:
-        description: "Force a theme (midnight, noir, phosphor, aurora, blueprint, kube). Leave empty for today's rotation."
+        description: "Force a design by name (see themes/rotation.txt, e.g. sec-gates, light-status, craft). Leave empty for today's rotation."
         required: false
 
 permissions:
@@ -36,7 +36,7 @@ jobs:
         env:
           FORCED: ${{ github.event.inputs.theme }}
         run: |
-          THEMES=(midnight noir phosphor aurora blueprint kube)
+          mapfile -t THEMES < <(grep -v '^\s*$' themes/rotation.txt)
           if [ -n "$FORCED" ]; then
             THEME="$FORCED"
           else
@@ -53,6 +53,9 @@ jobs:
           mkdir _site
           cp sarvesh.jpg og.jpg Sarvesh_Dharmadhikari_Resume.pdf .nojekyll _site/
           cp "themes/${{ steps.theme.outputs.name }}.html" _site/index.html
+          # every design is also published at /<name>.html, with a gallery at /designs.html
+          for f in themes/*.html; do cp "$f" "_site/$(basename "$f")"; done
+          cp designs.html _site/designs.html
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

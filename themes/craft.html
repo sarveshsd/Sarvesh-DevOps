@@ -1,0 +1,470 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sarvesh Dharmadhikari | DevOps Engineer (Azure, AWS, GCP, Kubernetes, Terraform)</title>
+<meta name="description" content="DevOps Engineer — CI/CD pipelines, Infrastructure as Code, Kubernetes, GitOps, Azure, AWS, GCP, Terraform, Docker, Jenkins, GitHub Actions, observability. Open to relocating to Europe; work permit needed (I manage the visa).">
+<meta name="keywords" content="DevOps Engineer, CI/CD, Infrastructure as Code, Terraform, Ansible, Kubernetes, Docker, Helm, ArgoCD, GitOps, Jenkins, GitHub Actions, Azure, AWS, GCP, release management, configuration management, monitoring, Prometheus, Grafana, Linux, Python, Bash, PowerShell, Europe, work permit">
+
+<meta name="author" content="Sarvesh Dharmadhikari">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Sarvesh Dharmadhikari","jobTitle":"DevOps Engineer","worksFor":{"@type":"Organization","name":"Xoriant"},"email":"mailto:sarveshsd999@gmail.com","address":{"@type":"PostalAddress","addressCountry":"IN"},"sameAs":["https://www.linkedin.com/in/sarvesh-d-devops/"],"knowsAbout":["DevOps","CI/CD","Infrastructure as Code","Configuration Management","Release Management","GitOps","Containerization","Kubernetes","Docker","Terraform","Ansible","Jenkins","GitHub Actions","ArgoCD","Azure","AWS","GCP","Monitoring","Observability","Linux","Python","Bash","PowerShell"]}</script>
+<meta property="og:title" content="Sarvesh Dharmadhikari | DevOps Engineer">
+<meta property="og:description" content="I keep production calm. Azure, AWS, GCP, Kubernetes, Terraform, CI/CD. Open to relocating to Europe.">
+<meta property="og:image" content="og.jpg">
+<meta property="og:type" content="profile">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="og.jpg">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2304060c'/%3E%3Cpath d='M18 40l10-8-10-8M32 42h14' stroke='%2379b0ff' stroke-width='5' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<meta name="theme-color" content="#0b0e14">
+<!-- design: craft (Crafting Workbench) · rotation 6/31 -->
+<style>body{margin:0;-webkit-text-size-adjust:100%}img{max-width:100%}[hidden]{display:none!important}
+.sd-strip{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:6px 16px;padding:8px max(16px,env(safe-area-inset-left,0px));font:500 13px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif;position:relative;z-index:50}
+.sd-strip b{font-weight:700}
+.sd-strip a{text-decoration:none;font-weight:600}
+.sd-strip .sd-l,.sd-strip .sd-r{display:flex;flex-wrap:wrap;gap:4px 14px;align-items:center}
+.sd-strip .sd-tag{opacity:.75}
+.sd-dark{background:#0b0e14;color:#e6ebf2;border-bottom:1px solid #263041}.sd-dark a{color:#8fd3ff}
+.sd-light{background:#ffffff;color:#1b2129;border-bottom:1px solid #dfe3e6}.sd-light a{color:#2457c5}
+</style>
+</head>
+<body>
+<div class="sd-strip sd-dark" role="banner"><div class="sd-l"><b>Sarvesh Dharmadhikari</b><span>DevOps Engineer · Azure · AWS · GCP</span><span class="sd-tag">✈ Open to Europe · I manage the visa, I need a work permit</span></div><div class="sd-r"><a href="Sarvesh_Dharmadhikari_Resume.pdf" target="_blank" rel="noopener">Resume</a><a href="https://www.linkedin.com/in/sarvesh-d-devops/" target="_blank" rel="noopener">LinkedIn</a><a href="mailto:sarveshsd999@gmail.com">Email</a><a href="designs.html">Today: Crafting Workbench · 6/31 · all designs</a></div></div>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxanium:wght@500;700;800&family=Rajdhani:wght@500;600;700&family=JetBrains+Mono:wght@400;700&display=swap">
+<style>
+/* Layout: a survival-craft game front end. Sticky HUD bar; hero is the live workbench + inventory; below, crafted gear (projects), quest log (career), achievements, next biome (Europe), join party (contact). Single committed dark look with a forge glow. */
+:root{
+  --bg:#070a10; --glass:#0f1622e6; --cell:#0b111b; --line:#26364c; --line2:#3a5574;
+  --fg:#eaf2ff; --soft:#c9d6ea; --dim:#8ea3bf; --hud:#9fe8ff; --forge:#ff8a3d; --good:#56f0a4;
+  --common:#a9b4c4; --rare:#4aa3ff; --epic:#b46bff; --legend:#ffb23f;
+  --display:"Oxanium",system-ui,sans-serif; --ui:"Rajdhani",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html{scroll-behavior:smooth}
+body{background:radial-gradient(ellipse at 70% -10%,#2a1a10 0,transparent 45%),radial-gradient(ellipse at 10% 0,#13233a 0,transparent 50%),var(--bg);color:var(--fg);font-family:var(--ui);font-size:17px;line-height:1.5;font-weight:500}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:30;background:#070a10}
+.gut{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.in{max-width:1160px;margin:0 auto}
+.cut{clip-path:polygon(0 0,calc(100% - 14px) 0,100% 14px,100% 100%,14px 100%,0 calc(100% - 14px))}
+a{color:var(--hud)}
+:focus-visible{outline:2px solid var(--hud);outline-offset:2px}
+button{font:inherit;color:inherit;cursor:pointer}
+.lbl{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim)}
+.h3{font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.04em;margin:0}
+.panel{background:var(--glass);border:1px solid var(--line);padding:16px;min-width:0}
+.cta{display:inline-flex;align-items:center;gap:8px;font-family:var(--display);font-weight:800;text-transform:uppercase;letter-spacing:.08em;font-size:14px;background:var(--forge);color:#1d0d02;border:0;padding:11px 18px;text-decoration:none}
+.cta:disabled{background:#3a4458;color:#77849a;cursor:not-allowed}
+.cta.ghost{background:transparent;color:var(--fg);border:1px solid var(--line2)}
+.key{display:inline-grid;place-items:center;min-width:22px;height:22px;padding:0 5px;border:1px solid var(--line2);border-radius:4px;font-family:var(--mono);font-size:11px;color:var(--fg);background:var(--cell)}
+.r-common{--r:var(--common)} .r-rare{--r:var(--rare)} .r-epic{--r:var(--epic)} .r-legend{--r:var(--legend)}
+
+/* HUD bar */
+.hud{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:#070a10e6;backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.hud .in{display:flex;align-items:center;gap:16px;min-height:58px}
+.logo{font-family:var(--display);font-weight:800;letter-spacing:.06em;text-transform:uppercase;font-size:18px;text-decoration:none;color:var(--fg);white-space:nowrap}
+.logo span{color:var(--forge)}
+.hud nav{display:flex;gap:2px;overflow-x:auto;flex:1;min-width:0}
+.hud nav a{flex:0 0 auto;color:var(--dim);text-decoration:none;font-family:var(--display);font-weight:700;font-size:12px;letter-spacing:.1em;text-transform:uppercase;padding:8px 10px}
+.hud nav a:hover{color:var(--fg)}
+.hud .res{padding:8px 12px;font-size:12px;white-space:nowrap}
+@media (max-width:720px){.hud nav{display:none}.hud .in{justify-content:space-between}}
+
+section{padding-block:56px}
+.sh{display:flex;flex-wrap:wrap;align-items:end;justify-content:space-between;gap:10px;margin-bottom:20px}
+.sh h2{font-family:var(--display);font-weight:800;font-size:clamp(26px,4vw,36px);text-transform:uppercase;letter-spacing:.04em;margin:4px 0 0;text-wrap:balance}
+.sh p{margin:0;color:var(--dim);max-width:60ch}
+
+/* Hero */
+.hero{padding-block:28px 40px}
+.intro{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:16px;align-items:center;margin-bottom:18px}
+@media (max-width:860px){.intro{grid-template-columns:minmax(0,1fr)}}
+.player{display:flex;gap:16px;align-items:center;flex-wrap:wrap}
+.player img{width:88px;height:88px;object-fit:cover;border:3px solid var(--legend);box-shadow:0 0 0 3px #0008,0 0 30px #ffb23f40}
+.player h1{font-family:var(--display);font-weight:800;font-size:clamp(28px,5vw,46px);line-height:1;margin:2px 0 6px;letter-spacing:.02em;text-wrap:balance}
+.player .cls{font-family:var(--display);font-weight:700;color:var(--legend);text-transform:uppercase;letter-spacing:.06em;font-size:15px}
+.player p{margin:6px 0 0;color:var(--soft);max-width:62ch}
+.status{display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.pill{font-family:var(--mono);font-size:12px;border:1px solid currentColor;padding:5px 10px;background:#0a1a12;color:var(--good)}
+.pill.warn{color:var(--legend);background:#1d1608}
+.xp{width:260px;max-width:100%}
+.xp .b{height:8px;background:#1b2636;margin-top:4px}
+.xp .b i{display:block;height:100%;width:76%;background:linear-gradient(90deg,var(--forge),var(--legend))}
+
+.craft{display:grid;grid-template-columns:minmax(0,1fr) 360px;gap:12px;align-items:start}
+@media (max-width:900px){.craft{grid-template-columns:minmax(0,1fr)}}
+.invhead{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:10px}
+.filters{display:flex;gap:4px;flex-wrap:wrap}
+.filters button{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em;background:var(--cell);border:1px solid var(--line);padding:5px 8px;color:var(--dim)}
+.filters button[aria-pressed="true"]{border-color:var(--forge);color:var(--forge)}
+.inv{display:grid;grid-template-columns:repeat(auto-fill,minmax(84px,1fr));gap:6px}
+.cell{aspect-ratio:1;position:relative;background:radial-gradient(circle at 50% 40%,color-mix(in srgb,var(--r) 22%,var(--cell)),var(--cell) 70%);border:1px solid color-mix(in srgb,var(--r) 50%,var(--line));padding:6px;display:flex;flex-direction:column;justify-content:space-between;align-items:center;text-align:center;transition:transform .12s}
+.cell svg{width:42%;height:auto;margin-top:6px}
+.cell b{font-family:var(--display);font-size:11px;letter-spacing:.02em;line-height:1.1}
+.cell .q{position:absolute;left:5px;top:3px;font-family:var(--mono);font-size:9px;color:var(--r);text-transform:uppercase}
+.cell:hover{border-color:var(--r);transform:translateY(-2px)}
+.cell.used{opacity:.35}
+.cell.hint{animation:pulse 1.2s ease-in-out infinite}
+@keyframes pulse{50%{box-shadow:0 0 0 2px var(--forge),0 0 18px var(--forge)}}
+.detail{margin-top:10px;min-height:64px;border-top:1px dashed var(--line);padding-top:10px;font-size:15px;color:var(--soft)}
+.detail b{font-family:var(--display);color:var(--r)}
+.bench{display:flex;flex-direction:column;gap:12px;position:relative;overflow:hidden}
+.bench::before{content:"";position:absolute;left:-20%;right:-20%;bottom:-60px;height:160px;background:radial-gradient(ellipse,#ff8a3d33,transparent 70%);pointer-events:none}
+.cslots{display:grid;grid-template-columns:repeat(3,1fr) auto minmax(0,1fr);gap:6px;align-items:center}
+.cslot{aspect-ratio:1;border:1px dashed var(--line2);display:grid;place-items:center;font-size:11px;color:var(--dim);text-align:center;padding:4px;background:#080c13}
+.cslot.full{border-style:solid;border-color:var(--r);color:var(--fg);font-family:var(--display);font-size:11px;background:radial-gradient(circle,color-mix(in srgb,var(--r) 25%,#080c13),#080c13)}
+.cslot svg{width:46%;height:auto;display:block;margin:0 auto 4px}
+.arrow{font-family:var(--display);font-size:22px;color:var(--dim)}
+.out{aspect-ratio:1;border:1px solid var(--line2);display:grid;place-items:center;background:#080c13;font-size:11px;color:var(--dim);text-align:center;padding:4px}
+.out.ready{border-color:var(--forge);color:var(--forge);box-shadow:0 0 18px #ff8a3d55 inset;font-family:var(--display);font-weight:700}
+.result{min-height:150px;border:1px solid var(--line);padding:12px;background:#080c13;position:relative}
+.result.ok{border-color:var(--r);box-shadow:0 0 24px color-mix(in srgb,var(--r) 30%,transparent) inset}
+.result .h3{font-size:19px;color:var(--r);margin:4px 0 6px}
+.result p{margin:0;color:var(--soft)}
+.book{display:grid;gap:2px;font-size:15px;max-height:190px;overflow:auto;padding-right:4px}
+.book div{display:flex;justify-content:space-between;gap:8px;border-bottom:1px solid var(--line);padding:5px 0}
+.book .u{color:var(--dim)} .book .d{color:var(--good)}
+.prog{height:6px;background:#1b2636;margin:6px 0 8px}.prog i{display:block;height:100%;background:var(--good);transition:width .4s}
+.tips{display:flex;gap:14px;flex-wrap:wrap;color:var(--dim);font-size:14px;margin-top:12px}
+
+/* Loot strip */
+.loot{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px}
+@media (max-width:900px){.loot{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:480px){.loot{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.loot div{background:var(--cell);border:1px solid var(--line);border-top:2px solid var(--r);padding:12px}
+.loot b{display:block;font-family:var(--display);font-weight:800;font-size:28px;font-variant-numeric:tabular-nums;color:var(--r)}
+.loot small{color:var(--dim);font-size:14px;line-height:1.3;display:block}
+
+/* Crafted gear */
+.gear{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+@media (max-width:900px){.gear{grid-template-columns:minmax(0,1fr)}}
+.card{background:linear-gradient(180deg,color-mix(in srgb,var(--r) 14%,#0e1724),#0a0f17 55%);border:1px solid color-mix(in srgb,var(--r) 55%,var(--line));padding:18px;display:flex;flex-direction:column;gap:10px;min-width:0}
+.card .top{display:flex;gap:12px;align-items:center}
+.card .ic{width:54px;height:54px;flex:0 0 54px;display:grid;place-items:center;background:var(--cell);border:1px solid var(--r);box-shadow:0 0 18px color-mix(in srgb,var(--r) 35%,transparent)}
+.card .ic svg{width:34px}
+.card .rar{font-family:var(--mono);font-size:11px;color:var(--r);letter-spacing:.1em;text-transform:uppercase}
+.card .h3{font-size:19px}
+.recipe{display:flex;flex-wrap:wrap;gap:4px;align-items:center;font-family:var(--mono);font-size:11px;color:var(--dim)}
+.recipe span{border:1px solid var(--line2);padding:3px 6px;color:var(--fg);background:var(--cell)}
+.card dl{margin:0;display:grid;gap:8px}
+.card dt{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--dim)}
+.card dd{margin:0;color:var(--soft);font-size:15.5px}
+.card .eff{margin-top:auto;border-top:1px dashed var(--line);padding-top:10px;font-family:var(--display);font-weight:700;color:var(--good)}
+
+/* Quest log */
+.quests{display:grid;gap:12px}
+.quest{display:grid;grid-template-columns:150px minmax(0,1fr) 220px;gap:16px;align-items:start}
+@media (max-width:900px){.quest{grid-template-columns:minmax(0,1fr)}}
+.quest .when{font-family:var(--mono);font-size:12px;color:var(--dim)}
+.quest .st{display:inline-block;margin-top:6px;font-family:var(--mono);font-size:11px;padding:3px 7px;border:1px solid currentColor;color:var(--good)}
+.quest .st.live{color:var(--forge)}
+.quest .h3{font-size:20px}
+.quest .org{color:var(--hud);font-weight:600}
+.quest ul{margin:10px 0 0;padding-left:18px;color:var(--soft);font-size:15.5px;display:grid;gap:4px}
+.quest .rw{display:grid;gap:6px}
+.quest .rw div{background:var(--cell);border:1px solid var(--line);padding:8px 10px}
+.quest .rw b{display:block;font-family:var(--display);font-size:22px;color:var(--legend)}
+.quest .rw small{color:var(--dim);font-size:13px}
+.tools{display:flex;flex-wrap:wrap;gap:4px;margin-top:10px}
+.tools span{font-family:var(--mono);font-size:11px;border:1px solid var(--line2);padding:3px 6px;color:var(--dim)}
+
+/* Achievements + biome */
+.two{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:12px}
+@media (max-width:900px){.two{grid-template-columns:minmax(0,1fr)}}
+.ach{display:grid;gap:8px}
+.ach div{display:flex;gap:12px;align-items:center;background:var(--cell);border:1px solid var(--line);padding:10px 12px}
+.ach svg{width:34px;height:34px;flex:0 0 34px}
+.ach b{font-family:var(--display);display:block}
+.ach small{color:var(--dim);font-size:13px}
+.biome{position:relative;overflow:hidden;background:linear-gradient(135deg,#132544,#1d1433 60%,#0d1626);border:1px solid var(--line2);padding:20px}
+.biome canvas{position:absolute;inset:0;width:100%;height:100%;opacity:.55;pointer-events:none}
+.biome>*:not(canvas){position:relative}
+.biome .h3{font-size:clamp(22px,3.4vw,30px);color:var(--hud)}
+.yaml{font-family:var(--mono);font-size:13.5px;background:#05070bcc;border:1px solid var(--line);padding:12px 14px;margin-top:12px;white-space:pre-wrap;overflow-x:auto;color:var(--soft)}
+.yaml .k{color:var(--hud)} .yaml .v{color:var(--good)} .yaml .w{color:var(--legend)} .yaml .c{color:#5b6b82}
+.req{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:12px}
+@media (max-width:600px){.req{grid-template-columns:minmax(0,1fr)}}
+.req div{background:#05070bcc;border:1px solid var(--line);padding:10px;font-size:14.5px;color:var(--soft)}
+.req b{display:block;font-family:var(--display);color:var(--fg);font-size:15px}
+
+/* Contact */
+.party{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:12px;align-items:stretch}
+@media (max-width:900px){.party{grid-template-columns:minmax(0,1fr)}}
+.party .big{font-family:var(--display);font-weight:800;font-size:clamp(28px,5vw,48px);text-transform:uppercase;line-height:1;margin:6px 0 12px;text-wrap:balance}
+.party .big span{color:var(--forge)}
+.copyrow{display:flex;gap:6px;flex-wrap:wrap;align-items:center;margin-top:10px}
+.copyrow code{font-family:var(--mono);font-size:15px;background:var(--cell);border:1px solid var(--line2);padding:9px 12px;user-select:all;word-break:break-all}
+.links{display:grid;gap:8px}
+.links a{display:flex;justify-content:space-between;align-items:center;gap:10px;background:var(--cell);border:1px solid var(--line);padding:14px;text-decoration:none;color:var(--fg);font-family:var(--display);font-weight:700;letter-spacing:.04em;text-transform:uppercase}
+.links a:hover{border-color:var(--forge)}
+.links a span{font-family:var(--mono);font-weight:400;font-size:12px;color:var(--dim);text-transform:none;letter-spacing:0}
+details.plain{margin-top:16px;border:1px solid var(--line);background:var(--cell);padding:10px 14px}
+details.plain summary{cursor:pointer;font-family:var(--display);font-weight:700;text-transform:uppercase;letter-spacing:.06em;font-size:14px}
+details.plain dl{display:grid;grid-template-columns:200px minmax(0,1fr);gap:6px 14px;margin:12px 0 4px;font-size:15px}
+@media (max-width:600px){details.plain dl{grid-template-columns:minmax(0,1fr)}}
+details.plain dt{color:var(--dim)} details.plain dd{margin:0;color:var(--soft)}
+footer{border-top:1px solid var(--line);padding-block:20px 30px;color:var(--dim);font-size:14px}
+footer .in{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap}
+
+.toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translate(-50%,140%);background:#0f1622;border:1px solid var(--legend);padding:12px 18px;display:flex;gap:12px;align-items:center;z-index:40;transition:transform .35s;max-width:calc(100% - 32px);box-shadow:0 10px 40px #000a}
+.toast.on{transform:translate(-50%,0)}
+.toast b{font-family:var(--display);text-transform:uppercase;letter-spacing:.06em;color:var(--legend)}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+</style>
+
+<header class="hud gut"><div class="in">
+  <a class="logo" href="#top">Sarvesh <span>// Craft</span></a>
+  <nav aria-label="Sections"><a href="#workbench">Workbench</a><a href="#gear">Crafted gear</a><a href="#quests">Quest log</a><a href="#biome">Europe</a><a href="#party">Contact</a></nav>
+  <a class="cta res" href="Sarvesh_Dharmadhikari_Resume.pdf" target="_blank" rel="noopener">⬇ Resume</a>
+</div></header>
+
+<main id="top">
+<section class="hero gut" id="workbench"><div class="in">
+  <div class="intro">
+    <div class="player"><img src="data:image/jpeg;base64,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" alt="Sarvesh Dharmadhikari">
+      <div><div class="cls">DevOps Engineer · Lv 3 · Azure · AWS · GCP</div><h1>Sarvesh Dharmadhikari</h1>
+      <p>I craft the CI/CD pipelines, infrastructure as code and automation that let teams ship safely and often. Right now I run releases, upgrades and patching for a regulated call-recording platform that 70+ banks rely on.</p></div></div>
+    <div class="status"><span class="pill">● Online · open to new roles</span><span class="pill warn">✈ Relocating to Europe · work permit needed (I manage the visa)</span>
+      <div class="xp"><div class="lbl">XP to next biome: Europe</div><div class="b"><i></i></div></div></div>
+  </div>
+
+  <div class="craft">
+    <div class="panel cut">
+      <div class="invhead"><div class="lbl">Inventory · <span id="icount"></span> tools</div><div class="filters" id="filters"></div></div>
+      <div class="inv" id="inv"></div>
+      <div class="detail" id="detail"><span class="lbl">Item details</span><br>Tap a tool to read how I use it and add it to the workbench.</div>
+    </div>
+    <div class="panel cut bench">
+      <div><div class="lbl">Workbench</div><div class="cslots" id="cs" style="margin-top:8px"></div></div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="cta" id="craft" disabled>⚒ Craft</button><button class="cta ghost" id="clr">Clear</button><button class="cta ghost" id="rand">Surprise me</button></div>
+      <div class="result" id="res"></div>
+      <div><div style="display:flex;justify-content:space-between"><span class="lbl">Recipe book</span><span class="lbl" id="cnt"></span></div><div class="prog"><i id="pg" style="width:0"></i></div><div class="book" id="book"></div></div>
+    </div>
+  </div>
+  <div class="tips"><span><span class="key">Tap</span> add a tool</span><span><span class="key">2–3</span> tools per recipe</span><span>Every recipe is real work with real results</span></div>
+</div></section>
+
+<section class="gut" style="padding-block:8px 40px"><div class="in">
+  <div class="lbl" style="margin-bottom:8px">Loot collected · real results</div>
+  <div class="loot">
+    <div class="r-legend"><b>99.99%</b><small>Uptime on live TV channel launches</small></div>
+    <div class="r-epic"><b>70+</b><small>Bank customers on the platform I run</small></div>
+    <div class="r-legend"><b>42%</b><small>Faster releases with CI/CD</small></div>
+    <div class="r-rare"><b>&lt; 2 min</b><small>Downtime per weekly release</small></div>
+    <div class="r-epic"><b>78%</b><small>Failures caught before release</small></div>
+    <div class="r-rare"><b>40%</b><small>Less manual job time</small></div>
+  </div>
+</div></section>
+
+<section class="gut" id="gear"><div class="in">
+  <div class="sh"><div><div class="lbl">Projects</div><h2>Crafted gear</h2></div><p>Three legendary builds. Each card shows the recipe, the problem, what I did, and the effect.</p></div>
+  <div class="gear" id="gearlist"></div>
+</div></section>
+
+<section class="gut" id="quests"><div class="in">
+  <div class="sh"><div><div class="lbl">Career</div><h2>Quest log</h2></div><p>Three quests so far, newest first. Each one lists what I did and the rewards it earned.</p></div>
+  <div class="quests" id="questlist"></div>
+</div></section>
+
+<section class="gut" id="biome"><div class="in">
+  <div class="sh"><div><div class="lbl">Achievements and relocation</div><h2>Next biome: Europe</h2></div><p>The short version for recruiters and hiring managers, so you don't have to ask.</p></div>
+  <div class="two">
+    <div class="panel cut"><div class="lbl" style="margin-bottom:8px">Achievements unlocked</div><div class="ach" id="ach"></div>
+      <details class="plain"><summary>Full skill list (plain text)</summary><dl id="plain"></dl></details></div>
+    <div class="biome cut"><canvas id="stars" aria-hidden="true"></canvas>
+      <div class="lbl">Travel status: ready</div><div class="h3" style="margin-top:4px">EU / EEA · UK · Switzerland</div>
+      <p style="color:var(--soft);margin:8px 0 0;max-width:56ch">I'm ready to move for on-site, hybrid or remote roles. I'll manage the visa myself and only need a work permit for the country. Interviews work now, including during European hours.</p>
+<div class="yaml"><span class="k">relocation</span>: <span class="v">true</span>
+<span class="k">regions</span>: [EU/EEA, UK, Switzerland]
+<span class="k">visa</span>: <span class="v">self-managed</span>
+<span class="k">work_permit</span>: <span class="w">required</span>   <span class="c"># for the country I work in</span>
+<span class="k">work_mode</span>: [on-site, hybrid, remote]
+<span class="k">start_date</span>: flexible        <span class="c"># planned around visa + notice period</span>
+<span class="k">timezone</span>: IST, interviews in CET hours
+<span class="k">languages</span>: [English (professional)]</div>
+      <div class="req"><div><b>Looking for</b>DevOps, Cloud or Platform Engineer roles</div><div><b>Based in</b>India (IST), relocating to Europe</div><div><b>Start</b>Flexible, planned around the visa</div></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="gut" id="party"><div class="in">
+  <div class="party">
+    <div class="panel cut"><div class="lbl">Contact</div><div class="big">Join my <span>party</span></div>
+      <p style="color:var(--soft);margin:0;max-width:52ch">Hiring a DevOps engineer in Europe? Send me a message.</p>
+      <div class="copyrow"><code id="mail">sarveshsd999@gmail.com</code><button class="cta" id="copy">Copy email</button><span id="copied" class="lbl" style="color:var(--good)"></span></div></div>
+    <div class="links">
+      <a href="https://www.linkedin.com/in/sarvesh-d-devops/" target="_blank" rel="noopener">LinkedIn <span>/in/sarvesh-d-devops ↗</span></a>
+      <a href="Sarvesh_Dharmadhikari_Resume.pdf" target="_blank" rel="noopener">Resume PDF <span>download ↗</span></a>
+      <a href="https://github.com/sarveshsd" target="_blank" rel="noopener">GitHub <span>@sarveshsd ↗</span></a>
+    </div>
+  </div>
+</div></section>
+</main>
+
+<footer class="gut"><div class="in"><span>© 2026 Sarvesh Dharmadhikari · DevOps Engineer</span><span>Built like my pipelines: versioned, automated, deployed with GitHub Actions</span></div></footer>
+<div class="toast" id="toast" role="status" aria-live="polite"><b id="tt"></b><span id="ts"></span></div>
+
+<script>
+const ICON={
+ k8s:`<svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M24 4l17 8 4 18-12 14H15L3 30l4-18z" fill="#326ce5" stroke="#9cc0ff"/><circle cx="24" cy="25" r="7" stroke="#fff"/><path stroke="#fff" d="M24 11v7M24 32v7M11 21l7 2M30 27l7 2M15 35l5-5M28 20l5-5M15 15l5 5M28 30l5 5"/></svg>`,
+ tf:`<svg viewBox="0 0 48 48"><path d="M17 8l12 7v14l-12-7z" fill="#a78bfa"/><path d="M31 15l12-7v14l-12 7z" fill="#7c5cff"/><path d="M3 2l12 7v14L3 16zM17 24l12 7v14l-12-7z" fill="#a78bfa"/></svg>`,
+ az:`<svg viewBox="0 0 48 48"><path d="M20 6h10L16 42H4z" fill="#3fa9f5"/><path d="M28 16l16 26H18l12-4-8-10z" fill="#1e7bd6"/></svg>`,
+ aws:`<svg viewBox="0 0 48 48" fill="none" stroke-width="3"><path d="M6 18c0-5 4-8 9-8s8 3 8 7v13M14 30c-5 0-8-2-8-6s4-6 9-6h8" stroke="#fff"/><path d="M27 12l4 18 5-14 5 14 4-18" stroke="#fff"/><path d="M6 37c12 6 26 6 37 0" stroke="#ff9900"/><path d="M38 34l6 2-3 5" stroke="#ff9900"/></svg>`,
+ gcp:`<svg viewBox="0 0 48 48" fill="none" stroke-width="6"><path d="M12 32a10 10 0 0 1 3-19" stroke="#ea4335"/><path d="M15 13a13 13 0 0 1 21 5" stroke="#fbbc05"/><path d="M36 18a8 8 0 0 1-2 16H22" stroke="#4285f4"/><path d="M22 34h-8" stroke="#34a853"/></svg>`,
+ jen:`<svg viewBox="0 0 48 48"><circle cx="24" cy="20" r="14" fill="#f0d6b7"/><path d="M10 20a14 14 0 0 1 28 0c-6-6-22-6-28 0z" fill="#335061"/><circle cx="19" cy="21" r="2" fill="#222"/><circle cx="29" cy="21" r="2" fill="#222"/><path d="M19 28c3 2 7 2 10 0" stroke="#a33" stroke-width="2" fill="none"/><path d="M12 34h24l-4 12H16z" fill="#d33833"/></svg>`,
+ gh:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#e6edf3"/><path d="M18 40v-5c-6 1-7-3-8-4m8 9c0-2 0-4 1-5-6-1-10-3-10-10 0-2 1-4 2-5-1-2 0-5 0-5s3 0 5 2c3-1 7-1 10 0 2-2 5-2 5-2s1 3 0 5c1 1 2 3 2 5 0 7-4 9-10 10 1 1 1 3 1 5v5" fill="#0d1117"/></svg>`,
+ argo:`<svg viewBox="0 0 48 48"><circle cx="24" cy="20" r="15" fill="#ef7b4d"/><circle cx="24" cy="20" r="10" fill="#fff"/><circle cx="21" cy="19" r="2" fill="#222"/><circle cx="28" cy="19" r="2" fill="#222"/><path d="M14 33l-4 12M34 33l4 12M20 35l-1 10M28 35l1 10" stroke="#ef7b4d" stroke-width="3"/></svg>`,
+ kql:`<svg viewBox="0 0 48 48" fill="none" stroke-width="3"><circle cx="20" cy="20" r="13" stroke="#4fd6e8"/><path d="M30 30l13 13" stroke="#4fd6e8"/><path d="M13 23l4-5 4 4 5-7" stroke="#ffb23f"/></svg>`,
+ prom:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="21" fill="#e6522c"/><path d="M14 33h20v3H14zM17 37h14v3H17zM24 8c2 6 8 8 8 15 0 4-2 7-4 8 1-3 0-6-2-8 0 4-3 5-3 8-2-1-5-3-5-8 0-6 6-8 6-15z" fill="#fff"/></svg>`,
+ ps:`<svg viewBox="0 0 48 48"><path d="M8 8h36l-6 32H2z" fill="#2671be"/><path d="M12 15l12 9-14 9M24 33h10" stroke="#fff" stroke-width="3" fill="none"/></svg>`,
+ py:`<svg viewBox="0 0 48 48"><path d="M24 4c-9 0-9 4-9 4v6h10v2H10s-7-1-7 9 6 9 6 9h4v-5s0-6 6-6h10s5 0 5-5V9s1-5-10-5z" fill="#3776ab"/><path d="M24 44c9 0 9-4 9-4v-6H23v-2h15s7 1 7-9-6-9-6-9h-4v5s0 6-6 6H19s-5 0-5 5v9s-1 5 10 5z" fill="#ffd43b"/></svg>`,
+ dock:`<svg viewBox="0 0 48 48"><path d="M4 24h38c2 0 4-3 4-3s-3-2-6-1c0-3-3-5-3-5s-2 3-1 6H4c0 10 7 17 18 17s18-6 20-14z" fill="#2496ed"/><g fill="#fff"><rect x="9" y="17" width="5" height="5"/><rect x="15" y="17" width="5" height="5"/><rect x="21" y="17" width="5" height="5"/><rect x="27" y="17" width="5" height="5"/><rect x="15" y="11" width="5" height="5"/><rect x="21" y="11" width="5" height="5"/><rect x="21" y="5" width="5" height="5"/></g></svg>`,
+ git:`<svg viewBox="0 0 48 48"><path d="M24 2l22 22-22 22L2 24z" fill="#f05033"/><g stroke="#fff" stroke-width="3" fill="#fff"><path d="M18 12l14 14M24 18v14" fill="none"/><circle cx="24" cy="34" r="3"/><circle cx="32" cy="26" r="3"/><circle cx="24" cy="18" r="3"/></g></svg>`,
+ helm:`<svg viewBox="0 0 48 48" fill="none" stroke="#9cc0ff" stroke-width="3"><circle cx="24" cy="24" r="12"/><circle cx="24" cy="24" r="4"/><path d="M24 4v8M24 36v8M4 24h8M36 24h8M10 10l6 6M32 32l6 6M10 38l6-6M32 16l6-6"/></svg>`,
+ shield:`<svg viewBox="0 0 48 48"><path d="M24 3l18 7v12c0 12-8 20-18 24C14 42 6 34 6 22V10z" fill="#1d2b40" stroke="#56f0a4" stroke-width="3"/><path d="M16 24l6 6 10-12" stroke="#56f0a4" stroke-width="3" fill="none"/></svg>`,
+ ai:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#d97757"/><path d="M24 10l3 11 11 3-11 3-3 11-3-11-11-3 11-3z" fill="#fff"/></svg>`,
+ ins:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#68217a"/><path d="M10 30l8-10 6 6 6-12 8 16" stroke="#fff" stroke-width="3" fill="none"/></svg>`,
+ mon:`<svg viewBox="0 0 48 48"><rect x="4" y="8" width="40" height="28" rx="3" fill="#0078d4"/><path d="M8 28l8-8 6 5 8-10 10 9" stroke="#fff" stroke-width="3" fill="none"/><rect x="16" y="38" width="16" height="4" fill="#0078d4"/></svg>`,
+ auto:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#0062ad"/><path d="M24 12a12 12 0 1 0 12 12" stroke="#fff" stroke-width="3" fill="none"/><path d="M32 16l4 8 6-6" fill="#fff"/></svg>`,
+ wf:`<svg viewBox="0 0 48 48" fill="none" stroke="#4285f4" stroke-width="3"><rect x="4" y="6" width="14" height="10"/><rect x="30" y="20" width="14" height="10"/><rect x="4" y="34" width="14" height="10"/><path d="M18 11h8v14h4M18 39h8V25"/></svg>`,
+ ans:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#ee0000"/><path d="M24 11L14 36h4l6-15 9 11-2-6z" fill="#fff"/></svg>`
+};
+ICON.cert=`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#1d2b40" stroke="#ff8a3d" stroke-width="3"/><path d="M14 24l7 7 13-14" stroke="#ff8a3d" stroke-width="3" fill="none"/></svg>`;
+ICON.grad=`<svg viewBox="0 0 48 48"><path d="M4 18L24 8l20 10-20 10z" fill="#4aa3ff"/><path d="M12 22v10c4 4 20 4 24 0V22" stroke="#4aa3ff" stroke-width="3" fill="none"/></svg>`;
+ICON.os=`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="20" fill="#0b2a3a" stroke="#4fd6e8" stroke-width="3"/><path d="M14 32V16l20 16V16" stroke="#4fd6e8" stroke-width="3" fill="none"/></svg>`;
+ICON.vault=`<svg viewBox="0 0 48 48"><path d="M4 6h40L24 44z" fill="#ffd814"/><path d="M18 14h3v4h-3zM23 14h3v4h-3zM28 14h3v4h-3zM23 20h3v4h-3z" fill="#000"/></svg>`;
+ICON.mq=`<svg viewBox="0 0 48 48"><path d="M6 6h10v14h6V6h10v18h10v18H6z" fill="#ff6600"/><rect x="28" y="30" width="6" height="6" fill="#fff"/></svg>`;
+ICON.lin=`<svg viewBox="0 0 48 48"><ellipse cx="24" cy="28" rx="13" ry="16" fill="#1d1d1d"/><ellipse cx="24" cy="32" rx="8" ry="11" fill="#f5f5f5"/><circle cx="20" cy="18" r="2" fill="#fff"/><circle cx="28" cy="18" r="2" fill="#fff"/><path d="M20 23l4 3 4-3z" fill="#f6b51e"/><path d="M12 44h10l-4-6zM26 44h10l-6-6z" fill="#f6b51e"/></svg>`;
+
+const CATS=["All","Cloud","Containers","CI/CD","IaC","Observability","Scripting","Security"];
+const ITEMS=[
+ ["Azure","az","legend","Cloud","My main cloud today. Automation, Monitor, App Insights, VMs and Blob Storage for the NICE NTR-X platform."],
+ ["AWS","aws","epic","Cloud","EC2, IAM, VPC, MediaLive and MediaConnect. Launched live TV channels at 99.99% uptime."],
+ ["GCP","gcp","rare","Cloud","Workflows, schedulers and Stackdriver for automated deployments."],
+ ["Docker","dock","rare","Containers","Packaged the automated test suite into containers."],
+ ["Kubernetes","k8s","legend","Containers","Runs workloads, GitOps rollouts and hourly test CronJobs. MicroK8s and Minikube for local clusters."],
+ ["Helm","helm","rare","Containers","Packages Kubernetes releases so they're repeatable."],
+ ["ArgoCD","argo","epic","CI/CD","GitOps deployments on Kubernetes for safer version rollbacks."],
+ ["Git","git","common","CI/CD","Version control for everything, including infrastructure and runbooks."],
+ ["Jenkins","jen","rare","CI/CD","Multi-environment pipelines for weekly releases across dev, QA and prod."],
+ ["GitHub Actions","gh","epic","CI/CD","Pipelines with quick rollback when QA fails. Releases 42% faster."],
+ ["Azure Automation","auto","legend","CI/CD","Multi-stage runbook pipelines with managed identity, JSON config and manual fallback gates."],
+ ["Terraform","tf","epic","IaC","Provisioned AWS across environments and removed configuration drift."],
+ ["Ansible","ans","rare","IaC","Configuration management for servers."],
+ ["KQL","kql","epic","Observability","Queries that tell real recording-bot failures apart from noise."],
+ ["App Insights","ins","rare","Observability","Telemetry for the recording bots. Where the KQL queries run."],
+ ["Azure Monitor","mon","rare","Observability","Dashboards and alert rules for the NTR-X platform."],
+ ["Prometheus","prom","rare","Observability","Staging monitoring alongside Stackdriver."],
+ ["PowerShell","ps","epic","Scripting","Log collection, RabbitMQ backups, service management and patch runbooks."],
+ ["Python","py","common","Scripting","Deployment automation and small AI-assisted tools."],
+ ["Linux","lin","common","Scripting","Day-to-day admin on Linux and Unix servers, plus Bash scripting."],
+ ["RabbitMQ","mq","rare","Scripting","Message queues on the platform; I automated their backups."],
+ ["Claude AI","ai","legend","Scripting","AI-assisted tools I built for faster log analysis and alert triage."],
+ ["Vault","vault","rare","Security","Secrets management with HashiCorp Vault."],
+ ["IAM & VPC","shield","epic","Security","Least-privilege access and network hardening across AWS accounts. CEH certified."]
+];
+const RECIPES=[
+ {in:["Git","Jenkins","Docker"],out:"CI Pipeline",ic:"jen",r:"epic",d:"Jenkins pipelines with containerised builds. Weekly releases across dev, QA and prod with under 2 minutes downtime.",where:"XchangeTechs"},
+ {in:["Git","GitHub Actions"],out:"Fast-Release Pipeline",ic:"gh",r:"epic",d:"GitHub Actions pipelines with rollback when QA fails. Releases got 42% faster.",where:"Amagi"},
+ {in:["Terraform","AWS"],out:"Zero-Drift Infrastructure",ic:"tf",r:"legend",d:"Every AWS environment built from code. No more configuration drift or manual setup.",where:"XchangeTechs"},
+ {in:["Kubernetes","ArgoCD","Helm"],out:"GitOps Rollout",ic:"argo",r:"legend",d:"ArgoCD GitOps on Kubernetes for safer rollbacks and more successful deploys.",where:"Amagi"},
+ {in:["KQL","App Insights","Azure Monitor"],out:"Noise Filter",ic:"kql",r:"legend",d:"Ended recurring false critical alerts and exposed a real defect that went to R&D.",where:"NICE NTR-X"},
+ {in:["PowerShell","Azure Automation"],out:"Patch Runbook",ic:"ps",r:"epic",d:"OS-patching runbooks per customer lane, plus a parent runbook that runs them all with separate outputs.",where:"NICE NTR-X"},
+ {in:["Azure Automation","Azure"],out:"Upgrade Pipeline",ic:"auto",r:"legend",d:"Replaced a manual, Excel-driven upgrade process for 70+ bank customers with safe-to-rerun stages.",where:"NICE NTR-X"},
+ {in:["Prometheus","GCP"],out:"Early Warning System",ic:"prom",r:"epic",d:"Automated deploys plus staging monitoring. 78% of potential failures caught before release.",where:"Sleep Country"},
+ {in:["Docker","Kubernetes"],out:"Hourly Test Runner",ic:"dock",r:"rare",d:"Test suite packaged in Docker and run every hour as a Kubernetes CronJob.",where:"XchangeTechs"},
+ {in:["AWS","Python"],out:"Live Channel Launcher",ic:"aws",r:"legend",d:"AWS infrastructure and automation for TV channel launches at 99.99% uptime while users grew 3x.",where:"Amagi"},
+ {in:["Claude AI","KQL"],out:"AI Alert Triage",ic:"ai",r:"legend",d:"AI-assisted tools that speed up log analysis and alert triage.",where:"NICE NTR-X"},
+ {in:["PowerShell","RabbitMQ"],out:"Queue Backup Kit",ic:"mq",r:"rare",d:"PowerShell tooling that backs up RabbitMQ and collects logs.",where:"NICE NTR-X"}
+];
+const RAR={common:"Common",rare:"Rare",epic:"Epic",legend:"Legendary"};
+const $=s=>document.querySelector(s);
+let slots=[],found=new Set(),cat="All",hintN=null;
+const item=n=>ITEMS.find(x=>x[0]===n);
+const match=()=>RECIPES.find(r=>r.in.length===slots.length&&r.in.every(x=>slots.includes(x)));
+function hint(){ // suggest the next item that completes some recipe
+  if(!slots.length)return null;const r=RECIPES.find(r=>!found.has(r.out)&&slots.every(s=>r.in.includes(s))&&r.in.length>slots.length);
+  return r?r.in.find(x=>!slots.includes(x)):null}
+function paint(){
+  $('#filters').innerHTML=CATS.map(c=>`<button aria-pressed="${c===cat}" data-c="${c}">${c}</button>`).join('');
+  document.querySelectorAll('#filters button').forEach(b=>b.onclick=()=>{cat=b.dataset.c;paint()});
+  hintN=hint();
+  const list=ITEMS.filter(i=>cat==="All"||i[3]===cat);$('#icount').textContent=ITEMS.length;
+  $('#inv').innerHTML=list.map(([n,ic,r])=>`<button class="cell r-${r} ${slots.includes(n)?'used':''} ${n===hintN?'hint':''}" data-n="${n}" aria-label="${n}, ${RAR[r]}"><span class="q">${RAR[r]}</span>${ICON[ic]}<b>${n}</b></button>`).join('');
+  document.querySelectorAll('.cell').forEach(b=>b.onclick=()=>pick(b.dataset.n));
+  $('#cs').innerHTML=[0,1,2].map(i=>{const n=slots[i];if(!n)return `<div class="cslot">Empty</div>`;const it=item(n);return `<div class="cslot full r-${it[2]}">${ICON[it[1]]}${n}</div>`}).join('')+`<span class="arrow">→</span>`+(()=>{const m=match();return m?`<div class="out ready r-${m.r}">${ICON[m.ic]}?</div>`:`<div class="out">Output</div>`})();
+  $('#craft').disabled=!match();
+  const pct=Math.round(found.size/RECIPES.length*100);$('#pg').style.width=pct+"%";$('#cnt').textContent=`${found.size} / ${RECIPES.length} found`;
+  $('#book').innerHTML=RECIPES.map(r=>found.has(r.out)?`<div><span class="d">✓ ${r.out}</span><span class="lbl">${r.in.join(' + ')}</span></div>`:`<div><span class="u">??? · ${r.in.length} tools</span><span class="lbl">${r.in[0]} + …</span></div>`).join('');
+}
+function pick(n){const it=item(n);
+  if(slots.includes(n))slots=slots.filter(x=>x!==n);else if(slots.length<3)slots.push(n);
+  $('#detail').className=`detail r-${it[2]}`;$('#detail').innerHTML=`<span class="lbl">${RAR[it[2]]} · ${it[3]}</span><br><b>${n}</b> · ${it[4]}`;
+  if(!match()&&!slots.length)resIdle();paint()}
+function resIdle(){$('#res').className="result";$('#res').innerHTML=`<div class="lbl">Output</div><p style="margin-top:6px;color:var(--dim)">Combine 2 or 3 tools to craft something I've actually built. A glowing tool completes a recipe.</p>`}
+function craft(){const r=match();if(!r)return;const first=!found.has(r.out);found.add(r.out);
+  $('#res').className=`result ok r-${r.r}`;$('#res').innerHTML=`<div class="lbl">Crafted · ${RAR[r.r]} · used at ${r.where}</div><div class="h3">${r.out}</div><p>${r.d}</p>`;
+  slots=[];paint();
+  if(found.size===RECIPES.length)toast("Master crafter","All 12 recipes found. Now let's build something together.");
+  else if(first)toast("New recipe",`${r.out} · ${found.size}/${RECIPES.length}`)}
+let tT;function toast(t,s){$('#tt').textContent=t;$('#ts').textContent=s;$('#toast').classList.add('on');clearTimeout(tT);tT=setTimeout(()=>$('#toast').classList.remove('on'),2600)}
+$('#craft').onclick=craft;$('#clr').onclick=()=>{slots=[];resIdle();paint()};
+$('#rand').onclick=()=>{const left=RECIPES.filter(r=>!found.has(r.out));const r=(left.length?left:RECIPES)[Math.floor(Math.random()*(left.length||RECIPES.length))];cat="All";slots=r.in.slice();paint()};
+
+/* Crafted gear (projects) */
+const GEAR=[
+ {n:"NICE NTR-X Automation",ic:"auto",r:"legend",when:"Jan 2026 – now · Azure",rec:["Azure Automation","PowerShell","KQL","App Insights"],
+  sit:"Customer upgrades were tracked in Excel and run by hand, and on-call kept getting paged for alarms that weren't real.",
+  did:"Built Azure Automation runbook pipelines for upgrades and OS patching, and KQL queries that separate real failures from noise.",
+  eff:"Repeatable upgrades for 70+ banks · no more recurring false critical alerts"},
+ {n:"Sleep Country Deployments",ic:"wf",r:"epic",when:"Apr 2024 – Jan 2025 · GCP",rec:["GCP Workflows","Prometheus","Stackdriver"],
+  sit:"Deployments needed manual steps, and problems were found only after release.",
+  did:"Designed GCP workflows and schedulers to automate deployments, and added Stackdriver and Prometheus monitoring in staging.",
+  eff:"78% of potential failures caught before release"},
+ {n:"Ethereal Engine Observability",ic:"k8s",r:"epic",when:"Jul 2023 – Mar 2024 · Kubernetes",rec:["OpenSearch","Bash","MicroK8s","Minikube"],
+  sit:"Logs were scattered across microservices and local clusters were set up by hand.",
+  did:"Connected OpenSearch for central logging and scripted Minikube and MicroK8s cluster operations in Bash.",
+  eff:"70% less manual configuration time · faster log searches"}];
+$('#gearlist').innerHTML=GEAR.map(g=>`<article class="card cut r-${g.r}"><div class="top"><div class="ic">${ICON[g.ic]}</div><div><div class="rar">${RAR[g.r]} build · ${g.when}</div><div class="h3">${g.n}</div></div></div>
+  <div class="recipe">Recipe: ${g.rec.map(x=>`<span>${x}</span>`).join('+')}</div>
+  <dl><div><dt>Problem</dt><dd>${g.sit}</dd></div><div><dt>What I did</dt><dd>${g.did}</dd></div></dl><div class="eff">Effect: ${g.eff}</div></article>`).join('');
+
+/* Quest log (career) */
+const Q=[
+ {v:"Quest 3",live:true,when:"Jan 2026 – now",t:"Software Engineer, DevOps & Cloud Ops",org:"Xoriant · client NICE",env:"Microsoft Azure",
+  pts:["Run and automate NTR-X, a regulated Microsoft Teams call-recording platform used by 70+ enterprise customers, mostly global banks.","Replaced a manual, Excel-driven upgrade process with a multi-stage Azure Automation pipeline: managed-identity sign-in, per-customer JSON config, safe-to-rerun stages and manual fallback gates.","Built OS-patching runbooks for each customer lane, plus a parent runbook that runs them all.","Wrote KQL queries on Application Insights that ended recurring false critical alerts and exposed a real defect.","Lead incident triage and root cause analysis, including storage upload failures with compliance impact.","Built PowerShell tooling, Azure Monitor dashboards, and AI-assisted tools with Claude for log analysis and alert triage."],
+  rw:[["70+","enterprise customers"],["0","recurring false criticals"]],tools:["Azure Automation","PowerShell","KQL","App Insights","Azure Monitor","RabbitMQ","Claude"]},
+ {v:"Quest 2",when:"Jan – Aug 2025",t:"DevOps / Implementation Engineer",org:"Amagi",env:"AWS + GCP",
+  pts:["Set up AWS and GCP infrastructure for new TV channel launches at 99.99% uptime while active users grew 3x.","Built CI/CD pipelines in GitHub Actions and Jenkins that made releases 42% faster, with quick rollback when QA fails.","Ran ArgoCD GitOps deployments on Kubernetes for safer version rollbacks.","Automated deployment work with Terraform, Python and shell; integrated AWS MediaLive and MediaConnect."],
+  rw:[["99.99%","uptime"],["42%","faster releases"]],tools:["AWS","GCP","GitHub Actions","Jenkins","ArgoCD","Kubernetes","Terraform","Python"]},
+ {v:"Quest 1",when:"Jun 2023 – Jan 2025",t:"DevOps Engineer",org:"XchangeTechs",env:"AWS + GCP",
+  pts:["Ran weekly releases across dev, QA and production with under 2 minutes of downtime per release.","Provisioned AWS with Terraform across environments, eliminating configuration drift.","Built CI/CD pipelines in Jenkins and GitHub Actions.","Packaged the automated test suite in Docker and ran it every hour as a Kubernetes CronJob.","Cut manual job time by 40% with GCP services and scripting; tightened IAM, VPC and EC2 security."],
+  rw:[["< 2 min","downtime per release"],["40%","less manual work"]],tools:["AWS","Terraform","Jenkins","GitHub Actions","Docker","Kubernetes","GCP"]}];
+$('#questlist').innerHTML=Q.map(q=>`<article class="panel cut quest"><div><div class="lbl">${q.v}</div><div class="when">${q.when}</div><span class="st ${q.live?'live':''}">${q.live?'▶ In progress':'✓ Complete'}</span></div>
+  <div><div class="h3">${q.t}</div><div class="org">${q.org} · ${q.env}</div><ul>${q.pts.map(p=>`<li>${p}</li>`).join('')}</ul><div class="tools">${q.tools.map(t=>`<span>${t}</span>`).join('')}</div></div>
+  <div class="rw"><div class="lbl">Rewards</div>${q.rw.map(r=>`<div><b>${r[0]}</b><small>${r[1]}</small></div>`).join('')}</div></article>`).join('');
+
+$('#ach').innerHTML=[["shield","Certified Ethical Hacker (CEH)","EC-Council · May 2023"],["cert","DevOps Certification","Udemy · Mar 2023"],["grad","MCA, Cyber Security","D. Y. Patil International University · 2021–2023 · CGPA 7.68"],["grad","Bachelor of Computer Application","MIT World Peace University · 2018–2021 · CGPA 7.34"]]
+  .map(a=>`<div>${ICON[a[0]]}<span><b>${a[1]}</b><small>${a[2]}</small></span></div>`).join('');
+$('#plain').innerHTML=[["Cloud","Microsoft Azure (Automation, Monitor, Application Insights, VMs, Blob Storage) · AWS (EC2, IAM, VPC, MediaLive, MediaConnect) · GCP (Workflows, schedulers, Stackdriver)"],["Containers","Docker, Kubernetes, Helm, ArgoCD (GitOps)"],["CI/CD","Jenkins, GitHub Actions, ArgoCD, Azure Automation"],["Infrastructure as Code","Terraform, CloudFormation, Ansible, Helm"],["Observability","Azure Monitor, Application Insights, KQL, Prometheus, Grafana, ELK Stack, Datadog, Splunk"],["Scripting","PowerShell, Python, Bash, Groovy, SQL, YAML"],["Tools & security","Git/GitHub, Jira, Confluence, RabbitMQ, Linux/Unix, Nginx, Apache, HashiCorp Vault, SSL/TLS, TCP/IP, API Gateway"]]
+  .map(r=>`<dt>${r[0]}</dt><dd>${r[1]}</dd>`).join('');
+
+$('#copy').onclick=()=>{const t=$('#mail').textContent;const ok=()=>$('#copied').textContent="Copied";
+  try{navigator.clipboard.writeText(t).then(ok,()=>{selectMail()})}catch(e){selectMail()}};
+function selectMail(){const r=document.createRange();r.selectNodeContents($('#mail'));const s=getSelection();s.removeAllRanges();s.addRange(r);$('#copied').textContent="Selected, press Ctrl+C"}
+
+/* starfield in the Europe card */
+(function(){const cv=$('#stars'),g=cv.getContext('2d');let st=[],raf;
+  function size(){cv.width=cv.clientWidth;cv.height=cv.clientHeight;st=Array.from({length:70},()=>({x:Math.random()*cv.width,y:Math.random()*cv.height,s:Math.random()*1.6+.3,p:Math.random()*6}))}
+  size();addEventListener('resize',size);
+  const red=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  (function f(){const T=performance.now()/1000;g.clearRect(0,0,cv.width,cv.height);st.forEach(s=>{g.fillStyle=`rgba(159,232,255,${.35+.4*Math.sin(T+s.p)})`;g.fillRect(s.x,s.y,s.s,s.s)});if(!red)raf=requestAnimationFrame(f)})()})();
+
+/* start state: two tools on the bench, the third one glowing */
+slots=["Git","Jenkins"];resIdle();paint();
+</script>
+
+</body>
+</html>
