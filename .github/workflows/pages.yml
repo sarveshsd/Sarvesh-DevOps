@@ -51,7 +51,7 @@ jobs:
       - name: Build site
         run: |
           mkdir _site
-          cp sarvesh.jpg og.jpg Sarvesh_Dharmadhikari_Resume.pdf .nojekyll _site/
+          cp sarvesh.jpg og.jpg Sarvesh_Dharmadhikari_Resume.pdf Sarvesh_Dharmadhikari_Cover_Letter.pdf .nojekyll _site/
           cp "themes/${{ steps.theme.outputs.name }}.html" _site/index.html
           # every design is also published at /<name>.html, with a gallery at /designs.html
           for f in themes/*.html; do cp "$f" "_site/$(basename "$f")"; done
